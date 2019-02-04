@@ -9,9 +9,9 @@
         <title>@yield( 'title' ) - {{ config('app.name', 'Caland AB') }}</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar py-0 p-lg-3">
+        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
             <a class="navbar-brand" href="{{ url( '/' ) }}">
-                <img src="{{ asset( '/img/logo.png' ) }}" width="120" height="30" alt="Caland AB logo">
+                <img src="{{ asset( '/img/logo.png' ) }}" width="120" alt="Caland AB logo">
             </a>
             <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
@@ -28,13 +28,13 @@
                         </a>
 
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="#">Betonghåltagning</a>
-                            <a class="dropdown-item" href="#">Transport</a>
-                            <a class="dropdown-item" href="#">Bemaning</a>
-                            <a class="dropdown-item" href="#">Utbildning</a>
-                            <a class="dropdown-item" href="#">Bygghjälp</a>
-                            <a class="dropdown-item" href="#">Städ</a>
-                            <a class="dropdown-item" href="#">Företagsservice</a>
+                            <a class="dropdown-item" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+                            <a class="dropdown-item" href="{{ route( 'transport' ) }}">Transport</a>
+                            <a class="dropdown-item" href="{{ route( 'staff' ) }}">Bemaning</a>
+                            <a class="dropdown-item" href="{{ route( 'education' ) }}">Utbildning</a>
+                            <a class="dropdown-item" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                            <a class="dropdown-item" href="{{ route( 'cleaning' ) }}">Städ</a>
+                            <a class="dropdown-item" href="{{ route( 'company-service' ) }}">Företagsservice</a>
                             <div class="dropdown-divider"></div>
                             <a class="dropdown-item" href="{{ route( 'services' ) }}">Se alla tjänster</a>
                         </div>
@@ -48,23 +48,25 @@
                 </ul>
             </div>
         </nav>
-        <main class="container mt-5 py-5">
-            <div class="row justify-content-center">
-                <div class="col-md-10">
-                    <br>
-                    @yield( 'content' )
-                    <br>
+        <main class="content">
+            <div class="container mt-5 p-2 p-lg-5">
+                <div class="row justify-content-center">
+                    <div class="col-md-10">
+                        <br>
+                        @yield( 'content' )
+                        <br>
+                    </div>
                 </div>
             </div>
         </main>
-        <footer class="footer mb-3">
-            <div class="container-fluid">
-                <div class="row p-4">
-                    <div class="col-lg-3">
+        <footer class="footer">
+            <div class="container">
+                <div class="row p-2 p-lg-4">
+                    <div class="col-lg-3 d-none d-lg-block">
                         <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
                     </div>
                     <div class="col-lg-3">
-                        <h4>Företag</h4>
+                        <h4>Företaget</h4>
                         <p>
                             <a href="{{ route( 'about' ) }}">Om oss</a>
                             <br>
@@ -74,19 +76,19 @@
                     <div class="col-lg-3">
                         <h4>Tjänster</h4>
                         <p>
-                            <a class="" href="#">Betonghåltagning</a>
+                            <a class="" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
                             <br>
-                            <a class="" href="#">Transport</a>
+                            <a class="" href="{{ route( 'transport' ) }}">Transport</a>
                             <br>
-                            <a class="" href="#">Bemaning</a>
+                            <a class="" href="{{ route( 'staff' ) }}">Bemaning</a>
                             <br>
-                            <a class="" href="#">Utbildning</a>
+                            <a class="" href="{{ route( 'education' ) }}">Utbildning</a>
                             <br>
-                            <a class="" href="#">Bygghjälp</a>
+                            <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                             <br>
-                            <a class="" href="#">Städ</a>
+                            <a class="" href="{{ route( 'cleaning' ) }}">Städ</a>
                             <br>
-                            <a class="" href="#">Företagsservice</a>
+                            <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a>
                         </p>
                     </div>
                     <div class="col-lg-3">
@@ -101,10 +103,9 @@
                         </p>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-12 text-center">
-                        <small>Copyright © {{ date( 'Y' ) }} Caland | Alla rättigheter reserverade</small>
-                    </div>
+                <hr>
+                <div class=" text-center">
+                    <small>Copyright © {{ date( 'Y' ) }} Caland | Alla rättigheter reserverade</small>
                 </div>
             </div>
         </footer>
