@@ -51,6 +51,47 @@
         <div class="container">
             @yield( 'content' )
         </div>
+        <footer class="footer mb-3">
+            <div class="container-fluid">
+                <div class="row p-4">
+                    <div class="col-lg-3">
+                        <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Företag</h4>
+                        <p>
+                            <a class="" href="#">Betonghåltagning</a>
+                            <br>
+                            <a class="" href="#">Transport</a>
+                            <br>
+                            <a class="" href="#">Bemaning</a>
+                            <br>
+                            <a class="" href="#">Utbildning</a>
+                            <br>
+                            <a class="" href="#">Bygghjälp</a>
+                            <br>
+                            <a class="" href="#">Städ</a>
+                            <br>
+                            <a class="" href="#">Företagsservice</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Tjänster</h4>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Kontakt</h4>
+                        <p>
+                            Herrövägen 123, Skattkärr 65465
+                            <br>
+                            (telefonnummer)
+                            <br>
+                            {{ env( 'MAIL_FROM_ADRESS', 'info@caland.se' ) }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </footer>
 
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
