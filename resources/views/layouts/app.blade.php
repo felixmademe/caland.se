@@ -9,107 +9,16 @@
         <title>@yield( 'title' ) - {{ config('app.name', 'Caland AB') }}</title>
     </head>
     <body>
-        <nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
-            <a class="navbar-brand" href="{{ url( '/' ) }}">
-                <img src="{{ asset( '/img/logo.png' ) }}" width="120" alt="Caland AB logo">
-            </a>
-            <button class="navbar-toggler custom-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav mr-auto">
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route( 'index' ) }}">Start <span class="sr-only">(current)</span></a>
-                    </li>
-                    <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                            Tjänster
-                        </a>
-
-                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                            <a class="dropdown-item" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-                            <a class="dropdown-item" href="{{ route( 'transport' ) }}">Transport</a>
-                            <a class="dropdown-item" href="{{ route( 'staff' ) }}">Bemaning</a>
-                            <a class="dropdown-item" href="{{ route( 'education' ) }}">Utbildning</a>
-                            <a class="dropdown-item" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                            <a class="dropdown-item" href="{{ route( 'cleaning' ) }}">Städ</a>
-                            <a class="dropdown-item" href="{{ route( 'company-service' ) }}">Företagsservice</a>
-                            <div class="dropdown-divider"></div>
-                            <a class="dropdown-item" href="{{ route( 'services' ) }}">Se alla tjänster</a>
-                        </div>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link" href="{{ route( 'contact' ) }}">Kontakt</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-        <main class="content">
-            <div class="container mt-5 p-2 p-lg-5">
-                <div class="row justify-content-center">
-                    <div class="col-md-10">
-                        <br>
-                        @yield( 'content' )
-                        <br>
+        @include( 'layouts.navbar' )
+                            <br>
+                            <br>
+                    </div>
+                            <br>
+                            <br>
                     </div>
                 </div>
-            </div>
-        </main>
-        <footer class="footer">
-            <div class="container">
-                <div class="row p-2 p-lg-4">
-                    <div class="col-lg-3 d-none d-lg-block">
-                        <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
-                    </div>
-                    <div class="col-lg-3">
-                        <h4>Företaget</h4>
-                        <p>
-                            <a href="{{ route( 'about' ) }}">Om oss</a>
-                            <br>
-                            <a href="{{ route( 'contact' ) }}">Kontakt</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-3">
-                        <h4>Tjänster</h4>
-                        <p>
-                            <a class="" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-                            <br>
-                            <a class="" href="{{ route( 'transport' ) }}">Transport</a>
-                            <br>
-                            <a class="" href="{{ route( 'staff' ) }}">Bemaning</a>
-                            <br>
-                            <a class="" href="{{ route( 'education' ) }}">Utbildning</a>
-                            <br>
-                            <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                            <br>
-                            <a class="" href="{{ route( 'cleaning' ) }}">Städ</a>
-                            <br>
-                            <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a>
-                        </p>
-                    </div>
-                    <div class="col-lg-3">
-                        <h4>Kontakt</h4>
-                        <p>
-                            Herrövägen 4
-                            65671 Skattkärr
-                            <br>
-                            054-86 06 80
-                            <br>
-                            {{ env( 'MAIL_FROM_ADRESS', 'info@caland.se' ) }}
-                        </p>
-                    </div>
-                </div>
-                <hr>
-                <div class=" text-center">
-                    <small>Copyright © {{ date( 'Y' ) }} Caland | Alla rättigheter reserverade</small>
-                </div>
-            </div>
-        </footer>
 
+        @include( 'layouts.footer' )
         <!-- Scripts -->
         <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
