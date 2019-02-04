@@ -22,9 +22,12 @@ $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 
 body
     font-family: $font
-    font-size: 18px
+    font-size: 20px
     background-color: #282a2b
     margin: auto
+
+h1, h2, h3
+    font-weight: bolder
 
 h1, h2, h3, span, a
     color: $primary
@@ -33,6 +36,11 @@ a
     text-decoration: none
     &:hover
         text-decoration: none
+
+hr
+    background-color: $primary
+    height: 3px
+    margin: 30px 0
 
 //
 // Universal classes
@@ -49,6 +57,12 @@ a
     &:hover::after
         width: 100%
 
+.btn-red
+    background-color: $primary
+    border: 1px solid $primary
+    color: #fff !important
+    &:hover
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 //
 // Layout
 //
