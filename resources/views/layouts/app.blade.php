@@ -60,6 +60,14 @@
                     <div class="col-lg-3">
                         <h4>Företag</h4>
                         <p>
+                            <a href="{{ route( 'about' ) }}">Om oss</a>
+                            <br>
+                            <a href="{{ route( 'contact' ) }}">Kontakt</a>
+                        </p>
+                    </div>
+                    <div class="col-lg-3">
+                        <h4>Tjänster</h4>
+                        <p>
                             <a class="" href="#">Betonghåltagning</a>
                             <br>
                             <a class="" href="#">Transport</a>
@@ -76,21 +84,23 @@
                         </p>
                     </div>
                     <div class="col-lg-3">
-                        <h4>Tjänster</h4>
-                    </div>
-                    <div class="col-lg-3">
                         <h4>Kontakt</h4>
                         <p>
-                            Herrövägen 123, Skattkärr 65465
+                            Herrövägen 4
+                            65671 Skattkärr
                             <br>
-                            (telefonnummer)
+                            054-86 06 80
                             <br>
                             {{ env( 'MAIL_FROM_ADRESS', 'info@caland.se' ) }}
                         </p>
                     </div>
                 </div>
+                <div class="row">
+                    <div class="col-12 text-center">
+                        <small>Copyright © {{ date( 'Y' ) }} Caland | Alla rättigheter reserverade</small>
+                    </div>
+                </div>
             </div>
-
         </footer>
 
         <!-- Scripts -->
