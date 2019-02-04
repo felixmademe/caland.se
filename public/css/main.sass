@@ -16,21 +16,23 @@ $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 // Universal elements
 //
 *
-    transition-duration: 0.4
+    transition-duration: 0.4s
     &:hover
-        transition-duration: 0.4
+        transition-duration: 0.4s
 
 body
     font-family: $font
     font-size: 18px
-    background-color: #fff
+    background-color: #282a2b
+    margin: auto
 
 h1, h2, h3, span, a
     color: $primary
 
 a
     text-decoration: none
-
+    &:hover
+        text-decoration: none
 
 //
 // Universal classes
@@ -70,6 +72,9 @@ a
             border-color: $primary
         .navbar-toggler-icon
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+
+.content
+    background-color: #fff
 
 .footer
     border-top: 2px solid $secondary
