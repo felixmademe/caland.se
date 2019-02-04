@@ -48,9 +48,15 @@
                 </ul>
             </div>
         </nav>
-        <div class="container">
-            @yield( 'content' )
-        </div>
+        <main class="container mt-5 py-5">
+            <div class="row justify-content-center">
+                <div class="col-md-10">
+                    <br>
+                    @yield( 'content' )
+                    <br>
+                </div>
+            </div>
+        </main>
         <footer class="footer mb-3">
             <div class="container-fluid">
                 <div class="row p-4">
