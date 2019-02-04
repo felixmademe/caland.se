@@ -1,0 +1,68 @@
+//
+// Variables
+//
+$primary: rgba(239, 0, 0, 1) !important
+$primary-hover: rgba(239, 0, 0, 0.7) !important
+$primary-rgb: rgb(239, 0, 0) !important
+$secondary: #000 !important
+$font: "Pontano Sans", Arial, Helvetica, sans-serif !important
+
+//
+// Imports
+//
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans')
+
+//
+// Universal elements
+//
+*
+    transition-duration: 0.4
+    &:hover
+        transition-duration: 0.4
+
+body
+    font-family: $font
+    font-size: 20px
+
+a
+    color: $primary
+    text-decoration: none
+
+//
+// Universal classes
+//
+.link-effect
+    color: $primary
+    &::after
+        content: ''
+        display: block
+        width: 0
+        height: 2px
+        background: $primary
+        transition: width .3s
+    &:hover::after
+        width: 100%
+
+//
+// Layout
+//
+.navbar
+    box-shadow: 0px 0px 30px 10px #e5e5e5
+    .nav-item
+        color: $primary
+        &::after
+            content: ''
+            display: block
+            width: 0
+            height: 2px
+            background: $primary
+            transition: width .3s
+        &:hover::after
+            width: 100%
+
+
+.custom-toggler
+    &.navbar-toggler
+        border-color: rgb(239, 0, 0)
+    .navbar-toggler-icon
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
