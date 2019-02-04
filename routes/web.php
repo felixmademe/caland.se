@@ -11,6 +11,22 @@
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get( '/', function ()
+{
+    return view( 'index' );
+} )->name( 'index' );
+
+Route::get( 'tjänster', function ()
+{
+    return view( 'services' );
+} )->name( 'services' );
+
+Route::get( 'kontakt', function ()
+{
+    return view( 'contact' );
+} )->name( 'contact' );
+
+Route::get( 'om-oss', function ()
+{
+    return view( 'about' );
+} )->name( 'about' );
