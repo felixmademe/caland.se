@@ -10,13 +10,32 @@
     </head>
     <body>
         @include( 'layouts.navbar' )
+        
+        @if( Request::is( '/' ) )
+            <main class="content">
+                <div class="container mt-5 p-2 p-lg-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
                             <br>
+                            @yield( 'content' )
                             <br>
-                    </div>
-                            <br>
-                            <br>
+                        </div>
                     </div>
                 </div>
+            </main>
+        @else
+            <main class="content">
+                <div class="container mt-5 p-2 p-lg-5">
+                    <div class="row justify-content-center">
+                        <div class="col-md-10">
+                            <br>
+                            @yield( 'content' )
+                            <br>
+                        </div>
+                    </div>
+                </div>
+            </main>
+        @endif
 
         @include( 'layouts.footer' )
         <!-- Scripts -->
