@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
+<nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
     <a class="navbar-brand" href="{{ url( '/' ) }}">
         <img src="{{ asset( '/img/logo.png' ) }}" width="120" alt="Caland AB logo">
     </a>

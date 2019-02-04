@@ -1,10 +1,10 @@
 <footer class="footer">
     <div class="container">
-        <div class="row p-2 p-lg-4">
-            <div class="col-lg-3 d-none d-lg-block">
+        <div class="row p-2 p-md-4">
+            <div class="col-md-3 d-none d-md-block">
                 <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3">
                 <h4>Företaget</h4>
                 <p>
                     <a href="{{ route( 'about' ) }}">Om oss</a>
@@ -12,7 +12,7 @@
                     <a href="{{ route( 'contact' ) }}">Kontakt</a>
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3">
                 <h4>Tjänster</h4>
                 <p>
                     <a class="" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
@@ -30,7 +30,7 @@
                     <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a>
                 </p>
             </div>
-            <div class="col-lg-3">
+            <div class="col-md-3">
                 <h4>Kontakt</h4>
                 <p>
                     Herrövägen 4
