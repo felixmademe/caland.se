@@ -30,3 +30,43 @@ Route::get( 'om-oss', function ()
 {
     return view( 'about' );
 } )->name( 'about' );
+
+Route::get( 'betonghåltagning', function ()
+{
+    return view( 'services/concrete/index' );
+} )->name( 'concrete' );
+
+Route::get( 'betonghåltagning/referenser', function ()
+{
+    return view( 'services/concrete/references' );
+} )->name( 'references' );
+
+Route::get( 'städ', function ()
+{
+    return view( 'services/cleaning' );
+} )->name( 'cleaning' );
+
+Route::get( 'företagsservice', function ()
+{
+    return view( 'services/company-service' );
+} )->name( 'company-service' );
+
+Route::get( 'utbildning', function ()
+{
+    return view( 'services/education' );
+} )->name( 'education' );
+
+Route::get( 'bygghjälpen', function ()
+{
+    return view( 'services/help' );
+} )->name( 'help' );
+
+Route::get( 'bemanning', function ()
+{
+    return view( 'services/staff' );
+} )->name( 'staff' );
+
+Route::get( 'transport', function ()
+{
+    return view( 'services/transport' );
+} )->name( 'transport' );
