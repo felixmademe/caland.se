@@ -36,42 +36,42 @@ Route::get( 'jobb', function ()
     return view( 'job' );
 } )->name( 'job' );
 
-Route::get( 'betonghåltagning', function ()
+Route::get( 'tjänster/betonghåltagning', function ()
 {
     return view( 'services/concrete/index' );
 } )->name( 'concrete' );
 
-Route::get( 'betonghåltagning/referenser', function ()
+Route::get( 'tjänster/betonghåltagning/referenser', function ()
 {
     return view( 'services/concrete/references' );
 } )->name( 'references' );
 
-Route::get( 'städ', function ()
+Route::get( 'tjänster/städ', function ()
 {
     return view( 'services/cleaning' );
 } )->name( 'cleaning' );
 
-Route::get( 'företagsservice', function ()
+Route::get( 'tjänster/företagsservice', function ()
 {
     return view( 'services/company-service' );
 } )->name( 'company-service' );
 
-Route::get( 'utbildning', function ()
+Route::get( 'tjänster/utbildning', function ()
 {
     return view( 'services/education' );
 } )->name( 'education' );
 
-Route::get( 'bygghjälpen', function ()
+Route::get( 'tjänster/bygghjälpen', function ()
 {
     return view( 'services/help' );
 } )->name( 'help' );
 
-Route::get( 'bemanning', function ()
+Route::get( 'tjänster/bemanning', function ()
 {
     return view( 'services/staff' );
 } )->name( 'staff' );
 
-Route::get( 'transport', function ()
+Route::get( 'tjänster/transport', function ()
 {
     return view( 'services/transport' );
 } )->name( 'transport' );
