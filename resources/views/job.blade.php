@@ -15,7 +15,7 @@
             </p>
             <hr>
             <div class="jobs">
-                <h2>Lediga jobb</h2>
+                <h2 class="text-center">Lediga jobb</h2>
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
                     <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
