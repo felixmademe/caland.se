@@ -17,21 +17,14 @@
             <div class="jobs">
                 <h2>Lediga jobb</h2>
                 <div class="list-group">
-                    <a href="#" class="list-group-item list-group-item-action">
-                        Cras justo odio
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        Dapibus ac facilisis in
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        Morbi leo risus
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        Porta ac consectetur ac
-                    </a>
-                    <a href="#" class="list-group-item list-group-item-action">
-                        Vestibulum at eros
-                    </a>
+                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
+                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
                 </div>
             </div>
             <hr>
