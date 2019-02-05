@@ -1,16 +1,12 @@
 $(document).ready(function ()
 {
-    var clientSwiper = new Swiper ( '.client-swiper',
+    let clientSwiper = new Swiper ( '.client-swiper',
     {
-        autoplay:
-        {
-            delay: 0,
-        },
-        slidesPerView: 4,
         loop: true,
-        freeMode: true,
         speed: 20000,
-        spaceBetween: 50,
+        slidesPerView: 2,
+
+
     } );
 
     function infinite()
