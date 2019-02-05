@@ -1,7 +1,7 @@
 <footer class="footer">
     <div class="container">
-        <div class="row p-2 p-md-4">
-            <div class="col-md-3 d-none d-md-block">
+        <div class="row p-2">
+            <div class="col-md-3 mb-3 mb-md-0">
                 <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
             </div>
             <div class="col-md-3">

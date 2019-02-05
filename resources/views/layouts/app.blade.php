@@ -15,7 +15,7 @@
 
         @if( Request::is( '/' ) )
             <main class="content">
-                <div class="py-2 py-md-5">
+                <div class="pt-2 pt-md-5">
                     @yield( 'content' )
                 </div>
             </main>
