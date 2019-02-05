@@ -128,7 +128,7 @@
                     </div>
                     <div class="form-group">
                         <label for="message">Meddelande</label>
-                        <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="10"></textarea>
+                        <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5"></textarea>
                     </div>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
