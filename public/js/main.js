@@ -12,13 +12,14 @@ $( '#fileLabel' ).on( 'click', function()
     setInterval(setFileName, 2000);
 } );
 
+var items = $( '.jobs .list-group .list-group-item' )
 
-function jobApplication()
+items.on( 'click', function()
 {
-
-}
-
-function attachFile()
-{
-
-}
+    var item = $( this );
+    var text = item.html();
+    var position = $( 'input[name="position"]' );
+    position.val( text );
+    var form = $( '.job-application' )[0];
+    form.scrollIntoView( { block: 'end',  behavior: 'smooth' } );
+} );
