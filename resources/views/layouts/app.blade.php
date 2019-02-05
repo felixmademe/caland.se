@@ -45,5 +45,8 @@
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.js"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
         <script src="{{ asset( '/js/main.js' ) }}" type="text/javascript"></script>
+        @if( Request::is( '/' ) )
+            <script src="{{ asset( '/js/index.js' ) }}" type="text/javascript"></script>
+        @endif
     </body>
 </html>
