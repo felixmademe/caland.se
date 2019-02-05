@@ -1,9 +1,8 @@
 //
 // Variables
 //
-$primary: rgba(239, 0, 0, 1) !important
-$primary-hover: rgba(239, 0, 0, 0.7) !important
-$primary-rgb: rgb(239, 0, 0) !important
+$primary: rgb(237, 46, 59) !important
+$primary-strong: rgb(239, 0, 0) !important
 $secondary: #efefef !important
 $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 
@@ -20,6 +19,7 @@ $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
     &:hover
         transition-duration: 0.4s
 
+
 body
     font-family: $font
     font-size: 20px
@@ -30,7 +30,7 @@ h1, h2, h3
     font-weight: bolder
 
 h1, h2, h3, span, a
-    color: $primary
+    color: $primary-strong
 
 a
     text-decoration: none
@@ -62,7 +62,13 @@ hr
     border: 1px solid $primary
     color: #fff !important
     &:hover
+        background-color: $primary-strong
+        border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+.bg-white
+    background-color: #fff !important
+
 //
 // Layout
 //
@@ -96,8 +102,10 @@ hr
     background-color: #282a2b
     padding: 20px 0
     color: #fff
-
+    img
+        max-width: 100%
     a
+        color: $primary
         &:hover
             color: #fff !important
 
@@ -115,21 +123,50 @@ hr
         left: 0%
         background-color: #fff
         padding: 2em
-        .btn-red
-            width: 100%
 
 .hero
     height: 100vh
     overflow: hidden
+    .text-half
+        padding: 2em
     .img-half
         img
             height: 100vh
 
 .clients
     height: 100vh
+    background-color: #efefef
 
 .client-swiper
+    .swiper-wrapper
+        transition-timing-function: linear !important
     .swiper-slide
-        margin-bottom: 50px
+        margin-bottom: 2em
         img
             width: 200px
+
+.company
+    overflow-x: hidden
+    img
+        height: 100%
+
+    .text-block
+        padding: 1em 2em
+
+.contact
+    padding: 4em 0
+    background-color: #efefef
+
+    .contact-form
+        background-color: #fff
+        padding: 2em
+        border-radius: 4px
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+//
+// Media queries
+//
+
+@media (max-width: 768px)
+    .btn-expand
+        width: 100%
