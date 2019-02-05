@@ -7,6 +7,8 @@
             <div class="col-md-3">
                 <h4>Företaget</h4>
                 <p>
+                    <a href="{{ route( 'job' ) }}">Jobb</a>
+                    <br>
                     <a href="{{ route( 'about' ) }}">Om oss</a>
                     <br>
                     <a href="{{ route( 'contact' ) }}">Kontakt</a>

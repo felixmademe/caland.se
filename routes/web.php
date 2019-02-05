@@ -31,6 +31,11 @@ Route::get( 'om-oss', function ()
     return view( 'about' );
 } )->name( 'about' );
 
+Route::get( 'jobb', function ()
+{
+    return view( 'job' );
+} )->name( 'job' );
+
 Route::get( 'betonghåltagning', function ()
 {
     return view( 'services/concrete/index' );

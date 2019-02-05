@@ -29,6 +29,11 @@
                 </div>
             </li>
             <li class="nav-item">
+                <a class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
+            </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
                 <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
             </li>
             <li class="nav-item">

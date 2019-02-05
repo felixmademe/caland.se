@@ -1,25 +1,24 @@
-$(document).ready(function ()
+var setFileName = function ()
 {
-    let clientSwiper = new Swiper ( '.client-swiper',
-    {
-        loop: true,
-        speed: 20000,
-        slidesPerView: 2,
+    var fileName = $( '#fileInput' ).val();
+    var set = fileName.split( '/' );
+    console.log('saker');
+    $( '#fileName' ).html( fileName );
+};
 
-
-    } );
-
-    function infinite()
-    {
-        clientSwiper.slideTo( clientSwiper.slides.length );
-        clientSwiper.once( 'transitionEnd', function()
-        {
-            clientSwiper.slideTo( clientSwiper.params.slidesPerView, 0, false );
-            setTimeout(function ()
-            {
-                infinite();
-            }, 0 );
-        });
-    }
-    infinite();
+$( '#fileLabel' ).on( 'click', function()
+{
+    $( '#fileInput' ).click();
+    setInterval(setFileName, 2000);
 } );
+
+
+function jobApplication()
+{
+
+}
+
+function attachFile()
+{
+
+}

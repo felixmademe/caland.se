@@ -6,6 +6,7 @@
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset( '/css/main.min.css' ) }}">
         <link rel="shortcut icon" href="{{ asset( '/img/logo.ico' ) }}" />
 
@@ -20,15 +21,17 @@
                     @yield( 'content' )
                 </div>
             </main>
+        @elseif( Request::is( 'jobb' ) )
+            <main class="content">
+                <div class="bg-gradient py-5">
+                    @yield( 'content' )
+                </div>
+            </main>
         @else
             <main class="content">
                 <div class="container mt-5 p-2 p-md-5">
                     <div class="row justify-content-center">
                         <div class="col-md-10">
-                        <div class="text-center my-4">
-                            <h1>@yield( 'title' )</h1>
-                        </div>
-                        <hr><br>
                             @yield( 'content' )
                         <br>
                     </div>
