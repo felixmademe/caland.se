@@ -3,7 +3,8 @@
 //
 $primary: rgb(237, 46, 59) !important
 $primary-strong: rgb(239, 0, 0) !important
-$secondary: #efefef !important
+$white: #fff !important
+$black: #000 !important
 $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 
 //
@@ -63,21 +64,31 @@ hr
 .btn-red
     background-color: $primary
     border: 1px solid $primary
-    color: #fff !important
+    color: $white
     &:hover
         background-color: $primary-strong
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
 .bg-white
-    background-color: #fff !important
+    background-color: $white
+
+.list-group-item.list-group-item-action.active
+    background-color: $white
+    border: 1px solid $primary-strong
+
+.list-group.list-group-flush
+    .list-group-item
+        &:hover
+            background-color: rgba(0,0,0,.16) !important
+            cursor: pointer
 
 //
 // Layout
 //
 .navbar
     box-shadow: 0 2px 5px 0 rgba(0,0,0,.16), 0 2px 10px 0 rgba(0,0,0,.12)
-    background-color: #fff
+    background-color: $white
     .nav-item
         color: $primary
         &::after
@@ -98,19 +109,19 @@ hr
             background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
 
 .content
-    background-color: #fff
+    background-color: $white
 
 .footer
     border-top: 20px solid #363839
     background-color: #282a2b
     padding: 20px 0
-    color: #fff
+    color: $white
     img
         max-width: 100%
     a
         color: $primary
         &:hover
-            color: #fff !important
+            color: $white
 
 //
 // Landing page
@@ -124,7 +135,7 @@ hr
         width: 100%
         top: 25%
         left: 0%
-        background-color: #fff
+        background-color: $white
         padding: 2em
 
 .hero
@@ -161,7 +172,7 @@ hr
     background-color: #efefef
 
     .contact-form
-        background-color: #fff
+        background-color: $white
         padding: 2em
         border-radius: 4px
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
@@ -174,6 +185,11 @@ hr
         display: none
     #fileLabel
         margin-bottom: 0
+
+//
+// Services
+//
+
 
 //
 // Media queries
