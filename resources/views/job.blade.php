@@ -2,8 +2,8 @@
 @section( 'title', 'Jobba på Caland' )
 @section( 'content' )
 
-    <section class="info d-flex align-items-center">
-        <div class="col-md-8 offset-md-2 bg-white p-5">
+    <section class="info row justify-content-center">
+        <div class="col-md-8 bg-white p-5">
             <h1 class="text-center">Jobba på Caland</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
