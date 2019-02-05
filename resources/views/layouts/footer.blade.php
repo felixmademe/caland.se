@@ -2,7 +2,9 @@
     <div class="container">
         <div class="row p-2">
             <div class="col-md-3 mb-3 mb-md-0">
-                <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
+                <a href="{{ url( '/' ) }}">
+                    <img src="{{ asset( '/img/logo.png' ) }}" alt="Caland AB logo">
+                </a>
             </div>
             <div class="col-md-3">
                 <h4>Företaget</h4>

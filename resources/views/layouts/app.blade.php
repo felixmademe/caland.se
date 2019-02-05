@@ -29,7 +29,7 @@
             </main>
         @else
             <main class="content">
-                <div class="container mt-5 p-2 p-md-5">
+                <div class="container mt-5 py-4 py-md-5">
                     <div class="row justify-content-center">
                         <div class="col-md-8">
                             @yield( 'content' )

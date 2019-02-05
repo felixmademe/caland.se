@@ -17,15 +17,15 @@
                 </a>
 
                 <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-                    <a class="dropdown-item" href="{{ route( 'transport' ) }}">Transport</a>
-                    <a class="dropdown-item" href="{{ route( 'staff' ) }}">Bemaning</a>
-                    <a class="dropdown-item" href="{{ route( 'education' ) }}">Utbildning</a>
-                    <a class="dropdown-item" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                    <a class="dropdown-item" href="{{ route( 'cleaning' ) }}">Städ</a>
-                    <a class="dropdown-item" href="{{ route( 'company-service' ) }}">Företagsservice</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'transport' ) }}">Transport</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'staff' ) }}">Bemaning</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'education' ) }}">Utbildning</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'cleaning' ) }}">Städ</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'company-service' ) }}">Företagsservice</a>
                     <div class="dropdown-divider"></div>
-                    <a class="dropdown-item" href="{{ route( 'services' ) }}">Se alla tjänster</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'services' ) }}">Se alla tjänster</a>
                 </div>
             </li>
             <li class="nav-item">
