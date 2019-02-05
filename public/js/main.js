@@ -1,3 +1,9 @@
+$( '#list-tab a' ).on('click', function ( e ) 
+{
+    e.preventDefault()
+    $( this ).tab( 'show' )
+})
+
 var setFileName = function ()
 {
     var fileName = $( '#fileInput' ).val();
@@ -21,5 +27,10 @@ items.on( 'click', function()
     var position = $( 'input[name="position"]' );
     position.val( text );
     var form = $( '.job-application' )[0];
+    var name = $( 'input[name="name"]' );
     form.scrollIntoView( { block: 'end',  behavior: 'smooth' } );
+    setTimeout( function()
+    {
+        name.focus();
+    }, 500);
 } );
