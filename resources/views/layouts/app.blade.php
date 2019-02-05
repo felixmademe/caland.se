@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
         <link rel="stylesheet" href="{{ asset( '/css/main.min.css' ) }}">
+        <link rel="shortcut icon" href="{{ asset( '/img/logo.ico' ) }}" />
 
         <title>@yield( 'title' ) - {{ config('app.name', 'Caland AB') }}</title>
     </head>
