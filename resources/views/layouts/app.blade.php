@@ -23,7 +23,7 @@
             </main>
         @elseif( Request::is( 'jobb' ) )
             <main class="content">
-                <div class="bg-gradient py-5">
+                <div class="bg-gradient pt-5">
                     @yield( 'content' )
                 </div>
             </main>
