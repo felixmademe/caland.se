@@ -29,7 +29,7 @@
             </div>
             <hr>
             <div class="application-form">
-                <h3 class="text-center">Ansök om jobb</h3>
+                <h2 class="text-center">Ansök om jobb</h2>
                 <form class="job-application" action="" method="post">
                     <div class="form-group">
                         <label for="name">Namn</label>
@@ -48,12 +48,12 @@
                         <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5" required></textarea>
                     </div>
                     <label for="">CV</label>
-                    <div class="form-group border rounded p-2">
+                    <div class="form-group border rounded p-2 text-center text-md-left">
                         <label for="file" id="fileLabel" class="btn btn-red btn-expand">
                             <i class="fa fa-upload"></i>
                         </label>
                         <input type="file" name="file" id="fileInput" required>
-                        <small id="fileName" class="ml-2">Välj fil</small>
+                        <small id="fileName" class="ml-md-2">Välj fil</small>
                     </div>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
