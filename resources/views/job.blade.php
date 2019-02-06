@@ -47,13 +47,11 @@
                         <label for="message">Meddelande</label>
                         <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5" required></textarea>
                     </div>
-                    <label for="">CV</label>
                     <div class="form-group border rounded p-2 text-center text-md-left">
-                        <label for="file" id="fileLabel" class="btn btn-red btn-expand">
-                            <i class="fa fa-upload"></i>
-                        </label>
-                        <input type="file" name="file" id="fileInput" required>
-                        <small id="fileName" class="ml-md-2">Välj fil</small>
+                        <label for="">CV</label>
+                        <br>
+                        <input type="file" class="filestyle rounded-0" name="files" id="fileInput"
+                            accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" multiple required>
                     </div>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
