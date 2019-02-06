@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <div class="services">
-        <h1 class="text-center">Tjänster</h1>
+        <h1>Tjänster</h1>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
             ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco

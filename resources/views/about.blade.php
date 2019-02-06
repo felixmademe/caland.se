@@ -134,7 +134,7 @@
     </section>
     <section class="company-history">
         <hr>
-        <h2 class="text-center">Vår historia</h2>
+        <h2>Vår historia</h2>
         <div class="timeline">
             <div class="timeline-item">
                 <div class="timeline-icon">

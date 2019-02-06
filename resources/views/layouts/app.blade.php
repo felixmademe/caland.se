@@ -24,7 +24,9 @@
         @elseif( Request::is( 'jobb' ) )
             <main class="content">
                 <div class="bg-gradient pt-5">
-                    @yield( 'content' )
+                    <div class="container">
+                        @yield( 'content' )
+                    </div>
                 </div>
             </main>
         @else

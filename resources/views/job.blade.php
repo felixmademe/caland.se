@@ -3,8 +3,8 @@
 @section( 'content' )
 
     <section class="info row justify-content-center">
-        <div class="col-md-8 bg-white p-5">
-            <h1 class="text-center">Jobba på Caland</h1>
+        <div class="col-md-8 bg-white py-5">
+            <h1>Jobba på Caland</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -15,7 +15,7 @@
             </p>
             <hr>
             <div class="jobs">
-                <h2 class="text-center">Lediga jobb</h2>
+                <h2>Lediga jobb</h2>
                 <div class="list-group">
                     <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
                     <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
@@ -29,7 +29,7 @@
             </div>
             <hr>
             <div class="application-form">
-                <h2 class="text-center">Ansök om jobb</h2>
+                <h2>Ansök om jobb</h2>
                 <form class="job-application" action="/ansökan-email" method="post" enctype="multipart/form-data">
                     @csrf
                     <div class="form-group">
