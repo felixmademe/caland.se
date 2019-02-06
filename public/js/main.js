@@ -2,10 +2,9 @@ $( '#list-tab a' ).on('click', function ( e )
 {
     e.preventDefault()
     $( this ).tab( 'show' )
-})
+} );
 
 var items = $( '.jobs .list-group .list-group-item' );
-
 items.on( 'click', function()
 {
     var item = $( this );
