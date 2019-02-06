@@ -5,6 +5,8 @@ $primary: rgb(237, 46, 59) !important
 $primary-strong: rgb(239, 0, 0) !important
 $white: #fff !important
 $black: #000 !important
+$dark-grey: #282a2b !important
+$light-grey: #363839 !important
 $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 
 //
@@ -24,7 +26,7 @@ $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 body
     font-family: $font
     font-size: 20px
-    background-color: #282a2b
+    background-color: $dark-grey
     margin: auto
 
 h1, h2, h3
@@ -127,8 +129,8 @@ hr
     background-color: $white
 
 .footer
-    border-top: 20px solid #363839
-    background-color: #282a2b
+    border-top: 20px solid $light-grey
+    background-color: $dark-grey
     padding: 20px 0
     color: $white
     img
@@ -223,7 +225,7 @@ hr
       transition: all 0.25s ease-in
       width: 100%
       &::before
-        background: $black
+        background: $light-grey
         content: ''
         height: 100%
         left: 50%
@@ -246,7 +248,7 @@ hr
         margin-bottom: 50px
         position: relative
         .timeline-icon
-          background: #efefef
+          background: $primary
           border-radius: 50%
           height: 50px
           left: 50%
@@ -261,6 +263,7 @@ hr
             top: 11px
             width: 24px
             height: 24px
+            color: #efefef
           img
             left: 14px
             position: relative
@@ -305,7 +308,7 @@ hr
             width: 90%
             &::before, &.right::before
               border-left: 0
-              border-right: 7px solid #fefefe
+              border-right: 7px solid #efefef
               left: 10%
               margin-left: -6px
           .timeline-icon
