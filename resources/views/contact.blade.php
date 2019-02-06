@@ -2,6 +2,22 @@
 @section( 'title', 'Kontakt' )
 @section( 'content' )
 
+    @if( session()->has( 'success' ) )
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session()->get( 'success' ) }}
+            <button type="button" class="close black" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @elseif( session()->has( 'error' ) )
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session()->get( 'error' ) }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @endif
+
     <div class="contact p-5">
         <div class="text-center">
             <h1>Kontakta oss</h1>
@@ -11,14 +27,15 @@
                 Det kan du göra genom att använda formuläret nedan.
             </p>
         </div>
-        <form class="" action="" method="post">
+        <form class="" action="/kontakta-email" method="post">
+            @csrf
             <div class="form-group">
                 <label for="name">Namn</label>
                 <input class="form-control" type="text" name="name" placeholder="Namn">
             </div>
             <div class="form-group">
                 <label for="email">Email</label>
-                <input class="form-control" type="text" name="email" placeholder="Email">
+                <input class="form-control" type="email" name="email" placeholder="Email">
             </div>
             <div class="form-group">
                 <label for="subject">Ämne</label>
