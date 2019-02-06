@@ -30,6 +30,8 @@
                     <span class="red">Inköpschef</span>
                     <br>
                     054-22 07 91
+                    <br>
+                    <a class="link-effect" href="mailto:dan@caland.se">dan@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -39,6 +41,8 @@
                     <span class="red">Lön</span>
                     <br>
                     054-22 07 93
+                    <br>
+                    <a class="link-effect" href="mailto:lena@caland.se">lena@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -48,6 +52,8 @@
                     <span class="red">Personalchef</span>
                     <br>
                     054-22 07 94
+                    <br>
+                    <a class="link-effect" href="mailto:charlotta@caland.se">charlotta@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -57,6 +63,8 @@
                     <span class="red">Konsultchef/HR</span>
                     <br>
                     054-22 07 95
+                    <br>
+                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -66,6 +74,8 @@
                     <span class="red">Logistikansvarig</span>
                     <br>
                     054-22 07 92
+                    <br>
+                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
             <div class="col-md-12 text-center">
@@ -79,6 +89,8 @@
                     <span class="red">Arbetsledare</span>
                     <br>
                     070-399 81 23
+                    <br>
+                    <a class="link-effect" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -88,6 +100,8 @@
                     <span class="red">Verksamhetschef</span>
                     <br>
                     070-537 98 28
+                    <br>
+                    <a class="link-effect" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
             <div class="col-md-12 text-center">
@@ -101,6 +115,8 @@
                     <span class="red">Utbildare</span>
                     <br>
                     054-22 07 97
+                    <br>
+                    <a class="link-effect" href="mailto:johan@caland.se">johan@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -110,6 +126,8 @@
                     <span class="red">Utbildare</span>
                     <br>
                     054-22 07 98
+                    <br>
+                    <a class="link-effect" href="mailto:reimond@caland.se">reimond@caland.se</a>
                 </p>
             </div>
         </div>
