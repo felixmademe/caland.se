@@ -64,12 +64,24 @@ hr
 .red
     color: $primary
 
+.black
+    color: $black
+
 .btn-red
     background-color: $primary
     border: 1px solid $primary
     color: $white
     &:hover
         background-color: $primary-strong
+        border: 1px solid $primary-strong
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+.btn-red-border
+    background-color: $white
+    border: 1px solid $primary
+    color: $primary
+    &:hover
+        color: $primary-strong
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
@@ -184,11 +196,11 @@ hr
 // Job application
 //
 .job-application
-    input[type="file"]
-        display: none
     #fileLabel
         margin-bottom: 0
-
+    .btn-red-border
+        border-top-left-radius: 0
+        border-bottom-left-radius: 0
 //
 // About
 //
