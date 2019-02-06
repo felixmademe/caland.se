@@ -1,4 +1,4 @@
-$( '#list-tab a' ).on('click', function ( e ) 
+$( '#list-tab a' ).on('click', function ( e )
 {
     e.preventDefault()
     $( this ).tab( 'show' )
@@ -7,8 +7,6 @@ $( '#list-tab a' ).on('click', function ( e )
 var setFileName = function ()
 {
     var fileName = $( '#fileInput' ).val();
-    var set = fileName.split( '/' );
-    console.log('saker');
     $( '#fileName' ).html( fileName );
 };
 
