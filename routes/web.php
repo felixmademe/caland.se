@@ -11,6 +11,9 @@
 |
 */
 
+//
+// Views
+//
 Route::get( '/', function ()
 {
     return view( 'index' );
@@ -75,3 +78,14 @@ Route::get( 'tjänster/transport', function ()
 {
     return view( 'services/transport' );
 } )->name( 'transport' );
+
+//
+// Email
+//
+Route::get( 'mail', function()
+{
+    return new App\Mail\Contact();
+} );
+
+Route::post( '/kontakta-email', 'EmailController@contactEmail' );
+Route::post( '/ansökan-email', 'EmailController@applicationEmail' );
