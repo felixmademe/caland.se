@@ -19,9 +19,7 @@
     </section>
     <hr>
     <section class="staff">
-        <div class="text-center">
-            <h2>Vi på Caland</h2>
-        </div>
+        <h2>Vi på Caland</h2>
         <div class="row">
             <div class="col-md-6">
                 <img class="img-fluid" src="{{ asset( '/img/staff/dan.jpg' ) }}" alt="Dan Andersson">
@@ -78,7 +76,7 @@
                     <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
-            <div class="col-md-12 text-center">
+            <div class="col-md-12">
                 <hr>
                 <h3>Betonghåltagning</h3>
             </div>
@@ -104,7 +102,7 @@
                     <a class="link-effect" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
-            <div class="col-md-12 text-center">
+            <div class="col-md-12">
                 <hr>
                 <h3>Utbildare</h3>
             </div>
