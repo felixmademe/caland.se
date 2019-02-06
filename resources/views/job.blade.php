@@ -47,12 +47,10 @@
                         <label for="message">Meddelande</label>
                         <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5" required></textarea>
                     </div>
-                    <div class="form-group border rounded p-2 text-center text-md-left">
-                        <label for="">CV</label>
-                        <br>
-                        <input type="file" class="filestyle rounded-0" name="files" id="fileInput"
-                            accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" multiple required>
-                    </div>
+                    <label for="">CV</label>
+                    <input type="file" class="filestyle rounded-0" name="files" id="fileInput"
+                        accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" multiple required>
+                    <br>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
             </div>

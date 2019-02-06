@@ -4,19 +4,7 @@ $( '#list-tab a' ).on('click', function ( e )
     $( this ).tab( 'show' )
 })
 
-var setFileName = function ()
-{
-    var fileName = $( '#fileInput' ).val();
-    $( '#fileName' ).html( fileName );
-};
-
-$( '#fileLabel' ).on( 'click', function()
-{
-    $( '#fileInput' ).click();
-    setInterval(setFileName, 2000);
-} );
-
-var items = $( '.jobs .list-group .list-group-item' )
+var items = $( '.jobs .list-group .list-group-item' );
 
 items.on( 'click', function()
 {
