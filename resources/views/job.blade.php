@@ -30,7 +30,8 @@
             <hr>
             <div class="application-form">
                 <h2 class="text-center">Ansök om jobb</h2>
-                <form class="job-application" action="" method="post">
+                <form class="job-application" action="/ansökan-email" method="post" enctype="multipart/form-data">
+                    @csrf
                     <div class="form-group">
                         <label for="name">Namn</label>
                         <input class="form-control" type="text" name="name" placeholder="Namn" required>
@@ -44,12 +45,12 @@
                         <input class="form-control" type="text" name="position" placeholder="Position" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Meddelande</label>
-                        <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5" required></textarea>
+                        <label for="message">Beskriv dig själv</label>
+                        <textarea class="form-control" type="text" name="message" placeholder="Beskriv dig själv" rows="5" required></textarea>
                     </div>
-                    <label for="">CV</label>
-                    <input type="file" class="filestyle rounded-0" name="files" id="fileInput"
-                        accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" multiple required>
+                    <label for="file">CV</label>
+                    <input type="file" class="filestyle" name="file" id="fileInput"
+                        accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" required>
                     <br>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
