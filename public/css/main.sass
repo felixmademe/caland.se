@@ -75,8 +75,16 @@ hr
     border: 1px solid $primary
     color: $white
     &:hover
-        background-color: $primary-strong
+        background-color: $white
+        color: $primary-strong
         border: 1px solid $primary-strong
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+.btn-red.active
+    background-color: $white
+    border: 1px solid $primary
+    color: $primary
+    &:hover
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
 .btn-red-border
@@ -84,9 +92,18 @@ hr
     border: 1px solid $primary
     color: $primary
     &:hover
-        color: $primary-strong
+        color: $white
+        background-color: $primary-strong
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+.btn-red-border.active
+        background-color: $primary
+        border: 1px solid $primary
+        color: $white
+        &:hover
+            background-color: $primary-strong
+            box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
 .bg-white
     background-color: $white
@@ -100,6 +117,14 @@ hr
         &:hover
             background-color: rgba(0,0,0,.16) !important
             cursor: pointer
+
+.tab-pane
+    border-top: 1px solid $light-grey
+    padding-top: 40px
+    margin-top: 10px
+
+.swiper-pagination-bullet-active
+    background: $primary
 
 //
 // Layout
@@ -314,6 +339,7 @@ hr
               margin-left: -6px
           .timeline-icon
             left: 0
+
 //
 // Media queries
 //

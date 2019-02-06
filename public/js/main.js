@@ -19,3 +19,19 @@ items.on( 'click', function()
         name.focus();
     }, 500);
 } );
+
+let referenceSwiper = new Swiper ( '.reference-swiper',
+{
+    loop: true,
+    speed: 1000,
+    slidesPerView: 1,
+    pagination:
+    {
+        el: '.swiper-pagination',
+    },
+    navigation:
+    {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+} );
