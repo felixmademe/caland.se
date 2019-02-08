@@ -21,7 +21,7 @@ Route::get( '/', function ()
 
 Route::get( 'tjänster', function ()
 {
-    return view( 'services' );
+    return view( 'services.index' );
 } )->name( 'services' );
 
 Route::get( 'kontakt', function ()
