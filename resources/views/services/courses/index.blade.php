@@ -21,84 +21,38 @@
             utbildningar inom bl a transport, bygg och industri. Kontakta oss när ni är
             i behov av nedan tjänster. Vi jobbar i Karlstad & hela Värmland.
         </p>
-        <div class="row justify-content-center">
-            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="betonghåltagning-tab" data-toggle="pill" href="#betonghåltagning"
-                        role="tab" aria-controls="betonghåltagning" aria-selected="true">
-                        Betonghåltagning
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="rivning-tab" data-toggle="pill" href="#rivning"
-                    role="tab" aria-controls="rivning" aria-selected="false">
-                        Rivning
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
-                    role="tab" aria-controls="asbestsanering" aria-selected="false">
-                        Asbestsanering
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
-                    role="tab" aria-controls="stor-maskinpark" aria-selected="false">
-                        Stor maskinpark
-                    </a>
-                </li>
-            </ul>
-            <br>
-            <div class="tab-content px-2" id="myTabContent">
-                <div class="tab-pane fade show active" id="betonghåltagning" role="tabpanel" aria-labelledby="betonghåltagning-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
-                </div>
-                <div class="tab-pane fade" id="rivning" role="tabpanel" aria-labelledby="rivning-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
-                </div>
-                <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
-                </div>
-                <div class="tab-pane fade" id="stor-maskinpark" role="tabpanel" aria-labelledby="stor-maskinpark-tab">
-                    <p>
-                        Vi har ett stort antal maskiner:
-                        <ul>
-                            <li>Demoleringsrobotar från Brokk 40 till 260</li>
-                            <li>Teleskoplastare</li>
-                            <li>Lastmaskin</li>
-                            <li>Krokbil</li>
-                            <li>Kranbil</li>
-                            <li>Grävmaskin</li>
-                        </ul>
-                    </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
-                </div>
-            </div>
-        </div>
+        <ul class="list-group list-group-flush">
+            <a href="{{ route( 'adr' ) }}" class="list-group-item">
+                ADR-utbildning
+            </a>
+            <a href="{{ route( 'roadwork' ) }}" class="list-group-item">
+                Arbete på väg-utbildning
+            </a>
+            <a href="{{ route( 'lift' ) }}" class="list-group-item">
+                Bom och saxlift-utbildning
+            </a>
+            <a href="{{ route( 'first-help' ) }}" class="list-group-item">
+                Första hjälpen-utbildning
+            </a>
+            <a href="{{ route( 'wheel-loader' ) }}" class="list-group-item">
+                Hjullastare-utbildning
+            </a>
+            <a href="{{ route( 'vehicle-crane' ) }}" class="list-group-item">
+                Fordonsmonterad kranutbildning
+            </a>
+            <a href="{{ route( 'travers' ) }}" class="list-group-item">
+                Traversutbildning
+            </a>
+            <a href="{{ route( 'forklift' ) }}" class="list-group-item">
+                Truckutbildning
+            </a>
+            <a href="{{ route( 'secure-lift' ) }}" class="list-group-item">
+                Säkra Lyftutbildning
+            </a>
+            <a href="{{ route( 'warm-work' ) }}" class="list-group-item">
+                Heta Arbeten
+            </a>
+        </ul>
         <div class="text-center my-3">
             <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="">
         </div>
@@ -106,36 +60,36 @@
     <hr>
     <section class="service-reference">
         <p>
-            "Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit."
+            ”Då jag anlitar Caland Utbildning så kan jag vara säker på att mina medarbetare
+            har de behörigheter som krävs för att arbeta åt mig. Vidare har jag stor hjälp
+            av Caland i mina miljö- och  säkerhetsfrågor. Jag ser dem som en långsiktig samarbetspartner”
         </p>
-        <small>John Doe, CEO Company</small>
+        <small>Roger Olsson, Rogers Åkeri AB</small>
     </section>
     <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
-                <h4>Charlotta Löfgren</h4>
+                <img class="img-fluid" src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
+                <h4>Johan Wallstav</h4>
                 <p>
-                    <span class="red">Personalchef</span>
+                    <span class="red">Utbildare</span>
                     <br>
-                    054-22 07 94
+                    054-22 07 97
                     <br>
-                    <a class="link-effect" href="mailto:charlotta@caland.se">charlotta@caland.se</a>
+                    <a class="link-effect" href="mailto:johan@caland.se">johan@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
-                <h4>Ellinor Halldan</h4>
+                <img class="img-fluid" src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
+                <h4>Reimond Sundström</h4>
                 <p>
-                    <span class="red">Konsultchef/HR</span>
+                    <span class="red">Utbildare</span>
                     <br>
-                    054-22 07 95
+                    054-22 07 98
                     <br>
-                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                    <a class="link-effect" href="mailto:reimond@caland.se">reimond@caland.se</a>
                 </p>
             </div>
         </div>
