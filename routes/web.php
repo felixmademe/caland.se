@@ -31,8 +31,13 @@ Route::get( 'kontakt', function ()
 
 Route::get( 'om-oss', function ()
 {
-    return view( 'about' );
+    return view( 'about/index' );
 } )->name( 'about' );
+
+Route::get( 'oms-oss/vår-historia', function()
+{
+    return view( 'about.history' );
+} )->name( 'history' );
 
 Route::get( 'jobb', function ()
 {
@@ -41,42 +46,42 @@ Route::get( 'jobb', function ()
 
 Route::get( 'tjänster/betonghåltagning', function ()
 {
-    return view( 'services/concrete/index' );
+    return view( 'services.concrete.index' );
 } )->name( 'concrete' );
 
 Route::get( 'tjänster/betonghåltagning/referenser', function ()
 {
-    return view( 'services/concrete/references' );
+    return view( 'services.concrete.references' );
 } )->name( 'references' );
 
 Route::get( 'tjänster/städ', function ()
 {
-    return view( 'services/cleaning' );
+    return view( 'services.cleaning' );
 } )->name( 'cleaning' );
 
 Route::get( 'tjänster/företagsservice', function ()
 {
-    return view( 'services/company-service' );
+    return view( 'services.company-service' );
 } )->name( 'company-service' );
 
 Route::get( 'tjänster/utbildning', function ()
 {
-    return view( 'services/education' );
+    return view( 'services.education' );
 } )->name( 'education' );
 
 Route::get( 'tjänster/bygghjälpen', function ()
 {
-    return view( 'services/help' );
+    return view( 'services.help' );
 } )->name( 'help' );
 
 Route::get( 'tjänster/bemanning', function ()
 {
-    return view( 'services/staff' );
+    return view( 'services.staff' );
 } )->name( 'staff' );
 
 Route::get( 'tjänster/transport', function ()
 {
-    return view( 'services/transport' );
+    return view( 'services.transport' );
 } )->name( 'transport' );
 
 //
