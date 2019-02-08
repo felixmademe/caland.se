@@ -72,6 +72,17 @@ hr
 .black
     color: $black
 
+.underline
+    text-decoration: underline !important
+
+.border-top
+    border-top: 1px solid $primary
+
+.divider
+    margin: 2em 0
+    height: 15px
+    overflow: hidden
+
 .btn-red
     background-color: $primary
     border: 1px solid $primary
@@ -98,6 +109,8 @@ hr
         background-color: $primary-strong
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+        span
+            color: $white
 
 .btn-red-border.active
         background-color: $primary
@@ -136,16 +149,10 @@ hr
     background-color: $white
     .nav-item
         color: $primary
-        &::after
-            content: ''
-            display: block
-            width: 0
-            height: 2px
-            background: $primary
-            transition: width .3s
-        &:hover::after
-            width: 100%
 
+
+.test
+    background-color: blue !important
 
     .custom-toggler
         &.navbar-toggler
@@ -208,14 +215,11 @@ hr
     overflow-x: hidden
     img
         height: 100%
-
     .text-block
         padding: 1em 2em
 
 .contact
-    padding: 4em 0
     background-color: #efefef
-
     .contact-form
         background-color: $white
         padding: 2em
@@ -286,20 +290,20 @@ hr
           top: 0
           width: 50px
           i
-            left: 15px
+            left: 17px
             position: relative
-            top: 11px
+            top: 14px
             width: 24px
             height: 24px
             color: #efefef
           img
-            left: 14px
+            left: 17px
             position: relative
-            top: 9px
+            top: 14px
           svg
-            left: 14px
+            left: 17px
             position: relative
-            top: 9px
+            top: 14px
         .timeline-content
           padding: 20px
           text-align: right
@@ -343,6 +347,14 @@ hr
             left: 0
 
 //
+// Services
+//
+.service-header
+    text-align: center
+
+.service-about
+
+//
 // Media queries
 //
 @media (min-width: 767px)
@@ -352,3 +364,5 @@ hr
 @media (max-width: 768px)
     .btn-expand
         width: 100%
+    .contact
+        background-color: $white

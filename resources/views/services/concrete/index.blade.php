@@ -2,19 +2,20 @@
 @section( 'title', 'Betonghåltagning' )
 @section( 'content' )
 
-    <section class="text-center">
-        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Betonghåltagning">
+    <section class="service-header">
+        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Betonghåltagning AB">
         <br><br>
         <h1>Betonghåltagning</h1>
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
-            <br>
-            Bredden är vår styrka
+            <span class="underline">Bredden är vår styrka</span>
         </p>
     </section>
-    <hr>
-    <section class="action">
+    <div class="divider">
+        <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="">
+    </div>
+    <section class="service-about">
         <h2>Vad gör vi?</h2>
         <p class="text-center">
             Vi erbjuder yrkeskunnig hjälp inom byggbranschen med specialisering inom håltagning,
@@ -48,7 +49,7 @@
                 </li>
             </ul>
             <br>
-            <div class="tab-content" id="myTabContent">
+            <div class="tab-content px-2" id="myTabContent">
                 <div class="tab-pane fade show active" id="betonghåltagning" role="tabpanel" aria-labelledby="betonghåltagning-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -98,6 +99,9 @@
                 </div>
             </div>
         </div>
+        <div class="text-center my-3">
+            <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="">
+        </div>
     </section>
     <hr>
     <section class="reference">
@@ -126,7 +130,7 @@
         </div>
     </section>
     <hr>
-    <section>
+    <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
