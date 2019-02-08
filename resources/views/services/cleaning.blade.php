@@ -15,54 +15,50 @@
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>'
-        <p>
-            Vi ombesörjer städ på följande områden:
-            <ul>
-                <li>Kontor</li>
-                <li>Butik</li>
-                <li>Bygg</li>
-                <li>Flytt</li>
-                <li>Hem</li>
-            </ul>
-        </p>
-        <div class="text-center">
-            <img class="img-fluid" src="{{ asset( 'img/service/stad.jpg' ) }}" alt="Caland AB Företagsservice Städ">
+        <h2>Vad gör vi?</h2>
+        <div class="d-block row d-md-flex flex-md-row py-4">
+            <div class="col-lg-5 d-flex align-items-center justify-content-center">
+                <img class="img-fluid" src="{{ asset( 'img/service/stad.jpg' ) }}" alt="Kranbil">
+            </div>
+            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
+                <div class="text-block">
+                    <p>
+                        Vi utför städtjänster för företag och privatpersoner.
+                        Vi ombesörjer städ på följande områden:
+                        <ul>
+                            <li>Kontor</li>
+                            <li>Butik</li>
+                            <li>Bygg</li>
+                            <li>Flytt</li>
+                            <li>Hem</li>
+                        </ul>
+                    </p>
+                </div>
+            </div>
         </div>
     </section>
     <hr>
     <section class="service-reference">
         <p>
-            "Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit."
+            ”Caland AB Städ har hjälpt oss på Carl Radiokontroll AB under 2 år med städ av våra lokaler.
+            De är punktliga och flexibla. Vi ställer stora krav på vår städning vilket Caland AB Städ absolut lever upp till.
+            Vi uppskattar att de arbetar effektivt och tyst”
         </p>
-        <small>John Doe, CEO Company</small>
+        <small>Lena Carl, Carl Radiokontroll AB</small>
     </section>
     <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
-            <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
-                <h4>Charlotta Löfgren</h4>
+            <div class="col-md-6 offset-md-3">
+                <img class="img-fluid" src="{{ asset( '/img/staff/lotta.jpg' ) }}" alt="Lotta Ohlson Klein">
+                <h4>Lotta Ohlson Klein</h4>
                 <p>
                     <span class="red">Personalchef</span>
                     <br>
-                    054-22 07 94
+                    072-724 77 06
                     <br>
                     <a class="link-effect" href="mailto:charlotta@caland.se">charlotta@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
-                <h4>Ellinor Halldan</h4>
-                <p>
-                    <span class="red">Konsultchef/HR</span>
-                    <br>
-                    054-22 07 95
-                    <br>
-                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
         </div>
