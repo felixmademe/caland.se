@@ -58,15 +58,6 @@
         </div>
     </section>
     <hr>
-    <section class="service-reference">
-        <p>
-            ”Då jag anlitar Caland Utbildning så kan jag vara säker på att mina medarbetare
-            har de behörigheter som krävs för att arbeta åt mig. Vidare har jag stor hjälp
-            av Caland i mina miljö- och  säkerhetsfrågor. Jag ser dem som en långsiktig samarbetspartner”
-        </p>
-        <small>Roger Olsson, Rogers Åkeri AB</small>
-    </section>
-    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">

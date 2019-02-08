@@ -38,15 +38,6 @@
         </div>
     </section>
     <hr>
-    <section class="service-reference">
-        <p>
-            ”Caland AB Städ har hjälpt oss på Carl Radiokontroll AB under 2 år med städ av våra lokaler.
-            De är punktliga och flexibla. Vi ställer stora krav på vår städning vilket Caland AB Städ absolut lever upp till.
-            Vi uppskattar att de arbetar effektivt och tyst”
-        </p>
-        <small>Lena Carl, Carl Radiokontroll AB</small>
-    </section>
-    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">

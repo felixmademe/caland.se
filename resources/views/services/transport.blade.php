@@ -60,14 +60,6 @@
         </div>
     </section>
     <hr>
-    <section class="service-reference">
-        <p class="text-italic">
-            "Tack vare Caland Transport och deras chaufför
-            får vi ut vårt material oskadat och i tid"
-        </p>
-        <small>Johan Larsson. Karl Hedin</small>
-    </section>
-    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">

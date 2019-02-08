@@ -56,15 +56,6 @@
         </div>
     </section>
     <hr>
-    <section class="service-reference">
-        <p>
-            "Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-            irure dolor in reprehenderit in voluptate velit."
-        </p>
-        <small>John Doe, CEO Company</small>
-    </section>
-    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">

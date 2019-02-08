@@ -34,24 +34,6 @@
         </div>
     </header>
 
-    <section class="clients text-center d-flex align-items-center">
-        <div class="client-swiper swiper-container">
-            <h2>Några av våra stolta kunder</h2>
-            <br><br>
-            <div class="swiper-wrapper swiper-no-swiping">
-                <div class="swiper-slide align-self-center">
-                    <img src="{{ asset( '/img/peab.svg' ) }}" alt="">
-                </div>
-                <div class="swiper-slide align-self-center">
-                    <img src="{{ asset( '/img/valmet.jpg' ) }}" alt="">
-                </div>
-                <div class="swiper-slide align-self-center">
-                    <img src="{{ asset( '/img/dhl.png' ) }}" alt="">
-                </div>
-            </div>
-        </div>
-    </section>
-
     <section class="company">
         <div class="d-block row d-md-flex flex-md-row">
             <div class="col-md-6 d-flex align-items-center justify-content-center">

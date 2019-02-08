@@ -18,7 +18,7 @@
         <h2>Vad gör vi?</h2>
         <p>
             Vi erbjuder yrkeskunnig bemanning främst inom våra verksamhetsområden transport,
-            industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov. 
+            industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov.
         </p>
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
@@ -62,15 +62,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <hr>
-    <section class="service-reference">
-        <p>
-            ”Med Caland Bemanning har vi ett tydligt och öppet samarbete som är
-            anpassat efter våra krav och förväntningar.
-            Caland erbjuder oss en flexibel lösning för vår säsongsbetonade produktion”
-        </p>
-        <small>Björn Jonnerberg, Produktionschef ArcelorMittal</small>
     </section>
     <hr>
     <section class="service-contact">
