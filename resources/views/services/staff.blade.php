@@ -15,23 +15,20 @@
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>'
+        <h2>Vad gör vi?</h2>
         <p>
             Vi erbjuder yrkeskunnig bemanning främst inom våra verksamhetsområden transport,
-            industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov.
-        </p>'
+            industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov. 
+        </p>
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/service/staff-truck.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
-                    <h3>Krokbil och lastmaskin</h3>
+                    <h3>Personaluthyrning</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit.
+                        Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
                 </div>
             </div>
@@ -39,16 +36,13 @@
         <hr>
         <div class="d-block row d-md-flex flex-md-row-reverse py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/service/staff-lorry.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
-                    <h3>Krokbil och lastmaskin</h3>
+                    <h3>Bemanningsentrepenad</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit.
+                        Vi kan ta över ansvaret och bemanna en hel avdelning hos er, inklusive arbetsledning.
                     </p>
                 </div>
             </div>
@@ -56,16 +50,14 @@
         <hr>
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/service/staff-welding.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
-                    <h3>Krokbil och lastmaskin</h3>
+                    <h3>Rekrytering</h3>
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit.
+                        På uppdrag hjälper vi till med rekrytering. Vår breda erfarenhet från
+                        personaluthyrning hjälper er att hitta rätt kompetens.
                     </p>
                 </div>
             </div>
