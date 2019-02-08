@@ -23,7 +23,7 @@
                     <a class="dropdown-item link-effect" href="{{ route( 'education' ) }}">Utbildning</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'cleaning' ) }}">Städ</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'company-service' ) }}">Företagsservice</a>
+                    {{-- <a class="dropdown-item link-effect" href="{{ route( 'company-service' ) }}">Företagsservice</a> --}}
                     <div class="dropdown-divider"></div>
                     <a class="dropdown-item link-effect" href="{{ route( 'services' ) }}">Se alla tjänster</a>
                 </div>

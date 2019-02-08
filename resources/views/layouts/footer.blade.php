@@ -32,8 +32,8 @@
                     <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <br>
                     <a class="" href="{{ route( 'cleaning' ) }}">Städ</a>
-                    <br>
-                    <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a>
+                    {{-- <br>
+                    <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a> --}}
                 </p>
             </div>
             <div class="col-md-3">
