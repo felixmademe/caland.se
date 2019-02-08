@@ -5,7 +5,7 @@
     <section class="service-header">
         <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
-        <h1>Transport</h1>
+        <h1>Bemanning</h1>
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
@@ -22,7 +22,7 @@
         </p>'
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/krokbil.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
@@ -39,7 +39,7 @@
         <hr>
         <div class="d-block row d-md-flex flex-md-row-reverse py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/krokbil.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
@@ -56,7 +56,7 @@
         <hr>
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/krokbil.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="Kranbil">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
