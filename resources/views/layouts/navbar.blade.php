@@ -20,7 +20,7 @@
                     <a class="dropdown-item link-effect" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'transport' ) }}">Transport</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'staff' ) }}">Bemaning</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'education' ) }}">Utbildning</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'course' ) }}">Utbildning</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'cleaning' ) }}">Städ</a>
                     {{-- <a class="dropdown-item link-effect" href="{{ route( 'company-service' ) }}">Företagsservice</a> --}}

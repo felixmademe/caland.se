@@ -27,7 +27,7 @@
                     <br>
                     <a class="" href="{{ route( 'staff' ) }}">Bemaning</a>
                     <br>
-                    <a class="" href="{{ route( 'education' ) }}">Utbildning</a>
+                    <a class="" href="{{ route( 'course' ) }}">Utbildning</a>
                     <br>
                     <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <br>

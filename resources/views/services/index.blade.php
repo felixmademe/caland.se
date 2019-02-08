@@ -25,7 +25,7 @@
             <a href="{{ route( 'staff' ) }}" class="list-group-item">
                 Bemanning
             </a>
-            <a href="{{ route( 'education' ) }}" class="list-group-item">
+            <a href="{{ route( 'course' ) }}" class="list-group-item">
                 Utbildning
             </a>
             <a href="{{ route( 'help' ) }}" class="list-group-item">
