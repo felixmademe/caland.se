@@ -33,6 +33,7 @@
                 <a class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
             </li>
         </ul>
+        <div class="dropdown-divider d-block d-lg-none"></div>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
