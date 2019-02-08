@@ -8,7 +8,7 @@ var items = $( '.jobs .list-group .list-group-item' );
 items.on( 'click', function()
 {
     var item = $( this );
-    var text = item.html();
+    var text = item.find( 'h5' ).text();
     var position = $( 'input[name="position"]' );
     position.val( text );
     var form = $( '.job-application' )[0];

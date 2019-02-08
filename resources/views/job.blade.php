@@ -2,8 +2,8 @@
 @section( 'title', 'Jobba på Caland' )
 @section( 'content' )
 
-    <section class="info row justify-content-center">
-        <div class="col-md-8 bg-white py-5">
+    <section class="info row justify-content-center px-0">
+        <div class="col-md-8 bg-white py-5 px-4">
             <h1>Jobba på Caland</h1>
             <p>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -15,17 +15,28 @@
             </p>
             <hr>
             <div class="jobs">
-                <h2>Lediga jobb</h2>
-                <div class="list-group">
-                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Lastbilschaufför - Heltid</a>
-                    <a class="list-group-item list-group-item-action pointer">Kranbilsförare - Heltid</a>
-                </div>
+                <h2>Tjänster</h2>
+                <p>Nedan finns en samling av olika tjänster som du kan skicka en intresseanmälan om. </p>
+                <ul class="list-group list-group-flush">
+                    <li class="list-group-item">
+                        <h5>Lastbilschaufför</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>Montör</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.</p>
+                    </li>
+                    <li class="list-group-item">
+                        <h5>Kranbilsförare</h5>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco.</p>
+                    </li>
+                </ul>
             </div>
             <hr>
             <div class="application-form">
