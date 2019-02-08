@@ -31,13 +31,8 @@ Route::get( 'kontakt', function ()
 
 Route::get( 'om-oss', function ()
 {
-    return view( 'about/index' );
+    return view( 'about' );
 } )->name( 'about' );
-
-Route::get( 'oms-oss/vår-historia', function()
-{
-    return view( 'about.history' );
-} )->name( 'history' );
 
 Route::get( 'jobb', function ()
 {
