@@ -12,9 +12,7 @@
             <span class="underline">Bredden är vår styrka</span>
         </p>
     </section>
-    <div class="divider">
-        <img class="img-fluid" src="{{ asset( 'img/collection.jpg' ) }}" alt="">
-    </div>
+    <hr>
     <section class="service-about">
         <h2>Vad gör vi?</h2>
         <p class="text-center">
@@ -101,32 +99,6 @@
         </div>
         <div class="text-center my-3">
             <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="">
-        </div>
-    </section>
-    <hr>
-    <section class="reference">
-        <h2>Referenser</h2>
-        <div class="reference-swiper swiper-container">
-            <div class="swiper-wrapper align-items-center">
-                <div class="swiper-slide px-5">
-                    <img class="img-fluid" src="{{ asset( '/img/peab.svg' ) }}" alt="">
-                </div>
-                <div class="swiper-slide px-5">
-                    <img class="img-fluid" src="{{ asset( '/img/valmet.jpg' ) }}" alt="">
-                </div>
-                <div class="swiper-slide px-5">
-                    <img class="img-fluid" src="{{ asset( '/img/dhl.png' ) }}" alt="">
-                </div>
-            </div>
-            <div class="swiper-pagination pt-5"></div>
-            <div class="swiper-button-prev swiper-button-black"></div>
-            <div class="swiper-button-next swiper-button-black"></div>
-        </div>
-        <div class="text-center">
-            <p>
-                Här är en del av våra stolta kunder, klicka på knappen nedan för att se fler.
-            </p>
-            <a href="{{ route( 'references' ) }}" class="btn btn-red btn-expand">Se mer</a>
         </div>
     </section>
     <hr>
