@@ -13,6 +13,8 @@
                     <br>
                     <a href="{{ route( 'about' ) }}">Om oss</a>
                     <br>
+                    <a href="{{ route( 'history' ) }}">Vår historia</a>
+                    <br>
                     <a href="{{ route( 'contact' ) }}">Kontakt</a>
                 </p>
             </div>

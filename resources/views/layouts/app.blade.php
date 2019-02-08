@@ -24,14 +24,14 @@
         @elseif( Request::is( 'jobb' ) )
             <main class="content">
                 <div class="bg-gradient pt-5">
-                    <div class="container">
-                        @yield( 'content' )
+                    <div class="container-fluid">
+                            @yield( 'content' )
                     </div>
                 </div>
             </main>
         @else
             <main class="content">
-                <div class="container mt-5 py-4 py-md-5">
+                <div class="container-fluid mt-5 py-4 py-md-5">
                     <div class="row justify-content-center">
                         <div class="col-md-8">
                             @yield( 'content' )

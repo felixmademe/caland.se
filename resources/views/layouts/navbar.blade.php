@@ -8,10 +8,10 @@
 
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
-            <li class="nav-item">
+            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'index' ) }}">Start <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown">
+            <li class="nav-item dropdown link-effect">
                 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Tjänster
                 </a>
@@ -28,15 +28,15 @@
                     <a class="dropdown-item link-effect" href="{{ route( 'services' ) }}">Se alla tjänster</a>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
             </li>
         </ul>
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
+            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'contact' ) }}">Kontakt</a>
             </li>
         </ul>

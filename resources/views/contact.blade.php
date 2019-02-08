@@ -18,7 +18,7 @@
         </div>
     @endif
 
-    <div class="contact p-5">
+    <div class="contact p-0 p-md-5">
         <div class="text-center">
             <h1>Kontakta oss</h1>
             <p>
