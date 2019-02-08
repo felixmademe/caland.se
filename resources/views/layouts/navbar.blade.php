@@ -1,4 +1,4 @@
-<nav class="navbar navbar-expand-md fixed-top scrolling-navbar">
+<nav class="navbar navbar-expand-lg fixed-top scrolling-navbar">
     <a class="navbar-brand" href="{{ url( '/' ) }}">
         <img src="{{ asset( '/img/logo.png' ) }}" width="120" alt="Caland AB logo">
     </a>
@@ -11,22 +11,23 @@
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'index' ) }}">Start <span class="sr-only">(current)</span></a>
             </li>
-            <li class="nav-item dropdown link-effect">
-                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                    Tjänster
-                </a>
-
-                <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-                    <a class="dropdown-item link-effect" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'transport' ) }}">Transport</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'staff' ) }}">Bemaning</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'course' ) }}">Utbildning</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'cleaning' ) }}">Städ</a>
-                    {{-- <a class="dropdown-item link-effect" href="{{ route( 'company-service' ) }}">Företagsservice</a> --}}
-                    <div class="dropdown-divider"></div>
-                    <a class="dropdown-item link-effect" href="{{ route( 'services' ) }}">Se alla tjänster</a>
-                </div>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'staff' ) }}">Bemaning</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'course' ) }}">Utbildning</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'cleaning' ) }}">Städ</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
