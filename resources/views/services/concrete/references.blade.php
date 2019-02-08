@@ -75,15 +75,6 @@
         </div>
     </section>
     <hr>
-    <section class="services-references">
-        <p>
-            "Tack vare Caland Transport och deras chaufför
-            får vi ut vårt material oskadat och i tid"
-            <br>
-            <small>Johan Larsson. Karl Hedin</small>
-        </p>
-    </section>
-    <hr>
     <section class="text-center">
         <p>Klicka här för att gå tillbaka</p>
         <a class="btn btn-red" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>

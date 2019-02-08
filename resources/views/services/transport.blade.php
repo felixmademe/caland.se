@@ -9,6 +9,7 @@
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
+            <br>
             <span class="underline">Bredden är vår styrka</span>
         </p>
     </section>
@@ -25,8 +26,7 @@
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
                 <img class="img-fluid" src="{{ asset( 'img/service/kranbil.jpg' ) }}" alt="Kranbil">
             </div>
-            <hr>
-            <div class="col-lg-7 bg-white d-flex align-items-center justify-content-center">
+            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
                     <h3>Kranbilstransporter</h3>
                     <p>
@@ -43,8 +43,7 @@
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
                 <img class="img-fluid" src="{{ asset( 'img/service/krokbil.jpg' ) }}" alt="Kranbil">
             </div>
-            <br class="d-block d-md-none">
-            <div class="col-lg-7 bg-white d-flex align-items-center justify-content-center">
+            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
                     <h3>Krokbil och lastmaskin</h3>
                     <p>
@@ -57,8 +56,16 @@
             </div>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="">
+            <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="ISO certifierade">
         </div>
+    </section>
+    <hr>
+    <section class="service-reference">
+        <p class="text-italic">
+            "Tack vare Caland Transport och deras chaufför
+            får vi ut vårt material oskadat och i tid"
+        </p>
+        <small>Johan Larsson. Karl Hedin</small>
     </section>
     <hr>
     <section class="service-contact">

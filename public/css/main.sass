@@ -150,15 +150,11 @@ hr
     .nav-item
         color: $primary
 
-
-.test
-    background-color: blue !important
-
-    .custom-toggler
-        &.navbar-toggler
-            border-color: $primary
-        .navbar-toggler-icon
-            background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
+.custom-toggler
+    &.navbar-toggler
+        border-color: $primary
+    .navbar-toggler-icon
+        background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(239, 0, 0, 0.7)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E")
 
 .content
     background-color: $white
@@ -354,6 +350,16 @@ hr
 
 .service-about
 
+.service-reference
+    text-align: center
+    font-style: italic
+    p
+        font-size: 1.4em !important
+    small
+        font-size: 1em !important
+        color: $primary
+
+.service-contact
 //
 // Media queries
 //
