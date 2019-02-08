@@ -1,7 +1,23 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Vår historia' )
+@section( 'title', 'Om oss' )
 @section( 'content' )
 
+    <section class="company">
+        <div class="text-center">
+            <h1>Om oss</h1>
+        </div>
+        <p>
+            Caland är ett familjeägt företag som startades år 1994 genom det första bolaget Caland AB.
+            Företagsnamnet är de tre första bokstäverna från familjenamnen Calais och Andersson,
+            <span class="red">CAL</span> och <span class="red">AND</span> blev företagsnamnet CALAND.
+            <br><br>
+            Caland blev en koncern 2002 genom att Caland Betonghåltagning AB
+            startades med specialisering inom betonghåltagning, sanering och rivning.
+            2007 utökades koncernen ytterligare med Caland Transport AB –Åkeri som
+            utför en mängd olika transporttjänster.
+        </p>
+    </section>
+    <hr>
     <section class="company-history">
         <h1>Vår historia</h1>
         <div class="timeline">
@@ -43,11 +59,6 @@
                 </div>
             </div>
         </div>
-    </section>
-    <hr>
-    <section class="text-center">
-        <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red" href="{{ route( 'about' ) }}">Om oss</a>
     </section>
 
 @endsection
