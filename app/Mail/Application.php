@@ -14,7 +14,7 @@ class Application extends Mailable
     public $name;
     public $email;
     public $position;
-    public $message;
+    public $text;
     public $file;
 
     /**
@@ -22,12 +22,12 @@ class Application extends Mailable
      *
      * @return void
      */
-    public function __construct( $name, $email, $position, $message, $file )
+    public function __construct( $name, $email, $position, $text, $file )
     {
         $this->name     = $name;
         $this->email    = $email;
         $this->position = $position;
-        $this->message  = $message;
+        $this->text     = $text;
         $this->file     = $file;
     }
 
@@ -38,7 +38,7 @@ class Application extends Mailable
      */
     public function build()
     {
-        return $this->markdown( 'mail.application' )
+        return $this->view( 'mail.application' )
                     ->from( $this->email, $this->name )
                     ->replyTo( $this->email )
                     ->subject( $this->position )

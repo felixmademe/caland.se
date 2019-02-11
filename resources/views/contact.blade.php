@@ -157,8 +157,8 @@
                 <input class="form-control" type="text" name="subject" placeholder="Ämne">
             </div>
             <div class="form-group">
-                <label for="message">Meddelande</label>
-                <textarea class="form-control" type="text" name="message" placeholder="Meddelande" rows="5"></textarea>
+                <label for="text">Meddelande</label>
+                <textarea class="form-control" type="text" name="text" placeholder="Meddelande" rows="5"></textarea>
             </div>
             <button type="submit" class="btn btn-red btn-expand">Skicka</button>
         </form>

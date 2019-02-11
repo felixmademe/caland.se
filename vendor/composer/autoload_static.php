@@ -130,6 +130,7 @@ class ComposerStaticInitebb7788215261d3228d6de31aac51e72
         'F' => 
         array (
             'Fideloper\\Proxy\\' => 16,
+            'Fedeisas\\LaravelMailCssInliner\\' => 31,
             'Faker\\' => 6,
         ),
         'E' => 
@@ -349,6 +350,10 @@ class ComposerStaticInitebb7788215261d3228d6de31aac51e72
         array (
             0 => __DIR__ . '/..' . '/fideloper/proxy/src',
         ),
+        'Fedeisas\\LaravelMailCssInliner\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/fedeisas/laravel-mail-css-inliner/src',
+        ),
         'Faker\\' => 
         array (
             0 => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker',
@@ -438,7 +443,8 @@ class ComposerStaticInitebb7788215261d3228d6de31aac51e72
         'App\\Http\\Middleware\\TrustProxies' => __DIR__ . '/../..' . '/app/Http/Middleware/TrustProxies.php',
         'App\\Http\\Middleware\\VerifyCsrfToken' => __DIR__ . '/../..' . '/app/Http/Middleware/VerifyCsrfToken.php',
         'App\\Mail\\Application' => __DIR__ . '/../..' . '/app/Mail/Application.php',
-        'App\\Mail\\ContactEmail' => __DIR__ . '/../..' . '/app/Mail/Contact.php',
+        'App\\Mail\\Contact' => __DIR__ . '/../..' . '/app/Mail/Contact.php',
+        'App\\Mail\\Support' => __DIR__ . '/../..' . '/app/Mail/Support.php',
         'App\\Providers\\AppServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AppServiceProvider.php',
         'App\\Providers\\AuthServiceProvider' => __DIR__ . '/../..' . '/app/Providers/AuthServiceProvider.php',
         'App\\Providers\\BroadcastServiceProvider' => __DIR__ . '/../..' . '/app/Providers/BroadcastServiceProvider.php',
@@ -1011,6 +1017,8 @@ class ComposerStaticInitebb7788215261d3228d6de31aac51e72
         'Faker\\Provider\\zh_TW\\Text' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/Provider/zh_TW/Text.php',
         'Faker\\UniqueGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/UniqueGenerator.php',
         'Faker\\ValidGenerator' => __DIR__ . '/..' . '/fzaninotto/faker/src/Faker/ValidGenerator.php',
+        'Fedeisas\\LaravelMailCssInliner\\CssInlinerPlugin' => __DIR__ . '/..' . '/fedeisas/laravel-mail-css-inliner/src/CssInlinerPlugin.php',
+        'Fedeisas\\LaravelMailCssInliner\\LaravelMailCssInlinerServiceProvider' => __DIR__ . '/..' . '/fedeisas/laravel-mail-css-inliner/src/LaravelMailCssInlinerServiceProvider.php',
         'Fideloper\\Proxy\\TrustProxies' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustProxies.php',
         'Fideloper\\Proxy\\TrustedProxyServiceProvider' => __DIR__ . '/..' . '/fideloper/proxy/src/TrustedProxyServiceProvider.php',
         'GuzzleHttp\\Client' => __DIR__ . '/..' . '/guzzlehttp/guzzle/src/Client.php',

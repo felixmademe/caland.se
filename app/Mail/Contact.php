@@ -14,19 +14,19 @@ class Contact extends Mailable
     public $name;
     public $email;
     public $subject;
-    public $message;
+    public $text;
 
     /**
      * Create a new message instance.
      *
      * @return void
      */
-    public function __construct( $name, $email, $subject, $message )
+    public function __construct( $name, $email, $subject, $text )
     {
         $this->name    = $name;
         $this->email   = $email;
         $this->subject = $subject;
-        $this->message = $message;
+        $this->text    = $text;
     }
 
     /**
@@ -36,7 +36,7 @@ class Contact extends Mailable
      */
     public function build()
     {
-        return $this->markdown( 'mail.contact' )
+        return $this->view( 'mail.contact' )
                     ->from( $this->email, $this->name )
                     ->replyTo( $this->email )
                     ->subject( $this->subject );

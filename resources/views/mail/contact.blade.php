@@ -1,6 +1,7 @@
-@component('mail::message')
+@extends( 'mail.layout' )
+@section( 'content' )
 
-{{ $message }}
+    <h2>{{ $subject }}</h2>
+    <p>{{ $text }}</p>
 
-<br>
-@endcomponent
+@endsection

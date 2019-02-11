@@ -56,8 +56,8 @@
                         <input class="form-control" type="text" name="position" placeholder="Position" required>
                     </div>
                     <div class="form-group">
-                        <label for="message">Beskriv dig själv</label>
-                        <textarea class="form-control" type="text" name="message" placeholder="Beskriv dig själv" rows="5" required></textarea>
+                        <label for="text">Beskriv dig själv</label>
+                        <textarea class="form-control" type="text" name="text" placeholder="Beskriv dig själv" rows="5" required></textarea>
                     </div>
                     <label for="file">CV</label>
                     <input type="file" class="filestyle" name="file" id="fileInput"

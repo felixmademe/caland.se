@@ -18,14 +18,14 @@ class EmailController extends Controller
             'name'    => 'required|string|max:255',
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
-            'message' => 'required|string'
+            'text'    => 'required|string'
         ] );
         Mail::to( 'felix.wetell@gmail.com' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
                 $request->subject,
-                $request->message,
+                $request->text,
             ) );
 
         return redirect()->back()->with( 'success', 'Ditt email har skickats!' );
@@ -37,8 +37,8 @@ class EmailController extends Controller
             'name'     => 'required|string|max:255',
             'email'    => 'required|email',
             'position' => 'required|string|max:255',
-            'message'  => 'required|string',
-            'file'       => 'required'
+            'text'     => 'required|string',
+            'file'     => 'required'
         ] );
 
         if( $request->file->getError() == 1 )
@@ -53,7 +53,7 @@ class EmailController extends Controller
                 $request->name,
                 $request->email,
                 $request->position,
-                $request->message,
+                $request->text,
                 $request->file
             ) );
 
@@ -66,14 +66,14 @@ class EmailController extends Controller
             'name'    => 'required|string|max:255',
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
-            'message' => 'required|string'
+            'text'    => 'required|string'
         ] );
         Mail::to( 'felix.wetell@gmail.com' )
             ->send( new Support(
                 $request->name,
                 $request->email,
                 $request->subject,
-                $request->message,
+                $request->text,
             ) );
 
         return redirect()->back()->with( 'success', 'Ditt ärende har skickats!' );

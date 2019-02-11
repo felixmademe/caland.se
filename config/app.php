@@ -161,11 +161,10 @@ return [
         Illuminate\Translation\TranslationServiceProvider::class,
         Illuminate\Validation\ValidationServiceProvider::class,
         Illuminate\View\ViewServiceProvider::class,
-
         /*
          * Package Service Providers...
          */
-
+         Fedeisas\LaravelMailCssInliner\LaravelMailCssInlinerServiceProvider::class,
         /*
          * Application Service Providers...
          */
