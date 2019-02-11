@@ -58,6 +58,24 @@
         </div>
     </section>
     <hr>
+    <section class="service-book">
+        {{-- <h3>Kurser</h3>
+        <ul class="list-group list-group-flush">
+            @foreach( $courses as $course )
+                <li>
+                    {{ $course[ 'title' ] }}
+                    <br>
+                    {{ $course[ 'price' ][ 'value' ] }} sek
+                </li>
+            @endforeach
+        </ul>
+        <hr> --}}
+        <h2>Boka utbildning</h2>
+        <script src="https://www.kursguiden.no/js/autoresize.js" charset="utf-8"></script>
+        <iframe id="kursguiden-course-module" src="https://www.kursguiden.no/coursemodule/?id=358"
+            frameborder="0" style="width:100%;height:100vh;"></iframe>
+    </section>
+    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
