@@ -160,6 +160,13 @@
                 <label for="text">Meddelande</label>
                 <textarea class="form-control" type="text" name="text" placeholder="Meddelande" rows="5"></textarea>
             </div>
+            <div class="form-group ml-4">
+                <input class="form-check-input" type="checkbox" name="policy" required>
+                <label class="form-check-label" for="policy">
+                    Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
+                    <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>
+                </label>
+            </div>
             <button type="submit" class="btn btn-red btn-expand">Skicka</button>
         </form>
     </section>

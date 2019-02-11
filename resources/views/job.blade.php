@@ -63,6 +63,13 @@
                     <input type="file" class="filestyle" name="file" id="fileInput"
                         accept="application/pdf, application/msword, text/plain" data-text="Välj fil" data-btnClass="btn-red-border" required>
                     <br>
+                    <div class="form-group ml-4">
+                        <input class="form-check-input" type="checkbox" name="policy" required>
+                        <label class="form-check-label" for="policy">
+                            Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
+                            <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>
+                        </label>
+                    </div>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
             </div>
