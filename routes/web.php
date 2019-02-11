@@ -39,6 +39,11 @@ Route::get( 'jobb', function ()
     return view( 'job' );
 } )->name( 'job' );
 
+Route::get( 'support', function ()
+{
+    return view( 'support' );
+} )->name( 'support' );
+
 Route::get( 'tjänster/betonghåltagning', function ()
 {
     return view( 'services.concrete.index' );
