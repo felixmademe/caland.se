@@ -61,7 +61,7 @@
                     </div>
                     <label for="file">CV</label>
                     <input type="file" class="filestyle" name="file" id="fileInput"
-                        accept=".pdf" data-text="Välj fil" data-btnClass="btn-red-border" required>
+                        accept="application/pdf, application/msword, text/plain" data-text="Välj fil" data-btnClass="btn-red-border" required>
                     <br>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>
                 </form>
