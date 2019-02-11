@@ -36,7 +36,7 @@
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
+                    <a class="nav-link btn-red-border m-1" id="third-tab" data-toggle="pill" href="#third"
                     role="tab" aria-controls="third" aria-selected="false">
                         Krokbil och lastmaskin
                     </a>
@@ -72,7 +72,7 @@
                     </p>
                     <img class="img-fluid" src="{{ asset( '/img/service/kranbil.jpg' ) }}" alt="Kranbil">
                 </div>
-                <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
+                <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
