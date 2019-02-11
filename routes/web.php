@@ -44,6 +44,11 @@ Route::get( 'support', function ()
     return view( 'support' );
 } )->name( 'support' );
 
+Route::get( 'intergitespolicy', function ()
+{
+    return view( 'policy' );
+} )->name( 'policy' );
+
 Route::get( 'tjänster/betonghåltagning', function ()
 {
     return view( 'services.concrete.index' );
@@ -133,7 +138,6 @@ Route::get( 'tjänster/utbildning/heta-arbeten', function ()
 {
     return view( 'services.courses.warm-work' );
 } )->name( 'warm-work' );
-
 
 //
 // Email
