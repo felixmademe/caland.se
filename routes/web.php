@@ -140,3 +140,4 @@ Route::get( 'tjänster/utbildning/heta-arbeten', function ()
 //
 Route::post( '/kontakta-email', 'EmailController@contactEmail' );
 Route::post( '/ansökan-email', 'EmailController@applicationEmail' );
+Route::post( '/support-email', 'EmailController@supportEmail' );

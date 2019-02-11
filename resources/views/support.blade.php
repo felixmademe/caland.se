@@ -20,11 +20,11 @@
 
     <section class="contact p-0 p-md-5">
         <div class="text-center">
-            <h2>Kontakta oss</h2>
+            <h2>Support</h2>
             <p>
-                Hittar du svar på dina frågor?
-                Du är självklart välkommen att ringa oss eller så kan du skriva till oss.
-                Det kan du göra genom att använda formuläret nedan.
+                Här kan du skicka in ett meddelande om du tycker att något ser konstigt ut eller om
+                något inte fungerar som det ska. Gäller det kontakt med Caland, använd det
+                <a href="{{ route( 'contact' ) }}">här formuläret</a>.
             </p>
         </div>
         <form class="" action="/support-email" method="post">

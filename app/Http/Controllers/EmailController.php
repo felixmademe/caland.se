@@ -58,4 +58,23 @@ class EmailController extends Controller
 
         return redirect()->back()->with( 'success', 'Din ansökan har skickats!' );
     }
+
+    public function supportEmail( Request $request )
+    {
+        $request->validate( [
+            'name'    => 'required|string|max:255',
+            'email'   => 'required|email',
+            'subject' => 'required|string|max:255',
+            'message' => 'required|string'
+        ] );
+        Mail::to( 'felix.wetell@gmail.com' )
+            ->send( new Support(
+                $request->name,
+                $request->email,
+                $request->subject,
+                $request->message,
+            ) );
+
+        return redirect()->back()->with( 'success', 'Ditt ärende har skickats!' );
+    }
 }
