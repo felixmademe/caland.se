@@ -20,45 +20,47 @@
             Vi erbjuder yrkeskunnig bemanning främst inom våra verksamhetsområden transport,
             industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov.
         </p>
-        <div class="d-block row d-md-flex flex-md-row py-4">
-            <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/staff-truck.jpg' ) }}" alt="Kranbil">
-            </div>
-            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Personaluthyrning</h3>
+        <div class="row justify-content-center">
+            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
+                        role="tab" aria-controls="first" aria-selected="true">
+                        Personaluthyrning
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
+                    role="tab" aria-controls="second" aria-selected="false">
+                        Bemanningsentrepenad
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
+                    role="tab" aria-controls="third" aria-selected="false">
+                        Rekrytering
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <div class="tab-content px-2" id="myTabContent">
+                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
+                    <img class="img-fluid" src="{{ asset( '/img/service/staff-truck.jpg' ) }}" alt="Gaffeltruck">
                 </div>
-            </div>
-        </div>
-        <hr>
-        <div class="d-block row d-md-flex flex-md-row-reverse py-4">
-            <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/staff-lorry.jpg' ) }}" alt="Kranbil">
-            </div>
-            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Bemanningsentrepenad</h3>
+                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Vi kan ta över ansvaret och bemanna en hel avdelning hos er, inklusive arbetsledning.
                     </p>
+                    <img class="img-fluid" src="{{ asset( '/img/service/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
                 </div>
-            </div>
-        </div>
-        <hr>
-        <div class="d-block row d-md-flex flex-md-row py-4">
-            <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/staff-welding.jpg' ) }}" alt="Kranbil">
-            </div>
-            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Rekrytering</h3>
+                <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
                         På uppdrag hjälper vi till med rekrytering. Vår breda erfarenhet från
                         personaluthyrning hjälper er att hitta rätt kompetens.
                     </p>
+                    <img class="img-fluid" src="{{ asset( '/img/service/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>
