@@ -34,65 +34,23 @@
         </div>
     </header>
 
-    <section class="company">
-        <div class="d-block row d-md-flex flex-md-row">
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
-                <img src="{{ asset( '/img/collection.jpg' ) }}" alt="">
-            </div>
-            <br class="d-block d-md-none">
-            <div class="col-md-6 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Caland AB</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <a class="btn btn-red btn-expand" href="{{ route( 'about' ) }}">Läs mer</a>
-                </div>
-            </div>
-        </div>
-        <br class="d-block d-md-none">
-        <div class="d-block row d-md-flex flex-md-row-reverse">
-            <div class="col-md-6 d-flex align-items-center justify-content-center">
-                <img src="{{ asset( '/img/collection.jpg' ) }}" alt="">
-            </div>
-            <br class="d-block d-md-none">
-            <div class="col-md-6 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Caland AB</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <a class="btn btn-red btn-expand" href="{{ route( 'about' ) }}">Läs mer</a>
-                </div>
-            </div>
-        </div>
-        <br class="d-block d-md-none">
-        <div class="d-block row d-md-flex flex-md-row">
-            <div class="col-md-6 text-center d-flex align-items-center justify-content-center">
-                <img src="{{ asset( '/img/collection.jpg' ) }}" alt="">
-            </div>
-            <br class="d-block d-md-none">
-            <div class="col-md-6 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
-                    <h3>Caland AB</h3>
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliqu
-                    </p>
-                    <a class="btn btn-red btn-expand" href="{{ route( 'about' ) }}">Läs mer</a>
-                </div>
-            </div>
+    <section class="company py-5">
+        <div class="col-md-8 offset-md-2">        
+            <h2>Tjänster</h2>
+            <p>Vi erbjuder ett flertal olika tjänster till både företag och privatpersoner.</p>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
+            <hr>
+            <h3>Jobb</h3>
+            <p>
+                Vi har flertal olika tjänster och söker alltid nya medarbetare. Kolla in tjänster vi har
+                och skicka in en intresseanmälan!
+            </p>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'job' ) }}">Jobba på Caland</a>
         </div>
     </section>
 
