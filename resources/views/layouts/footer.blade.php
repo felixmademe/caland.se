@@ -25,11 +25,11 @@
                     <br>
                     <a class="" href="{{ route( 'staff' ) }}">Bemaning</a>
                     <br>
-                    <a class="" href="{{ route( 'course' ) }}">Utbildning</a>
-                    <br>
                     <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <br>
                     <a class="" href="{{ route( 'cleaning' ) }}">Städ</a>
+                    <br>
+                    <a class="" href="{{ route( 'course' ) }}">Utbildning</a>
                     {{-- <br>
                     <a class="" href="{{ route( 'company-service' ) }}">Företagsservice</a> --}}
                 </p>

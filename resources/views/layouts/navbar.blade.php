@@ -21,13 +21,13 @@
                 <a class="nav-link" href="{{ route( 'staff' ) }}">Bemaning</a>
             </li>
             <li class="nav-item link-effect">
-                <a class="nav-link" href="{{ route( 'course' ) }}">Utbildning</a>
-            </li>
-            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'cleaning' ) }}">Städ</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'course' ) }}">Utbildning</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
