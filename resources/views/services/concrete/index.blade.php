@@ -57,7 +57,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/service/brokk-arbete.jpg' ) }}" alt="Samling av bilder">
                 </div>
                 <div class="tab-pane fade" id="rivning" role="tabpanel" aria-labelledby="rivning-tab">
                     <p>
@@ -68,7 +68,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/service/golvslipning.jpg' ) }}" alt="Slipning av gold">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
@@ -79,7 +79,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/service/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
                 </div>
                 <div class="tab-pane fade" id="stor-maskinpark" role="tabpanel" aria-labelledby="stor-maskinpark-tab">
                     <p>
@@ -93,7 +93,13 @@
                             <li>Grävmaskin</li>
                         </ul>
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <div class="col-10 mx-auto">
+                        <img class="img-fluid" src="{{ asset( '/img/service/kranbil.jpg' ) }}" alt="Kranbil">
+                        <hr>
+                        <img class="img-fluid" src="{{ asset( '/img/service/hjullastare.jpg' ) }}" alt="Hjullastare">
+                        <hr>
+                        <img class="img-fluid" src="{{ asset( '/img/service/brokk.jpg' ) }}" alt="Tvätt av Brokk">
+                    </div>
                 </div>
             </div>
         </div>
