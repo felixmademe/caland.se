@@ -20,6 +20,8 @@
             Våra duktiga instruktörer erbjuder en mängd olika kompetenshöjande
             utbildningar inom bl a transport, bygg och industri. Kontakta oss när ni är
             i behov av nedan tjänster. Vi jobbar i Karlstad & hela Värmland.
+            <br>
+            <i>Se längre ner för bokning av kurs.</i> 
         </p>
         <div class="row justify-content-center">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
