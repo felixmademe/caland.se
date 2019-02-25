@@ -41,7 +41,7 @@ class Application extends Mailable
         return $this->view( 'mail.application' )
                     ->from( $this->email, $this->name )
                     ->replyTo( $this->email )
-                    ->subject( $this->position )
+                    ->subject( 'Jobbansökan: ' . $this->position )
                     ->attach( $this->file->getRealPath(),
                     [
                         'as' => $this->file->getClientOriginalName(),

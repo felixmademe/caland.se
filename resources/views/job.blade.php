@@ -2,6 +2,22 @@
 @section( 'title', 'Jobba på Caland' )
 @section( 'content' )
 
+    @if( session()->has( 'success' ) )
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session()->get( 'success' ) }}
+            <button type="button" class="close black" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @elseif( session()->has( 'error' ) )
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session()->get( 'error' ) }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @endif
+
     <section class="info row justify-content-center px-0">
         <div class="col-md-8 bg-white py-5 px-4">
             <h1>Jobba på Caland</h1>

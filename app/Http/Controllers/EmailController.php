@@ -19,10 +19,10 @@ class EmailController extends Controller
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
             'text'    => 'required|string',
-            'policy'  => 'required'
+            'policy'  => 'accepted'
         ] );
 
-        Mail::to( 'info@caland.se' )
+        Mail::to( 'felix.wetell@gmail.com' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
@@ -40,8 +40,8 @@ class EmailController extends Controller
             'email'    => 'required|email',
             'position' => 'required|string|max:255',
             'text'     => 'required|string',
-            'file'     => 'required'
-            'policy'  => 'required'
+            'file'     => 'required',
+            'policy'   => 'accepted'
         ] );
 
         if( $request->file->getError() == 1 )
@@ -69,8 +69,8 @@ class EmailController extends Controller
             'name'    => 'required|string|max:255',
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
-            'text'    => 'required|string'
-            'policy'  => 'required'
+            'text'    => 'required|string',
+            'policy'  => 'accepted'
         ] );
         Mail::to( 'felix.wetell@gmail.com' )
             ->send( new Support(

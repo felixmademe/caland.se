@@ -42,7 +42,7 @@
                 <li class="nav-item">
                     <a class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
                     role="tab" aria-controls="stor-maskinpark" aria-selected="false">
-                        Stor maskinpark
+                        Vår maskinpark
                     </a>
                 </li>
             </ul>
@@ -115,9 +115,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Arbetsledare</span>
+                    <span class="red">Verksamhetschef</span>
                     <br>
-                    070-399 81 23
+                    070-537 98 28
                     <br>
                     <a class="link-effect" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
@@ -126,9 +126,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
                 <h4>Robin Gränsed</h4>
                 <p>
-                    <span class="red">Verksamhetschef</span>
+                    <span class="red">Arbetsledare</span>
                     <br>
-                    070-537 98 28
+                    070-399 81 23
                     <br>
                     <a class="link-effect" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>

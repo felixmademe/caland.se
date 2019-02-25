@@ -2,6 +2,22 @@
 @section( 'title', 'Kontakt' )
 @section( 'content' )
 
+    @if( session()->has( 'success' ) )
+        <div class="alert alert-success alert-dismissible fade show" role="alert">
+            {{ session()->get( 'success' ) }}
+            <button type="button" class="close black" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @elseif( session()->has( 'error' ) )
+        <div class="alert alert-danger alert-dismissible fade show" role="alert">
+            {{ session()->get( 'error' ) }}
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+    @endif
+
     <section class="staff">
         <h1>Personal</h1>
         <div class="row">
@@ -114,25 +130,7 @@
             </div>
         </div>
     </section>
-
     <hr>
-
-    @if( session()->has( 'success' ) )
-        <div class="alert alert-success alert-dismissible fade show" role="alert">
-            {{ session()->get( 'success' ) }}
-            <button type="button" class="close black" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    @elseif( session()->has( 'error' ) )
-        <div class="alert alert-danger alert-dismissible fade show" role="alert">
-            {{ session()->get( 'error' ) }}
-            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-            </button>
-        </div>
-    @endif
-
     <section class="contact p-0 p-md-5">
         <div class="text-center">
             <h2>Kontakta oss</h2>
