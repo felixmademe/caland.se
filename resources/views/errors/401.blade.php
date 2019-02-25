@@ -1,4 +1,4 @@
-@extends( 'layouts.app' )
+@extends( 'layouts.error' )
 @section( 'title', '401' )
 @section( 'content' )
 
