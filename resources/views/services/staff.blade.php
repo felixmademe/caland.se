@@ -47,20 +47,20 @@
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/staff-truck.jpg' ) }}" alt="Gaffeltruck">
+                    <img class="img-fluid" src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Vi kan ta över ansvaret och bemanna en hel avdelning hos er, inklusive arbetsledning.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
+                    <img class="img-fluid" src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
                         På uppdrag hjälper vi till med rekrytering. Vår breda erfarenhet från
                         personaluthyrning hjälper er att hitta rätt kompetens.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <img class="img-fluid" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>

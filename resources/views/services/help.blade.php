@@ -47,7 +47,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <img class="img-fluid" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
@@ -58,7 +58,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <img class="img-fluid" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>

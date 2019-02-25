@@ -59,7 +59,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/transport.jpg' ) }}" alt="Godstransport">
+                    <img class="img-fluid" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
@@ -70,7 +70,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/kranbil.jpg' ) }}" alt="Kranbil">
+                    <img class="img-fluid" src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
                 </div>
                 <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <p>
@@ -81,7 +81,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/krokbil.jpg' ) }}" alt="Krokbil">
+                    <img class="img-fluid" src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
                 </div>
                 <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
                     <p>
@@ -92,12 +92,12 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/service/transport.jpg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Samling av bilder">
                 </div>
             </div>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( '/img/service/iso.jpg' ) }}" alt="">
+            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="">
         </div>
     </section>
     <hr>
