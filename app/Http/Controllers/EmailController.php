@@ -22,7 +22,7 @@ class EmailController extends Controller
             'policy'  => 'required'
         ] );
 
-        Mail::to( 'felix.wetell@gmail.com' )
+        Mail::to( 'info@caland.se' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
