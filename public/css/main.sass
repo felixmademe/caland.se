@@ -72,6 +72,9 @@ hr
 .black
     color: $black
 
+.white-text
+    color: $white
+
 .underline
     text-decoration: underline !important
 
@@ -113,12 +116,26 @@ hr
             color: $white
 
 .btn-red-border.active
-        background-color: $primary
-        border: 1px solid $primary
-        color: $white
-        &:hover
-            background-color: $primary-strong
-            box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+    background-color: $primary
+    border: 1px solid $primary
+    color: $white
+    &:hover
+        background-color: $primary-strong
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
+.btn-start
+    background-color: $primary
+    border: 1px solid $primary
+    color: $white
+    padding: 1.5em
+    width: 100%
+    font-size: 20px
+    &:hover
+        background-color: $white
+        color: $primary-strong
+        border: 1px solid $primary-strong
+        box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
+
 
 .bg-white
     background-color: $white
@@ -178,26 +195,40 @@ hr
 //
 // Landing page
 //
-.mobile-hero
-    overflow-x: hidden
-    img
-        height: 100vh
-    .text
-        position: absolute
-        width: 100%
-        top: 25%
-        left: 0%
-        background-color: $white
-        padding: 2em
-
 .hero
-    height: 100vh
     overflow: hidden
-    .text-half
-        padding: 2em
-    .img-half
-        img
-            height: 100vh
+    max-height: 500px
+    background-image: url( '/img/collection.jpg' )
+    .text-box
+        position: absolute
+        top: 120px
+        left: 0
+        right: 0
+        margin: 0 auto
+        text-align: center
+        color: $white
+        .logo-wrapper
+            margin: 0 auto
+            width: 100px
+            height: 100px
+            padding: 5px
+            border-radius: 100%
+            background-color: $white
+            align-content: center
+            img
+                position: absolute
+                top: 40px
+                left: 0
+                right: 0
+                margin: 0 auto
+                text-align: center
+                height: 20px
+        h1
+            font-size: 4em
+            color: $white
+        p
+            font-size: 1.5em !important
+
 
 .clients
     height: 100vh
