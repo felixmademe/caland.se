@@ -8,7 +8,7 @@
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
         <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
         <link rel="stylesheet" href="{{ asset( '/css/main.min.css' ) }}">
-        <link rel="shortcut icon" href="{{ asset( '/img/logo.ico' ) }}" />
+        <link rel="shortcut icon" href="{{ asset( '/img/icon.ico' ) }}" />
 
         <title>@yield( 'title' ) - {{ config('app.name', 'Caland AB') }}</title>
     </head>
