@@ -73,18 +73,22 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
                 <h4>Charlotta Löfgren</h4>
                 <p>
-                    <span class="red">Personalchef</span>
+                    <span class="red">Företagsservice</span>
+                    <br>
+                    Personalchef
                     <br>
                     054-22 07 94
                     <br>
-                    <a class="link-effect" href="mailto:charlotta@caland.se">charlotta@caland.se</a>
+                    <a class="link-effect" href="mailto:lotta@caland.se">lotta@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
                 <img class="img-fluid" src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
-                    <span class="red">Konsultchef/HR</span>
+                    <span class="red">Företagsservice</span>
+                    <br>
+                    Konsultchef/HR
                     <br>
                     054-22 07 95
                     <br>
@@ -92,6 +96,11 @@
                 </p>
             </div>
         </div>
+    </section>
+    <hr>
+    <section class="service-return">
+        <p>Klicka här för att gå tillbaka</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

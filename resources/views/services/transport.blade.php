@@ -41,12 +41,6 @@
                         Krokbil och lastmaskin
                     </a>
                 </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="fourth-tab" data-toggle="pill" href="#fourth"
-                    role="tab" aria-controls="fourth" aria-selected="false">
-                        Åkeri
-                    </a>
-                </li>
             </ul>
             <br>
             <div class="tab-content px-2" id="myTabContent">
@@ -83,17 +77,6 @@
                     </p>
                     <img class="img-fluid" src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
                 </div>
-                <div class="tab-pane fade" id="fourth" role="tabpanel" aria-labelledby="fourth-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Samling av bilder">
-                </div>
             </div>
         </div>
         <div class="text-center my-3">
@@ -108,7 +91,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
                 <h4>Henrik Pagré</h4>
                 <p>
-                    <span class="red">Logistikansvarig</span>
+                    <span class="red">Transport</span>
+                    <br>
+                    Logistikansvarig
                     <br>
                     054-22 07 92
                     <br>
@@ -117,4 +102,10 @@
             </div>
         </div>
     </section>
+    <hr>
+    <section class="service-return">
+        <p>Klicka här för att gå tillbaka</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+    </section>
+
 @endsection

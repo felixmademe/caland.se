@@ -18,7 +18,7 @@
         <h2>Vad gör vi?</h2>
         <div class="d-block row d-md-flex flex-md-row py-4">
             <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/service/stad.jpg' ) }}" alt="Kranbil">
+                <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
             </div>
             <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
                 <div class="text-block">
@@ -45,7 +45,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/lotta.jpg' ) }}" alt="Lotta Ohlson Klein">
                 <h4>Lotta Ohlson Klein</h4>
                 <p>
-                    <span class="red">Personalchef</span>
+                    <span class="red">Företagsservice</span>
+                    <br>
+                    Personalchef
                     <br>
                     072-724 77 06
                     <br>
@@ -53,6 +55,11 @@
                 </p>
             </div>
         </div>
+    </section>
+    <hr>
+    <section class="service-return">
+        <p>Klicka här för att gå tillbaka</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

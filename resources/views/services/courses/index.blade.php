@@ -74,7 +74,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
                 <h4>Johan Wallstav</h4>
                 <p>
-                    <span class="red">Utbildare</span>
+                    <span class="red">Företagsservice</span>
+                    <br>
+                    <b>Utbildare</b>
                     <br>
                     054-22 07 97
                     <br>
@@ -85,7 +87,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
                 <h4>Reimond Sundström</h4>
                 <p>
-                    <span class="red">Utbildare</span>
+                    <span class="red">Företagsservice</span>
+                    <br>
+                    <b>Utbildare</b>
                     <br>
                     054-22 07 98
                     <br>
@@ -93,6 +97,11 @@
                 </p>
             </div>
         </div>
+    </section>
+    <hr>
+    <section class="service-return">
+        <p>Klicka här för att gå tillbaka</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

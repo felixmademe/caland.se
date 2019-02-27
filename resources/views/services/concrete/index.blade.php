@@ -108,6 +108,11 @@
         </div>
     </section>
     <hr>
+    <section class="service-reference">
+        <p>Klicka här för se några referensprojekt</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'references' ) }}">Referensprojekt</a>
+    </section>
+    <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
@@ -115,7 +120,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Verksamhetschef</span>
+                    <span class="red">Betonghåltagning</span>
+                    <br>
+                    Verksamhetschef
                     <br>
                     070-537 98 28
                     <br>
@@ -126,7 +133,9 @@
                 <img class="img-fluid" src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
                 <h4>Robin Gränsed</h4>
                 <p>
-                    <span class="red">Arbetsledare</span>
+                    <span class="red">Betonghåltagning</span>
+                    <br>
+                    Arbetsledare
                     <br>
                     070-399 81 23
                     <br>
@@ -134,6 +143,11 @@
                 </p>
             </div>
         </div>
+    </section>
+    <hr>
+    <section class="service-return">
+        <p>Klicka här för att gå tillbaka</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection
