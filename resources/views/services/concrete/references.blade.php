@@ -2,43 +2,44 @@
 @section( 'title', 'Betonghåltagning' )
 @section( 'content' )
 
-    <section class="text-center">
+    <section class="service-header">
         <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Betonghåltagning">
         <br><br>
-        <h1>Betonghåltagning - Referenser</h1>
+        <h1>Referenser</h1>
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
+            <br>
             <span class="underline">Bredden är vår styrka</span>.
         </p>
     </section>
     <hr>
     <section>
-        <h2>Referenser</h2>
+        <h2>Projekt</h2>
         <div class="row justify-content-center">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="pead-tab" data-toggle="pill" href="#pead"
-                        role="tab" aria-controls="pead" aria-selected="true">
-                        PEAB
+                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
+                        role="tab" aria-controls="first" aria-selected="true">
+                        Kund 1
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="dhl-tab" data-toggle="pill" href="#dhl"
-                    role="tab" aria-controls="dhl" aria-selected="false">
-                        DHL
+                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
+                    role="tab" aria-controls="second" aria-selected="false">
+                        Kund 2
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="valmet-tab" data-toggle="pill" href="#valmet"
-                    role="tab" aria-controls="valmet" aria-selected="false">
-                        Valmet
+                    <a class="nav-link btn-red-border m-1" id="third-tab" data-toggle="pill" href="#third"
+                    role="tab" aria-controls="third" aria-selected="false">
+                        Kund 3
                     </a>
                 </li>
             </ul>
             <br>
             <div class="tab-content px-2" id="myTabContent">
-                <div class="tab-pane fade show active" id="pead" role="tabpanel" aria-labelledby="pead-tab">
+                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -47,9 +48,9 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/peab.svg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
-                <div class="tab-pane fade" id="dhl" role="tabpanel" aria-labelledby="dhl-tab">
+                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -58,9 +59,9 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/dhl.png' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
-                <div class="tab-pane fade" id="valmet" role="tabpanel" aria-labelledby="valmet-tab">
+                <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -69,7 +70,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/valmet.jpg' ) }}" alt="Samling av bilder">
+                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
             </div>
         </div>
