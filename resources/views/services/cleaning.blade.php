@@ -16,12 +16,29 @@
     <hr>
     <section class="service-about">
         <h2>Vad gör vi?</h2>
-        <div class="d-block row d-md-flex flex-md-row py-4">
-            <div class="col-lg-5 d-flex align-items-center justify-content-center">
-                <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
-            </div>
-            <div class="col-lg-7 mt-3 mt-md-0 bg-white d-flex align-items-center justify-content-center">
-                <div class="text-block">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+        <div class="row justify-content-center">
+            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+                <li class="nav-item">
+                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
+                        role="tab" aria-controls="first" aria-selected="true">
+                        Städ
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
+                    role="tab" aria-controls="second" aria-selected="false">
+                        Bygghjälpen
+                    </a>
+                </li>
+            </ul>
+            <br>
+            <div class="tab-content px-2" id="myTabContent">
+                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Vi utför städtjänster för företag och privatpersoner.
                         Vi ombesörjer städ på följande områden:
@@ -33,6 +50,19 @@
                             <li>Hem</li>
                         </ul>
                     </p>
+                    <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
+                </div>
+                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+                    </p>
+                    <div class="text-center">
+                        <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                    </div>
+                    <br>
+                    <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
                 </div>
             </div>
         </div>
