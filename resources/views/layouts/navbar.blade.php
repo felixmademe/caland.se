@@ -12,19 +12,19 @@
                 <a class="nav-link" href="{{ route( 'index' ) }}">Start <span class="sr-only">(current)</span></a>
             </li>
             <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'staff' ) }}">Bemanning</a>
+            </li>
+            <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-            </li>
-            <li class="nav-item link-effect">
-                <a class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
-            </li>
-            <li class="nav-item link-effect">
-                <a class="nav-link" href="{{ route( 'staff' ) }}">Bemaning</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'cleaning' ) }}">Städ</a>
+            </li>
+            <li class="nav-item link-effect">
+                <a class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
             </li>
             <li class="nav-item link-effect">
                 <a class="nav-link" href="{{ route( 'course' ) }}">Utbildning</a>
@@ -36,10 +36,10 @@
         <div class="dropdown-divider d-block d-lg-none"></div>
         <ul class="navbar-nav ml-auto">
             <li class="nav-item link-effect">
-                <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
+                <a class="nav-link" href="{{ route( 'contact' ) }}">Kontakt</a>
             </li>
             <li class="nav-item link-effect">
-                <a class="nav-link" href="{{ route( 'contact' ) }}">Kontakt</a>
+                <a class="nav-link" href="{{ route( 'about' ) }}">Om oss</a>
             </li>
         </ul>
     </div>
