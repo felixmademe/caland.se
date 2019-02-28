@@ -9,6 +9,7 @@
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
+            <br>
             <span class="underline">Bredden är vår styrka</span>.
         </p>
     </section>
