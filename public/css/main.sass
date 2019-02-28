@@ -169,6 +169,14 @@ hr
     background-color: $white
     .nav-item
         color: $primary
+        margin: 0 2px
+    .active
+        background-color: $primary
+        border-radius: 0.25em
+        .nav-link
+            color: $white
+            font-weight: bolder !important
+
 
 .custom-toggler
     &.navbar-toggler
@@ -435,3 +443,12 @@ hr
         background-color: $white
     .error-message
         min-height: 70vh
+
+    .navbar-collapse
+        .active
+            background-color: $white
+            border-bottom: 2px solid $primary
+            border-radius: 0
+            .nav-link
+                font-weight: bolder !important
+                color: $primary

@@ -56,7 +56,7 @@
             </a>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( 'img/service/iso.jpg' ) }}" alt="">
+            <img src="{{ asset( 'img/services/iso.jpg' ) }}" alt="">
         </div>
     </section>
     <hr>
