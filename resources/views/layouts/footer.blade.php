@@ -44,7 +44,12 @@
                     <br>
                     {{ env( 'MAIL_FROM_ADRESS', 'info@caland.se' ) }}
                     <br>
-                    <a href="https://www.facebook.com/calandkoncernen" target="_blank"><i class="fab fa-facebook-square fa-2x"></i></a>
+                    <a href="https://www.facebook.com/calandkoncernen" target="_blank">
+                        <i class="fab fa-facebook-square fa-2x"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/company/caland-ab/about/" target="_blank">
+                        <i class="fab fa-linkedin fa-2x"></i>
+                    </a>
                 </p>
             </div>
         </div>
