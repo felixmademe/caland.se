@@ -23,7 +23,7 @@
                     <a class="btn btn-start" href="{{ route( 'course' ) }}">Boka utbildning</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a class="btn btn-start" href="{{ route( 'contact' ) }}">Kontatka oss</a>
+                    <a class="btn btn-start" href="{{ route( 'contact' ) }}">Kontakta oss</a>
                 </div>
                 <div class="col-sm-6 p-2">
                     <a class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>

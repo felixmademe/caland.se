@@ -5,7 +5,7 @@
     <section class="course-about">
         <h1>Fordonsmonterad kranutbildning</h1>
         <p>
-            <b>Fordonsmonterad Kranutbildning</b>
+            <b>Fordonsmonterad kranutbildning</b>
             <br><br>
             Utbildning där du lär dig att köra fordonsmonterad kran.
             <br><br>
@@ -15,7 +15,7 @@
             <br><br>
             Efter avslutad och godkänd utbildning erhålles intyg enligt TYA
             <br><br>
-            Välkommen att kontakta oss när ni behöver utbildas i Fordonsmonterad Kranutbildning i Karlstad & Värmland.
+            Välkommen att kontakta oss när ni behöver utbildas i fordonsmonterad kranutbildning i Karlstad & Värmland.
         </p>
     </section>
     <hr>

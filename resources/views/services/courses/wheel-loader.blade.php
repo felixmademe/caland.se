@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Hjullastare-utbildning</h1>
+        <h1>Hjullastarutbildning</h1>
         <p>
             <h4>Översikt</h4>
             Inför denna utbildning vill vi gärna veta vilka förkunskaper och erfarenhet ni har sedan tidigare, detta för att göra en individuell utbildningsplan.

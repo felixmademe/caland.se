@@ -1,11 +1,11 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Bom och saxlift-utbildning' )
+@section( 'title', 'Bom- och saxliftutbildning' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Bom och saxlift-utbildning</h1>
+        <h1>Bom- och saxliftutbildning</h1>
         <p>
-            Utbildning i mobila arbetsplattformar Skylift, saxlift och Bom i Karlstad & Värmland
+            Utbildning i mobila arbetsplattformar bom-, sax- och skylift i Karlstad & Värmland
             <br><br>
             Caland är certifierade och utfärdar förarbevis på mobila arbetsplattformar, s k skylift
             och saxplattform enligt SS-ISO 18878:2004
@@ -25,7 +25,7 @@
             <br>
             Läs mer om utbildningen här:
             <br>
-            <a class="btn btn-red" href="{{ asset( 'storage/bom-och-saxlift.pdf' ) }}" target="_blank">Bom och saxlift</a>
+            <a class="btn btn-red" href="{{ asset( 'storage/bom-och-saxlift.pdf' ) }}" target="_blank">Bom- och saxlift</a>
         </p>
     </section>
     <hr>

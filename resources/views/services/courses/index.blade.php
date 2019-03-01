@@ -31,13 +31,13 @@
                 Arbete på väg-utbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
-                Bom och saxlift-utbildning
+                Bom- och saxliftutbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
                 Första hjälpen-utbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
-                Hjullastare-utbildning
+                Hjullastarutbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
                 Fordonsmonterad kranutbildning
@@ -49,10 +49,10 @@
                 Truckutbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
-                Säkra Lyftutbildning
+                Säkra lyft-utbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
-                Heta Arbeten
+                Heta arbeten
             </a>
         </div>
         <div class="text-center my-3">

@@ -5,7 +5,7 @@
     <section class="course-about">
         <h1>Traversutbildning</h1>
         <p>
-            Vi på Caland är certifierade och erbjuder Traverutbildning som följer SS-ISO 9926-1.
+            Vi på Caland är certifierade och erbjuder Traversutbildning som följer SS-ISO 9926-1.
             <br><br>
             <b>Kursinnehåll:</b>
             <br>

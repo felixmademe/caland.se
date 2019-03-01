@@ -23,7 +23,7 @@
                     <br>
                     <a class="" href="{{ route( 'transport' ) }}">Transport</a>
                     <br>
-                    <a class="" href="{{ route( 'staff' ) }}">Bemaning</a>
+                    <a class="" href="{{ route( 'staff' ) }}">Bemanning</a>
                     <br>
                     <a class="" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     <br>

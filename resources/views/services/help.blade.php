@@ -5,7 +5,7 @@
     <section class="service-header">
         <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
-        <h1>Bygghjälen</h1>
+        <h1>Bygghjälpen</h1>
         <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.

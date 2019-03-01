@@ -5,7 +5,7 @@
     <section class="course-about">
         <h1>Arbete på väg-utbildning</h1>
         <p>
-            Arbete på Väg Utbildning – Kursen uppfyller alla de krav på utbildningen, som Trafikverket ställer, för personal som utför arbete på väg.
+            Arbete på väg-utbildning – Kursen uppfyller alla de krav på utbildningen, som Trafikverket ställer, för personal som utför arbete på väg.
             <br><br>
             <b>Kursbeskrivning:</b>
             <br>

@@ -7,14 +7,14 @@
         <p>
             <h4>Full ADR behörighet för chaufförer</h4>
             <br>
-            ADR Ny Grund, Styckegods omfattar alla klasser.
+            ADR ny Grund, styckegods omfattar alla klasser.
             <br><br>
             Efter godkänd utbildning utfärdas ett ADR – intyg som gäller i fem år.
             <br><br>
-            ADR Utbildning riktar sig till:
+            ADR-utbildning riktar sig till:
             <br>
             <ul>
-                <li>chaufförer som transporterar mindre mängder farligt gods</li>
+                <li>Chaufförer som transporterar mindre mängder farligt gods</li>
                 <li>övrig personal som kommer i kontakt med farligt gods, t ex kontor, lager- och terminalpersonal</li>
             </ul>
             Om det kan räknas som mindre mängd beror på ämnets farlighet och kvantiteten. Kontakta oss så

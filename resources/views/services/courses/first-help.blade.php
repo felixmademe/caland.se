@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Första-hjälpen-utbildning</h1>
+        <h1>Första hjälpen-utbildning</h1>
         <p>
             Calandkoncernen kämpar för att ingen ska lämnas ensam i en katastrof. Våra utbildningar
             i första hjälpen och hjärt-lungräddning är ett konkret sätt att omsätta denna ambition i handling.

@@ -5,11 +5,11 @@
     <section class="course-about">
         <h1>Säkra lyft-utbildning</h1>
         <p>
-            <h4>Säkra lyftutbildning</h4>
+            <h4>Säkra lyft-utbildning</h4>
             Majoriteten av alla olyckor beror på felhantering av last eller redskap. Genom att känna
             till lagar, föreskrifter och standarder kan ni planera och utföra lyftarbetet på ett säkert sätt.
             <br><br>
-            Med en Säkra Lyftutbildning minskar ni risken för antalet olyckor och tillbud.
+            Med en säkra lyft-utbildning minskar ni risken för antalet olyckor och tillbud.
             <br><br>
             Våra kurser uppfyller myndigheternas krav på dokumenterad utbildning och bygger på lång
             erfarenhet från besiktning och kontroll.
