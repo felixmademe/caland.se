@@ -64,6 +64,9 @@
                 </div>
             </div>
         </div>
+        <div class="text-center my-3">
+            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+        </div>
     </section>
     <hr>
     <section class="service-contact">

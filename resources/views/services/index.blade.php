@@ -29,7 +29,7 @@
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( 'img/services/iso.jpg' ) }}" alt="ISO certifierade">
+            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>
