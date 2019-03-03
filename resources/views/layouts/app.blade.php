@@ -3,6 +3,43 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="keywords" content="Utbildning, Bemanning, Betonghåltagning, Transport, Städ, Bygghjälpen">
+        <meta name="description" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
+        <meta name="subject" content="Industry">
+        <meta name="image" content="https://caland.se/img/logo.png">
+        <meta name="copyright"content="Caland AB">
+        <meta name="language" content="{{ str_replace('_', '-', app()->getLocale()) }}">
+        <meta name="robots" content="index, follow">
+        <meta name="Classification" content="Business">
+        <meta name="author" content="Caland AB">
+        <meta name="designer" content="felix made me">
+        <meta name="copyright" content="Caland AB">
+        <meta name="reply-to" content="info@caland.se">
+        <meta name="owner" content="Caland AB">
+        <meta name="url" content="https://www.caland.se">
+        <meta name="identifier-URL" content="https://www.caland.se">
+        <meta name="coverage" content="Worldwide">
+        <meta name="distribution" content="Global">
+        <meta name="rating" content="General">
+        <meta name="revisit-after" content="7 days">
+        <meta name="csrf-token" content="{{ csrf_token() }}">
+        <!-- Schema.org for Google -->
+        <meta itemprop="name" content="Caland AB">
+        <meta itemprop="description" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
+        <meta itemprop="image" content="https://caland.se/img/logo.png">
+        <!-- Twitter -->
+        <meta name="twitter:card" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
+        <meta name="twitter:title" content="Caland AB">
+        <meta name="twitter:description" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
+        <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+        <meta name="og:title" content="Caland AB">
+        <meta name="og:description" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
+        <meta name="og:image" content="https://caland.se/img/logo.png">
+        <meta name="og:url" content="https://caland.se">
+        <meta name="og:site_name" content="Caland AB">
+        <meta name="og:locale" content="{{ str_replace('_', '-', app()->getLocale()) }}">
+        <meta name="og:type" content="website">
+
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.css">
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/css/swiper.min.css">
@@ -11,6 +48,15 @@
         <link rel="shortcut icon" href="{{ asset( '/img/icon.ico' ) }}" />
 
         <title>@yield( 'title' ) - {{ config('app.name', 'Caland AB') }}</title>
+
+        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135535698-4"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'UA-135535698-4');
+        </script>
     </head>
     <body>
         @include( 'layouts.navbar' )
