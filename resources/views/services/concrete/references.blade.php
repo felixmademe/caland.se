@@ -48,7 +48,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
@@ -59,7 +59,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
                 <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <p>
@@ -70,7 +70,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/collection.jpg' ) }}" alt="Samling av bilder">
                 </div>
             </div>
         </div>

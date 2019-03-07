@@ -52,7 +52,7 @@
                             <li>Hem</li>
                         </ul>
                     </p>
-                    <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
+                    <img class="lozad img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
@@ -67,7 +67,7 @@
             </div>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>
@@ -75,7 +75,7 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <img class="img-fluid" src="{{ asset( '/img/staff/lotta.jpg' ) }}" alt="Lotta Ohlson Klein">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lotta.jpg' ) }}" alt="Lotta Ohlson Klein">
                 <h4>Lotta Ohlson Klein</h4>
                 <p>
                     <span class="red">Företagsservice</span>

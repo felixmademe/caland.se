@@ -22,7 +22,7 @@
         <h1>Personal</h1>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
                 <h4>Johan Wallstav</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -35,7 +35,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
                 <h4>Reimond Sundström</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -48,7 +48,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
                 <h4>Marcus Andersson</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>
@@ -61,7 +61,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
                 <h4>Robin Gränsed</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>
@@ -74,7 +74,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/lena.jpg' ) }}" alt="Lena Andersson">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lena.jpg' ) }}" alt="Lena Andersson">
                 <h4>Lena Andersson</h4>
                 <p>
                     <span class="red">Koncern</span>
@@ -87,7 +87,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
                 <h4>Henrik Pagré</h4>
                 <p>
                     <span class="red">Transport</span>
@@ -100,7 +100,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
                 <h4>Charlotta Löfgren</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -113,7 +113,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">Företagsservice</span>

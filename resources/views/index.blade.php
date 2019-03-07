@@ -6,7 +6,7 @@
         <img src="{{ asset( 'img/collection.jpg' ) }}" alt="Kollage av bilder från Caland AB">
         <div class="text-box">
             <div class="logo-wrapper">
-                <img class="img-fluid" src="{{ asset( '/img/logo.png' ) }}" alt="Caland Koncern AB logga">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/logo.png' ) }}" alt="Caland Koncern AB logga">
             </div>
             <h1>Caland AB</h1>
             <p>Bredden är vår styrka</p>

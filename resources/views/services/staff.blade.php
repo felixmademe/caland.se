@@ -47,25 +47,25 @@
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Vi kan ta över ansvaret och bemanna en hel avdelning hos er, inklusive arbetsledning.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
                         På uppdrag hjälper vi till med rekrytering. Vår breda erfarenhet från
                         personaluthyrning hjälper er att hitta rätt kompetens.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>
@@ -73,7 +73,7 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
                 <h4>Charlotta Löfgren</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -86,7 +86,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">Företagsservice</span>

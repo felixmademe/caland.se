@@ -64,7 +64,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/brokk-arbete.jpg' ) }}" alt="Samling av bilder">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk-arbete.jpg' ) }}" alt="Samling av bilder">
                 </div>
                 <div class="tab-pane fade" id="rivning" role="tabpanel" aria-labelledby="rivning-tab">
                     <p>
@@ -75,7 +75,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Slipning av gold">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Slipning av gold">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
@@ -86,7 +86,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
                 </div>
                 <div class="tab-pane fade" id="stor-maskinpark" role="tabpanel" aria-labelledby="stor-maskinpark-tab">
                     <p>
@@ -101,11 +101,11 @@
                         </ul>
                     </p>
                     <div class="col-10 mx-auto">
-                        <img class="img-fluid" src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
+                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
                         <hr>
-                        <img class="img-fluid" src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare">
+                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare">
                         <hr>
-                        <img class="img-fluid" src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
+                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
                     </div>
                 </div>
                 <div class="tab-pane fade" id="bygghjälpen" role="tabpanel" aria-labelledby="bygghjälpen-tab">
@@ -121,7 +121,7 @@
                         <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     </div>
                     <br>
-                    <img class="img-fluid" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>
@@ -139,7 +139,7 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
                 <h4>Marcus Andersson</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>
@@ -152,7 +152,7 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="img-fluid" src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
                 <h4>Robin Gränsed</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>

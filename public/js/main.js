@@ -1,3 +1,6 @@
+const observer = lozad();
+observer.observe();
+
 $( '#list-tab a' ).on('click', function ( e )
 {
     e.preventDefault()

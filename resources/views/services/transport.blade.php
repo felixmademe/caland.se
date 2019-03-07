@@ -53,7 +53,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
@@ -64,7 +64,7 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
                 </div>
                 <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
                     <p>
@@ -75,12 +75,12 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="img-fluid" src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
                 </div>
             </div>
         </div>
         <div class="text-center my-3">
-            <img src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>
@@ -88,7 +88,7 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <img class="img-fluid" src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
+                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
                 <h4>Henrik Pagré</h4>
                 <p>
                     <span class="red">Transport</span>
