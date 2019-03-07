@@ -36,10 +36,12 @@
                     </a>
                 </li>
             </ul>
-            <br>
             <div class="tab-content px-2" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
+                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
+                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Vi utför städtjänster för företag och privatpersoner.
                         Vi ombesörjer städ på följande områden:
                         <ul>
@@ -61,8 +63,6 @@
                     <div class="text-center">
                         <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     </div>
-                    <br>
-                    <img class="img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
                 </div>
             </div>
         </div>
