@@ -15,7 +15,7 @@
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>'
+        <h2>Vad gör vi?</h2>
         <p>
             Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -36,7 +36,6 @@
                     </a>
                 </li>
             </ul>
-            <br>
             <div class="tab-content px-2" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
