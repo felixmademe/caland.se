@@ -83,7 +83,7 @@
                         <input class="form-check-input" type="checkbox" name="policy" required>
                         <label class="form-check-label" for="policy">
                             Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
-                            <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>
+                            <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>.
                         </label>
                     </div>
                     <button type="submit" class="btn btn-red btn-expand">Skicka</button>

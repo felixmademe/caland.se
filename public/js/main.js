@@ -1,3 +1,5 @@
+'use strict';
+
 const observer = lozad();
 observer.observe();
 

@@ -68,6 +68,27 @@
 
           gtag('config', 'UA-135643404-1');
         </script>
+
+        <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.css" />
+        <script async src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+        <script async>
+            window.addEventListener("load", function(){
+            window.cookieconsent.initialise({
+              "palette": {
+                "popup": {
+                  "background": "#282a2b",
+                },
+                "button": {
+                  "background": "#fff",
+                }
+            },
+              "content": {
+                "message": "Den här webbplatsen använder 'cookies' för att du ska få den bästa upplevelsen på vår hemsida.",
+                "dismiss": "Uppfattat!",
+                "link": "Läs mer"
+              }
+            })});
+        </script>
     </head>
     <body>
         @include( 'layouts.navbar' )
@@ -92,8 +113,8 @@
                     <div class="row justify-content-center">
                         <div class="col-md-8 col-lg-6">
                             @yield( 'content' )
-                        <br>
-                    </div>
+                            <br>
+                        </div>
                     </div>
                 </div>
             </main>
