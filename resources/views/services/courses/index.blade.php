@@ -71,7 +71,6 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
                 <h4>Johan Wallstav</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -84,7 +83,6 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
                 <h4>Reimond Sundström</h4>
                 <p>
                     <span class="red">Företagsservice</span>

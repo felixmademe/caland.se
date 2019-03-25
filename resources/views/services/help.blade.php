@@ -17,11 +17,11 @@
     <section class="service-about">
         <h2>Vad gör vi?</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Vänder sig till företag som verkar inom byggindustrin. Här kan du får hjälp med enklare uppdrag
+            för att underlätta ert arbete. Bygghjälpen kan hjälpa er med tjänster såsom hantlangning, bärhjälp,
+            byggstäd med mera.
         </p>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
@@ -36,7 +36,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="tab-content px-2" id="myTabContent">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -70,20 +70,18 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
-                <h4>Charlotta Löfgren</h4>
+                <h4>Henrik Pagré</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Transport</span>
                     <br>
-                    Personalchef
+                    Logistikansvarig
                     <br>
-                    054-22 07 94
+                    054-22 07 92
                     <br>
-                    <a class="link-effect" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">Företagsservice</span>

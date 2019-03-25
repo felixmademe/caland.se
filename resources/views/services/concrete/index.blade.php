@@ -16,11 +16,11 @@
     <hr>
     <section class="service-about">
         <h2>Vad gör vi?</h2>
-        <p class="text-center">
+        <p>
             Vi erbjuder yrkeskunnig hjälp inom byggbranschen med specialisering inom håltagning,
             asbestsanering och rivningsarbeten i Karlstad och hela Värmland
         </p>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="betonghåltagning-tab" data-toggle="pill" href="#betonghåltagning"
@@ -54,7 +54,7 @@
                 </li>
             </ul>
             <br>
-            <div class="tab-content px-2" id="myTabContent">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="betonghåltagning" role="tabpanel" aria-labelledby="betonghåltagning-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -139,7 +139,6 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
                 <h4>Marcus Andersson</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>
@@ -152,7 +151,6 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
                 <h4>Robin Gränsed</h4>
                 <p>
                     <span class="red">Betonghåltagning</span>

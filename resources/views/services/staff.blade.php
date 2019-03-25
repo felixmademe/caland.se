@@ -17,10 +17,31 @@
     <section class="service-about">
         <h2>Vad gör vi?</h2>
         <p>
-            Vi erbjuder yrkeskunnig bemanning främst inom våra verksamhetsområden transport,
-            industri och bygg. Vi löser såväl tillfälliga som varaktiga personalbehov.
+            <p>
+                Vi erbjuder yrkeskunnig bemanning och löser såväl tillfälliga och varaktiga behov.
+                Behöver du hjälp en dag en vecka eller under en längre period? Då kan vi hjälpa dig!
+                <br><br>
+                Bredden är vår styrka, därför kan vi hjälpa dig med:
+                <ul>
+                    <li>Lastbilschaufförer</li>
+                    <li>Terminalarbetare</li>
+                    <li>Truckförare</li>
+                    <li>Lagerarbetare</li>
+                    <li>Industriarbetare</li>
+                    <li>Maskinoperatörer</li>
+                    <li>Maskinförare</li>
+                    <li>Budbilschaufförer</li>
+                    <li>Bärhjälpar</li>
+                    <li>Montörer</li>
+                    <li>Fastighetskötare</li>
+                    <li>Lokalvårdare</li>
+                    <li>Sanerare</li>
+                    <li>Rivare</li>
+                    <li>Byggstädare</li>
+                </ul>
+            </p>
         </p>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
@@ -42,7 +63,7 @@
                 </li>
             </ul>
             <br>
-            <div class="tab-content px-2" id="myTabContent">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
@@ -51,14 +72,15 @@
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
-                        Vi kan ta över ansvaret och bemanna en hel avdelning hos er, inklusive arbetsledning.
+                        Vi har lång erfarenhet av att bedriva bemanningsentreprenad. Då vi tar över ansvaret
+                        och bemannar en hel avdelning hos er inklusive arbetsledning så att ni kan fokusera på annat.
                     </p>
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
-                        På uppdrag hjälper vi till med rekrytering. Vår breda erfarenhet från
-                        personaluthyrning hjälper er att hitta rätt kompetens.
+                        Välj att rekrytera direkt eller hyr först och rekrytera sen som en möjlighet att testa
+                        din nästa medarbetare först.
                     </p>
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
@@ -73,20 +95,18 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
-                <h4>Charlotta Löfgren</h4>
+                <h4>Henrik Pagré</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Transport</span>
                     <br>
-                    Personalchef
+                    Logistikansvarig
                     <br>
-                    054-22 07 94
+                    054-22 07 92
                     <br>
-                    <a class="link-effect" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">Företagsservice</span>

@@ -21,7 +21,7 @@
             incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
             exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
         </p>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
@@ -31,7 +31,7 @@
                 </li>
             </ul>
             <br>
-            <div class="tab-content px-2" id="myTabContent">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane active fade show" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -55,7 +55,6 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
                 <h4>Charlotta Löfgren</h4>
                 <p>
                     <span class="red">Företagsservice</span>
@@ -68,7 +67,6 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">Företagsservice</span>

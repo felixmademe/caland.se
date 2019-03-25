@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <section class="service-header">
-        <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
+        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Städ</h1>
         <p>
@@ -17,11 +17,9 @@
     <section class="service-about">
         <h2>Vad gör vi?</h2>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-            incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-            exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            Vi utför städtjänster hos företag och på byggarbetsplatser.
         </p>
-        <div class="row justify-content-center">
+        <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
@@ -36,7 +34,7 @@
                     </a>
                 </li>
             </ul>
-            <div class="tab-content px-2" id="myTabContent">
+            <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
@@ -75,16 +73,15 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lotta.jpg' ) }}" alt="Lotta Ohlson Klein">
-                <h4>Lotta Ohlson Klein</h4>
+                <h4>Lena Andersson</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Koncern</span>
                     <br>
-                    Personalchef
+                    Lön
                     <br>
-                    072-724 77 06
+                    054-22 07 93
                     <br>
-                    <a class="link-effect" href="mailto:charlotta@caland.se">charlotta@caland.se</a>
+                    <a class="link-effect" href="mailto:lena@caland.se">lena@caland.se</a>
                 </p>
             </div>
         </div>

@@ -48,6 +48,11 @@ hr
     height: 1px
     margin: 30px 0
 
+img.img-fluid
+    max-height: 35vh
+    display: block
+    margin-left: auto
+    margin-right: auto
 //
 // Universal classes
 //
@@ -190,14 +195,22 @@ hr
 .footer
     border-top: 20px solid $light-grey
     background-color: $dark-grey
-    padding: 20px 0
+    padding: 20px 0 5px
     color: $white
+    br
+        margin: 100px
     img
         max-width: 100%
     a
         color: $primary
         &:hover
             color: $white
+
+    a, p
+        font-size: 1rem !important
+
+    .borderless td
+        border: none
 
 //
 // Error view
@@ -214,7 +227,7 @@ hr
     background-image: url( '/img/collection.jpg' )
     .text-box
         position: absolute
-        top: 120px
+        top: 90px
         left: 0
         right: 0
         margin: 0 auto
@@ -222,22 +235,22 @@ hr
         color: $white
         .logo-wrapper
             margin: 0 auto
-            width: 100px
-            height: 100px
+            width: 200px
+            height: 200px
             padding: 5px
             border-radius: 100%
             background-color: $white
             align-content: center
             img
                 position: absolute
-                top: 40px
+                top: 80px
                 left: 0
                 right: 0
                 margin: 0 auto
                 text-align: center
-                height: 20px
+                height: 40px
         h1
-            font-size: 4em
+            font-size: 3em
             color: $white
         p
             font-size: 1.5em !important
@@ -413,6 +426,12 @@ hr
 .service-contact
     h3
         margin-bottom: 0.5em
+    .row
+        div
+            margin-top: 20px
+            background-color: #efefef
+            padding: 20px
+            text-align: center
 
 .service-return
     text-align: center !important

@@ -13,13 +13,6 @@
     </section>
     <hr>
     <section class="service-about">
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-            ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco
-            laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit
-            in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat
-            non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-        </p>
         <div class="text-center">
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
@@ -27,6 +20,8 @@
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Asbestsanering</a>
         </div>
         <div class="text-center my-3">
             <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">

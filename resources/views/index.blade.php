@@ -8,8 +8,7 @@
             <div class="logo-wrapper">
                 <img class="lozad img-fluid" data-src="{{ asset( '/img/logo.png' ) }}" alt="Caland Koncern AB logga">
             </div>
-            <h1>Caland AB</h1>
-            <p>Bredden är vår styrka</p>
+            <h1>Bredden är vår styrka</h1>
         </div>
     </header>
 
