@@ -14,14 +14,14 @@
     <hr>
     <section class="service-about">
         <div class="text-center">
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
         </div>
         <div class="text-center my-3">
             <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
