@@ -21,7 +21,7 @@
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Asbestsanering</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
         </div>
         <div class="text-center my-3">
             <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">

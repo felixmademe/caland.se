@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <header class="hero">
-        <img src="{{ asset( 'img/collection.jpg' ) }}" alt="Kollage av bilder från Caland AB">
+        <img src="{{ asset( 'img/collection-faded.jpg' ) }}" alt="Blekt kollage av bilder från Caland AB">
         <div class="text-box">
             <div class="logo-wrapper">
                 <img class="lozad img-fluid" data-src="{{ asset( '/img/logo.png' ) }}" alt="Caland Koncern AB logga">

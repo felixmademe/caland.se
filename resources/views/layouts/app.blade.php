@@ -59,7 +59,7 @@
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/4.4.6/js/swiper.min.js"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-filestyle/2.1.0/bootstrap-filestyle.min.js"></script>
         <script defer src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
-        <script defer src="{{ asset( '/js/main.js' ) }}" type="text/javascript"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollintoview/1.8/jquery.scrollintoview.min.js"></script>
         <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135643404-1"></script>
         <script>
           window.dataLayer = window.dataLayer || [];
@@ -89,6 +89,8 @@
               }
             })});
         </script>
+
+        <script defer src="{{ asset( '/js/main.js' ) }}" type="text/javascript"></script>
     </head>
     <body>
         @include( 'layouts.navbar' )

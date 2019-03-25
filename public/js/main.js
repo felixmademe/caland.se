@@ -5,7 +5,6 @@ observer.observe();
 
 $( '#list-tab a' ).on('click', function ( e )
 {
-    e.preventDefault()
     $( this ).tab( 'show' )
 } );
 
@@ -24,3 +23,16 @@ items.on( 'click', function()
         name.focus();
     }, 500);
 } );
+
+if(window.location.hash) {
+    var hash = window.location.hash.substring(1);
+    if( hash == "asbest" )
+    {
+        var container = $( '.underline' )[ 0 ];
+        $( '#asbestsanering-tab' ).click();
+        container.scrollIntoView( {
+                inline: 'end',
+                behavior: 'smooth',
+        } );
+    }
+}

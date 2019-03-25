@@ -54,6 +54,11 @@ Route::get( 'tjänster/betonghåltagning', function ()
     return view( 'services.concrete.index' );
 } )->name( 'concrete' );
 
+Route::get( 'tjänster/betonghåltagning#asbest', function ()
+{
+    return view( 'services.concrete.index' );
+} )->name( 'asbest' );
+
 Route::get( 'tjänster/betonghåltagning/referenser', function ()
 {
     return view( 'services.concrete.references' );
