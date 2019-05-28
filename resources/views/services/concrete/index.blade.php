@@ -9,7 +9,7 @@
     </section>
     <hr>
     <section class="service-about">
-        
+
         <p>
             Vi erbjuder yrkeskunnig hjälp inom byggbranschen med specialisering inom håltagning,
             asbestsanering och rivningsarbeten i Karlstad och hela Värmland
@@ -132,25 +132,21 @@
             <div class="col-md-6">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Håltagning</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    Verksamhetschef
+                    <a class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>
-                    070-537 98 28
-                    <br>
-                    <a class="link-effect" href="mailto:marcus@caland.se">marcus@caland.se</a>
+                    <a class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
                 <h4>Robin Gränsed</h4>
                 <p>
-                    <span class="red">Håltagning</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    Arbetsledare
+                    <a class="no-colour" href="tel:0703998123">070-399 81 23</a>
                     <br>
-                    070-399 81 23
-                    <br>
-                    <a class="link-effect" href="mailto:robin@caland.se">robin@caland.se</a>
+                    <a class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
         </div>

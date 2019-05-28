@@ -12,14 +12,17 @@
         <p>
             Vår breda flotta av fordon gör att vi kan åta oss många olika typer av uppdrag.
             Kontakta oss så löser vi dina transportbehov!
+            Vi utgår från Karlstad & Värmland men jobbar i hela Sverige.
         </p>
         <div class="d-flex justify-content-center">
-            <div class="col-md-7">
+            <div class="col-md-6">
                 <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
-                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
                 <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
-                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA">
                 <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/trailer.jpg' ) }}" alt="Trailer">
+            </div>
+            <div class="col-md-6">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
             </div>
 
             {{-- <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
@@ -60,13 +63,11 @@
             <div class="col-md-6 offset-md-3">
                 <h4>Henrik Pagré</h4>
                 <p>
-                    <span class="red">Transport</span>
+                    <span class="red">Transport/Bemanning</span>
                     <br>
-                    Logistikansvarig
+                    <a class="no-colour" href="tel:054220792">054-22 07 92</a>
                     <br>
-                    054-22 07 92
-                    <br>
-                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
         </div>

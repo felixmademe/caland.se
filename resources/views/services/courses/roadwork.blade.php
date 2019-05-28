@@ -1,11 +1,11 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Arbete på väg-utbildning' )
+@section( 'title', 'Arbete på väg' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Arbete på väg-utbildning</h1>
+        <h1>Arbete på väg</h1>
         <p>
-            Arbete på väg-utbildning – Kursen uppfyller alla de krav på utbildningen, som Trafikverket ställer, för personal som utför arbete på väg.
+            Arbete på väg – Kursen uppfyller alla de krav på utbildningen, som Trafikverket ställer, för personal som utför arbete på väg.
             <br><br>
             <b>Kursbeskrivning:</b>
             <br>

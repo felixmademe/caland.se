@@ -1,5 +1,5 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Hjullastare-utbildning' )
+@section( 'title', 'Hjullastare' )
 @section( 'content' )
 
     <section class="course-about">

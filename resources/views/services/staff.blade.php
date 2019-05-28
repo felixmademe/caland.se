@@ -87,25 +87,21 @@
             <div class="col-md-6">
                 <h4>Henrik Pagré</h4>
                 <p>
-                    <span class="red">Transport</span>
+                    <span class="red">Transport/Bemanning</span>
                     <br>
-                    Logistikansvarig
+                    <a class="no-colour" href="tel:054220792">054-22 07 92</a>
                     <br>
-                    054-22 07 92
-                    <br>
-                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
                 <h4>Ellinor Halldan</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">HR</span>
                     <br>
-                    Konsultchef/HR
+                    <a class="no-colour" href="tel:054220795">054-22 07 95</a>
                     <br>
-                    054-22 07 95
-                    <br>
-                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                    <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
         </div>

@@ -45,27 +45,23 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <h4>Charlotta Löfgren</h4>
+                <h4>Ellinor Halldan</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">HR</span>
                     <br>
-                    Personalchef
+                    <a class="no-colour" href="tel:054220795">054-22 07 95</a>
                     <br>
-                    054-22 07 94
-                    <br>
-                    <a class="link-effect" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                    <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
-                <h4>Ellinor Halldan</h4>
+                <h4>Charlotta Löfgren</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Koncernchef</span>
                     <br>
-                    Konsultchef/HR
+                    <a class="no-colour" href="tel:054220794">054-22 07 94</a>
                     <br>
-                    054-22 07 95
-                    <br>
-                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                    <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
                 </p>
             </div>
         </div>

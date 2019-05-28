@@ -26,27 +26,23 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <h4>Henrik Pagré</h4>
+                <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Transport</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    Logistikansvarig
+                    <a class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>
-                    054-22 07 92
-                    <br>
-                    <a class="link-effect" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
-                <h4>Ellinor Halldan</h4>
+                <h4>Robin Gränsed</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    Konsultchef/HR
+                    <a class="no-colour" href="tel:0703998123">070-399 81 23</a>
                     <br>
-                    054-22 07 95
-                    <br>
-                    <a class="link-effect" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                    <a class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
         </div>

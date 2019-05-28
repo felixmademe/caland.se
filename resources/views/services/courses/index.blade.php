@@ -6,12 +6,6 @@
         <img src="{{ asset( '/img/caland-koncernen.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Utbildning</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
     </section>
     <hr>
     <section class="service-about">
@@ -19,7 +13,7 @@
         <p>
             Våra duktiga instruktörer erbjuder en mängd olika kompetenshöjande
             utbildningar inom bl a transport, bygg och industri. Kontakta oss när ni är
-            i behov av nedan tjänster. Vi jobbar i Karlstad & hela Värmland.
+            i behov av nedan tjänster. Vi jobbar i hela landet.
             <br>
             <i>Se längre ner för bokning av kurs.</i>
         </p>
@@ -76,25 +70,21 @@
             <div class="col-md-6">
                 <h4>Johan Wallstav</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Utbildning</span>
                     <br>
-                    <b>Utbildare</b>
+                    <a class="no-colour" href="tel:054220797">054-22 07 97</a>
                     <br>
-                    054-22 07 97
-                    <br>
-                    <a class="link-effect" href="mailto:johan@caland.se">johan@caland.se</a>
+                    <a class="no-colour" href="mailto:johan@caland.se">johan@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
                 <h4>Reimond Sundström</h4>
                 <p>
-                    <span class="red">Företagsservice</span>
+                    <span class="red">Utbildning</span>
                     <br>
-                    <b>Utbildare</b>
+                    <a class="no-colour" href="tel:054220798">054-22 07 98</a>
                     <br>
-                    054-22 07 98
-                    <br>
-                    <a class="link-effect" href="mailto:reimond@caland.se">reimond@caland.se</a>
+                    <a class="no-colour" href="mailto:reimond@caland.se">reimond@caland.se</a>
                 </p>
             </div>
         </div>

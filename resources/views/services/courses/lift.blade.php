@@ -22,7 +22,7 @@
             och ekonomiska förare. Efter avslutad liftutbildning med godkända resultat utfärdas kursintyg.
             <br>
             Kontakta oss för mer information gällande skylift, saxlift och andra liftutbildningar.
-            <br>
+            <br><br>
             Läs mer om utbildningen här:
             <br>
             <a class="btn btn-red" href="{{ asset( 'storage/bom-och-saxlift.pdf' ) }}" target="_blank">Bom- och saxlift</a>

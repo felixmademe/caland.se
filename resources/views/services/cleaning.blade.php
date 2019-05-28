@@ -62,13 +62,11 @@
             <div class="col-md-6 offset-md-3">
                 <h4>Lena Andersson</h4>
                 <p>
-                    <span class="red">Koncern</span>
+                    <span class="red">Lön/Städ</span>
                     <br>
-                    Lön
+                    <a class="no-colour" href="tel:054220793">054-22 07 93</a>
                     <br>
-                    054-22 07 93
-                    <br>
-                    <a class="link-effect" href="mailto:lena@caland.se">lena@caland.se</a>
+                    <a class="no-colour" href="mailto:lena@caland.se">lena@caland.se</a>
                 </p>
             </div>
         </div>

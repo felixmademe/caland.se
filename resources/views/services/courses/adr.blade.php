@@ -1,9 +1,9 @@
 @extends( 'layouts.app' )
-@section( 'title', 'ADR-utbildning' )
+@section( 'title', 'ADR' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>ADR-utbildning</h1>
+        <h1>ADR</h1>
         <p>
             <h4>Full ADR behörighet för chaufförer</h4>
             <br>
@@ -11,7 +11,7 @@
             <br><br>
             Efter godkänd utbildning utfärdas ett ADR – intyg som gäller i fem år.
             <br><br>
-            ADR-utbildning riktar sig till:
+            ADR riktar sig till:
             <br>
             <ul>
                 <li>Chaufförer som transporterar mindre mängder farligt gods</li>
