@@ -49,17 +49,17 @@ Route::get( 'intergitespolicy', function ()
     return view( 'policy' );
 } )->name( 'policy' );
 
-Route::get( 'tjänster/betonghåltagning', function ()
+Route::get( 'tjänster/håltagning', function ()
 {
     return view( 'services.concrete.index' );
 } )->name( 'concrete' );
 
-Route::get( 'tjänster/betonghåltagning#asbestsanering', function ()
+Route::get( 'tjänster/håltagning#asbestsanering', function ()
 {
     return view( 'services.concrete.index' );
 } )->name( 'asbest' );
 
-Route::get( 'tjänster/betonghåltagning/referenser', function ()
+Route::get( 'tjänster/håltagning/referenser', function ()
 {
     return view( 'services.concrete.references' );
 } )->name( 'references' );
@@ -94,27 +94,27 @@ Route::get( 'tjänster/utbildning', function ()
     return view( 'services.courses.index' );
 } )->name( 'course' );
 
-Route::get( 'tjänster/utbildning/adr-utbildning', function ()
+Route::get( 'tjänster/utbildning/adr', function ()
 {
     return view( 'services.courses.adr' );
 } )->name( 'adr' );
 
-Route::get( 'tjänster/utbildning/arbete-på-väg-utbildning', function ()
+Route::get( 'tjänster/utbildning/arbete-på-väg', function ()
 {
     return view( 'services.courses.roadwork' );
 } )->name( 'roadwork' );
 
-Route::get( 'tjänster/utbildning/bom-och-saxlift-utbildning', function ()
+Route::get( 'tjänster/utbildning/bom-och-saxlift', function ()
 {
     return view( 'services.courses.lift' );
 } )->name( 'lift' );
 
-Route::get( 'tjänster/utbildning/första-hjälpen-utbildning', function ()
+Route::get( 'tjänster/utbildning/första-hjälpen', function ()
 {
     return view( 'services.courses.first-help' );
 } )->name( 'first-help' );
 
-Route::get( 'tjänster/utbildning/hjullastare-utbildning', function ()
+Route::get( 'tjänster/utbildning/hjullastare', function ()
 {
     return view( 'services.courses.wheel-loader' );
 } )->name( 'wheel-loader' );
@@ -134,7 +134,7 @@ Route::get( 'tjänster/utbildning/truckutbildning', function ()
     return view( 'services.courses.forklift' );
 } )->name( 'forklift' );
 
-Route::get( 'tjänster/utbildning/säkra-lyft-utbildning', function ()
+Route::get( 'tjänster/utbildning/säkra-lyft', function ()
 {
     return view( 'services.courses.secure-lift' );
 } )->name( 'secure-lift' );
@@ -143,6 +143,16 @@ Route::get( 'tjänster/utbildning/heta-arbeten', function ()
 {
     return view( 'services.courses.warm-work' );
 } )->name( 'warm-work' );
+
+Route::get( 'tjänster/utbildning/grävmaskin', function ()
+{
+    return view( 'services.courses.digger' );
+} )->name( 'digger' );
+
+Route::get( 'tjänster/utbildning/teleporter', function ()
+{
+    return view( 'services.courses.teleporter' );
+} )->name( 'teleporter' );
 
 //
 // Email

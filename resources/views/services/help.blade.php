@@ -6,64 +6,20 @@
         <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Bygghjälpen</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
         <p>
-            Vänder sig till företag som verkar inom byggindustrin. Här kan du får hjälp med enklare uppdrag
+            Vänder sig till företag som verkar inom byggindustrin. Här kan du få hjälp med enklare uppdrag
             för att underlätta ert arbete. Bygghjälpen kan hjälpa er med tjänster såsom hantlangning, bärhjälp,
             byggstäd med mera.
-        </p>
-        <div class="row justify-content-center px-3">
-            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
-                        role="tab" aria-controls="first" aria-selected="true">
-                        Bygghjälpen?
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
-                    role="tab" aria-controls="second" aria-selected="false">
-                        Bygghjälpen?
-                    </a>
-                </li>
+            <ul>
+                <li>Hantlangning</li>
+                <li>Bärhjälp</li>
+                <li>Bortforsling av material</li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
-                </div>
-                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
-                </div>
-            </div>
-        </div>
-        <div class="text-center my-3">
-            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
-        </div>
+            Oavsett om ni har behov av handkraft eller maskinell hjälp så tveka inte att höra av er till oss.
+        </p>
     </section>
     <hr>
     <section class="service-contact">

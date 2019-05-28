@@ -1,9 +1,9 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Betonghåltagning' )
+@section( 'title', 'Håltagning' )
 @section( 'content' )
 
     <section class="service-header">
-        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Betonghåltagning">
+        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Håltagning">
         <br><br>
         <h1>Referenser</h1>
         <p>
@@ -78,7 +78,7 @@
     <hr>
     <section class="text-center">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+        <a class="btn btn-red" href="{{ route( 'concrete' ) }}">Håltagning</a>
     </section>
 
 @endsection

@@ -14,11 +14,11 @@
             <li class="nav-item link-effect {{ Request::is( 'tjänster/bemanning' ) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route( 'staff' ) }}">Bemanning</a>
             </li>
-            <li class="nav-item link-effect {{ Request::is( 'tjänster/betonghåltagning' ) ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
-            </li>
             <li class="nav-item link-effect {{ Request::is( 'tjänster/bygghjälpen' ) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            </li>
+            <li class="nav-item link-effect {{ Request::is( 'tjänster/håltagning' ) ? 'active' : '' }}">
+                <a class="nav-link" href="{{ route( 'concrete' ) }}">Håltagning</a>
             </li>
             <li class="nav-item link-effect {{ Request::is( 'tjänster/städ' ) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route( 'cleaning' ) }}">Städ</a>

@@ -1,4 +1,9 @@
 //
+// Imports
+//
+@import url('https://fonts.googleapis.com/css?family=Pontano+Sans')
+
+//
 // Variables
 //
 $primary: rgb(237, 46, 59) !important
@@ -9,10 +14,7 @@ $dark-grey: #282a2b !important
 $light-grey: #363839 !important
 $font: "Pontano Sans", Arial, Helvetica, sans-serif !important
 
-//
-// Imports
-//
-@import url('https://fonts.googleapis.com/css?family=Pontano+Sans')
+
 
 //
 // Universal elements
@@ -132,15 +134,22 @@ img.img-fluid
     background-color: $primary
     border: 1px solid $primary
     color: $white
-    padding: 1.5em
+    padding: 1.3em
     width: 100%
-    font-size: 20px
+    font-size: 27px
     &:hover
         background-color: $white
         color: $primary-strong
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
+
+.no-colour
+    color: inherit !important
+    text-decoration: none
+
+    &:hover
+        color: $primary-strong
 
 .bg-white
     background-color: $white
@@ -433,6 +442,41 @@ img.img-fluid
 
 .service-return
     text-align: center !important
+
+.transport
+    .gallery
+        &:hover
+            border: 1px solid $primary-strong
+
+        img
+            width: 100% !important
+            height: auto !important
+
+        .desc
+            padding: 15px
+            text-align: center
+
+*
+    box-sizing: border-box
+
+.responsive
+    padding: 0 6px
+    float: left
+    width: 24.99999%
+
+@media only screen and (max-width: 768px)
+  .responsive
+    width: 49.99999%
+    margin: 6px 0
+
+@media only screen and (max-width: 576px)
+  .responsive
+    width: 100%
+
+.clearfix:after
+    content: ""
+    display: table
+    clear: both
 
 //
 // Courses

@@ -6,40 +6,33 @@
         <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Bemanning</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
         <p>
-            <p>
-                Vi erbjuder yrkeskunnig bemanning och löser såväl tillfälliga och varaktiga behov.
-                Behöver du hjälp en dag en vecka eller under en längre period? Då kan vi hjälpa dig!
-                <br><br>
-                Bredden är vår styrka, därför kan vi hjälpa dig med:
-                <ul>
-                    <li>Lastbilschaufförer</li>
-                    <li>Terminalarbetare</li>
-                    <li>Truckförare</li>
-                    <li>Lagerarbetare</li>
-                    <li>Industriarbetare</li>
-                    <li>Maskinoperatörer</li>
-                    <li>Maskinförare</li>
-                    <li>Budbilschaufförer</li>
-                    <li>Bärhjälpar</li>
-                    <li>Montörer</li>
-                    <li>Fastighetskötare</li>
-                    <li>Lokalvårdare</li>
-                    <li>Sanerare</li>
-                    <li>Rivare</li>
-                    <li>Byggstädare</li>
-                </ul>
-            </p>
+            Vi erbjuder yrkeskunnig bemanning och löser såväl tillfälliga och varaktiga behov.
+            Behöver du hjälp en dag en vecka eller under en längre period? Då kan vi hjälpa dig!
+            <br><br>
+            Bredden är vår styrka, därför kan vi hjälpa dig bland annat med:
+            <ul>
+                <li>Lastbilschaufförer</li>
+                <li>Terminalarbetare</li>
+                <li>Truckförare</li>
+                <li>Lagerarbetare</li>
+                <li>Industriarbetare</li>
+                <li>Maskinoperatörer</li>
+                <li>Maskinförare</li>
+                <li>Budbilschaufförer</li>
+                <li>Bärhjälp</li>
+                <li>Möbelmontörer</li>
+                <li>Fastighetskötare</li>
+                <li>Lokalvårdare</li>
+                <li>Sanerare</li>
+                <li>Rivare</li>
+                <li>Byggstädare</li>
+            </ul>
+            Vi är heller inte främmande för andra typer av uppdrag, hör av dig till oss så ser vi efter
+            hur vi kan hjälpa er.
         </p>
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
@@ -85,9 +78,6 @@
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
-        </div>
-        <div class="text-center my-3">
-            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>

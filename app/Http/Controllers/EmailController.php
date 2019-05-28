@@ -22,7 +22,7 @@ class EmailController extends Controller
             'policy'  => 'accepted'
         ] );
 
-        Mail::to( 'felix.wetell@gmail.com' )
+        Mail::to( 'info@caland.se' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
@@ -38,7 +38,6 @@ class EmailController extends Controller
         $request->validate( [
             'name'     => 'required|string|max:255',
             'email'    => 'required|email',
-            'position' => 'required|string|max:255',
             'text'     => 'required|string',
             'file'     => 'required',
             'policy'   => 'accepted'
@@ -51,7 +50,7 @@ class EmailController extends Controller
            return redirect()->back()->with( 'error', $error);
         }
 
-        Mail::to( 'felix.wetell@gmail.com' )
+        Mail::to( 'info@caland.se' )
             ->send( new Application(
                 $request->name,
                 $request->email,
@@ -72,7 +71,7 @@ class EmailController extends Controller
             'text'    => 'required|string',
             'policy'  => 'accepted'
         ] );
-        Mail::to( 'felix.wetell@gmail.com' )
+        Mail::to( 'info@caland.se' )
             ->send( new Support(
                 $request->name,
                 $request->email,

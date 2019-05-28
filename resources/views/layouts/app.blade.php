@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-        <meta name="keywords" content="Utbildning, Bemanning, Betonghåltagning, Transport, Städ, Bygghjälpen">
+        <meta name="keywords" content="Utbildning, Bemanning, Håltagning, Transport, Städ, Bygghjälpen">
         <meta name="description" content="Vi har resurser och kompetens för att utföra professionella tjänster inom håltagning, transport, bemanning, utbildning och städ. Bredden är vår styrka.">
         <meta name="subject" content="Industry">
         <meta name="image" content="https://caland.se/img/logo.png">

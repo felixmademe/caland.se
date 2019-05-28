@@ -51,7 +51,7 @@
     <p>Om du vill använda någon av dina rättigheter så kontaktar du oss via e-post som finns längst ned i denna policy. Om du vill lämna ett klagomål till datainspektionen så behöver du kontakta dem.</p>
     <hr>
     <h3>Uppdateringar till denna policy</h3>
-    <p>Vi kan komma att uppdatera denna policy och kommer då publicera dem på denna webbsida. Denna policy uppdaterades senast den 11 February 2019.</p>
+    <p>Vi kan komma att uppdatera denna policy och kommer då publicera dem på denna webbsida. Denna policy uppdaterades senast den 23 maj 2019.</p>
     <hr>
     <h3>Hur du kan kontakta oss</h3>
     <p>Om du har några frågor angående denna policy eller hur vi använder din information, eller dina rättigheter så kan du kontakta oss på följande adress: </p>
@@ -65,7 +65,7 @@
         <br>
         65671 Skattkärr
         <br>
-        E-mail: support@caland.se
+        E-mail: ellinor@caland.se
     </address>
 
 

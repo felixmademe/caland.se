@@ -4,18 +4,18 @@
 
     <section class="service-header">
         <h1>Tjänster</h1>
-        <p>
+        {{-- <p>
             Vi har resurser, metoder och kompetens att utföra
             professionella tjänster inom byggbranschen.
             <br>
             <span class="underline">Bredden är vår styrka</span>.
-        </p>
+        </p> --}}
     </section>
     <hr>
     <section class="service-about">
         <div class="text-center">
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Betonghåltagning</a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Håltagning</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
@@ -23,14 +23,11 @@
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
         </div>
-        <div class="text-center my-3">
-            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
-        </div>
     </section>
     <hr>
     <section class="service-contact text-center">
         <h3>Kontakt</h3>
-        <p>Är det något du undrar, tvecka inte att kontakta oss!</p>
+        <p>Är det något du undrar, tveka inte att kontakta oss!</p>
         <a class="btn btn-red btn-expand" href="{{ route( 'contact' ) }}">Kontakta oss</a>
     </section>
 

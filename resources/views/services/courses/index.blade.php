@@ -15,7 +15,7 @@
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
+
         <p>
             Våra duktiga instruktörer erbjuder en mängd olika kompetenshöjande
             utbildningar inom bl a transport, bygg och industri. Kontakta oss när ni är
@@ -25,16 +25,16 @@
         </p>
         <div class="text-center">
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
-                ADR-utbildning
+                ADR
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'roadwork' ) }}">
-                Arbete på väg-utbildning
+                Arbete på väg
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
                 Bom- och saxliftutbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
-                Första hjälpen-utbildning
+                Första hjälpen
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
                 Hjullastarutbildning
@@ -49,14 +49,17 @@
                 Truckutbildning
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
-                Säkra lyft-utbildning
+                Säkra lyft
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
                 Heta arbeten
             </a>
-        </div>
-        <div class="text-center my-3">
-            <img src="{{ asset( 'img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'digger' ) }}">
+                Grävmaskin
+            </a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+                Teleporter
+            </a>
         </div>
     </section>
     <hr>

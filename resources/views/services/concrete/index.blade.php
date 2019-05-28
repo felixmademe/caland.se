@@ -1,21 +1,15 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Betonghåltagning' )
+@section( 'title', 'Håltagning' )
 @section( 'content' )
 
     <section class="service-header">
-        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Betonghåltagning AB">
+        <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Håltagning AB">
         <br><br>
-        <h1>Betonghåltagning</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
+        <h1>Håltagning</h1>
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
+        
         <p>
             Vi erbjuder yrkeskunnig hjälp inom byggbranschen med specialisering inom håltagning,
             asbestsanering och rivningsarbeten i Karlstad och hela Värmland
@@ -23,9 +17,9 @@
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="betonghåltagning-tab" data-toggle="pill" href="#betonghåltagning"
-                        role="tab" aria-controls="betonghåltagning" aria-selected="true">
-                        Betonghåltagning
+                    <a class="nav-link active btn-red-border m-1" id="håltagning-tab" data-toggle="pill" href="#håltagning"
+                        role="tab" aria-controls="håltagning" aria-selected="true">
+                        Håltagning
                     </a>
                 </li>
                 <li class="nav-item">
@@ -55,7 +49,7 @@
             </ul>
             <br>
             <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="betonghåltagning" role="tabpanel" aria-labelledby="betonghåltagning-tab">
+                <div class="tab-pane fade show active" id="håltagning" role="tabpanel" aria-labelledby="håltagning-tab">
                     <p>
                         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                         incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
@@ -125,9 +119,6 @@
                 </div>
             </div>
         </div>
-        <div class="text-center my-3">
-            <img src="{{ asset( 'img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
-        </div>
     </section>
     <hr>
     <section class="service-reference">
@@ -141,7 +132,7 @@
             <div class="col-md-6">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Betonghåltagning</span>
+                    <span class="red">Håltagning</span>
                     <br>
                     Verksamhetschef
                     <br>
@@ -153,7 +144,7 @@
             <div class="col-md-6">
                 <h4>Robin Gränsed</h4>
                 <p>
-                    <span class="red">Betonghåltagning</span>
+                    <span class="red">Håltagning</span>
                     <br>
                     Arbetsledare
                     <br>

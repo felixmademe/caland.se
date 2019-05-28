@@ -6,18 +6,11 @@
         <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Städ</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
         <p>
-            Vi utför städtjänster hos företag och på byggarbetsplatser.
+            Vi utför städtjänster hos företag och på byggarbetsplatser. Hör av dig med din förfrågan.
         </p>
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
@@ -37,9 +30,6 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                         Vi utför städtjänster för företag och privatpersoner.
                         Vi ombesörjer städ på följande områden:
                         <ul>
@@ -63,9 +53,6 @@
                     </div>
                 </div>
             </div>
-        </div>
-        <div class="text-center my-3">
-            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
         </div>
     </section>
     <hr>

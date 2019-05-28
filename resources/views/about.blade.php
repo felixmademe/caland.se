@@ -11,8 +11,8 @@
             Företagsnamnet är de tre första bokstäverna från familjenamnen Calais och Andersson,
             <span class="red">CAL</span> och <span class="red">AND</span> blev företagsnamnet CALAND.
             <br><br>
-            Caland blev en koncern 2002 genom att Caland Betonghåltagning AB
-            startades med specialisering inom betonghåltagning, sanering och rivning.
+            Caland blev en koncern 2002 genom att Caland Håltagning AB
+            startades med specialisering inom håltagning, sanering och rivning.
             2007 utökades koncernen ytterligare med Caland Transport AB –Åkeri som
             utför en mängd olika transporttjänster.
         </p>
@@ -41,8 +41,8 @@
                 <div class="timeline-content right">
                     <h4 class="timeline-content-date">2002</h4>
                         <p>
-                            Caland blev en koncern 2002 genom att Caland Betonghåltagning AB
-                            startades med specialisering inom betonghåltagning, sanering och rivning.
+                            Caland blev en koncern 2002 genom att Caland Håltagning AB
+                            startades med specialisering inom håltagning, sanering och rivning.
                         </p>
                 </div>
             </div>

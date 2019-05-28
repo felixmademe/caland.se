@@ -6,23 +6,23 @@
         <img src="{{ asset( '/img/caland-transport.jpg' ) }}" alt="Caland Transport AB">
         <br><br>
         <h1>Transport</h1>
-        <p>
-            Vi har resurser, metoder och kompetens att utföra
-            professionella tjänster inom byggbranschen.
-            <br>
-            <span class="underline">Bredden är vår styrka</span>.
-        </p>
     </section>
     <hr>
     <section class="service-about">
-        <h2>Vad gör vi?</h2>
         <p>
             Vår breda flotta av fordon gör att vi kan åta oss många olika typer av uppdrag.
-            Kontakta oss så löser vi dina transportproblem!
-            Vi utgår från Karlstad & Värmland men jobbar i hela Sverige.
+            Kontakta oss så löser vi dina transportbehov!
         </p>
-        <div class="row justify-content-center px-3">
-            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+        <div class="d-flex justify-content-center">
+            <div class="col-md-7">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA">
+                <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/trailer.jpg' ) }}" alt="Trailer">
+            </div>
+
+            {{-- <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
                         role="tab" aria-controls="first" aria-selected="true">
@@ -45,42 +45,12 @@
             <br>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Godstransport">
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
                 </div>
                 <div class="tab-pane fade" id="third" role="tabpanel" aria-labelledby="third-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil">
                 </div>
-            </div>
-        </div>
-        <div class="text-center my-3">
-            <img class="lozad" data-src="{{ asset( '/img/services/iso.jpg' ) }}" alt="ISO Certifikationer">
+            </div> --}}
         </div>
     </section>
     <hr>
