@@ -12,47 +12,17 @@
         <p>
             Vi utför städtjänster hos företag och på byggarbetsplatser. Hör av dig med din förfrågan.
         </p>
-        <div class="row justify-content-center px-3">
-            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
-                        role="tab" aria-controls="first" aria-selected="true">
-                        Städ
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
-                    role="tab" aria-controls="second" aria-selected="false">
-                        Bygghjälpen
-                    </a>
-                </li>
+        <p>
+            Vi utför städtjänster för företag och privatpersoner.
+            Vi ombesörjer städ på följande områden:
+            <ul>
+                <li>Kontor</li>
+                <li>Butik</li>
+                <li>Bygg</li>
             </ul>
-            <div class="tab-content" id="myTabContent">
-                <div class="tab-pane fade show active" id="first" role="tabpanel" aria-labelledby="first-tab">
-                    <p>
-                        Vi utför städtjänster för företag och privatpersoner.
-                        Vi ombesörjer städ på följande områden:
-                        <ul>
-                            <li>Kontor</li>
-                            <li>Butik</li>
-                            <li>Bygg</li>
-                            <li>Flytt</li>
-                            <li>Hem</li>
-                        </ul>
-                    </p>
-                    <img class="lozad img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
-                </div>
-                <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    </p>
-                    <div class="text-center">
-                        <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                    </div>
-                </div>
-            </div>
+        </p>
+        <div class="text-center">
+            <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
         </div>
     </section>
     <hr>

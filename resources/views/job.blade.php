@@ -19,9 +19,11 @@
     @endif
 
     <section class="info row justify-content-center px-0">
-        <div class="col-md-6 bg-white py-5 px-4">
+        <div class="col-md-6 bg-white pt-5 pb-2 px-4">
             <h1>Jobba på Caland</h1>
             <p>
+                Gå gärna in på vår Facebook: <a href="https://www.facebook.com/calandkoncernen">Caland AB</a>
+                <br>
                 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
                 incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
                 exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
@@ -62,6 +64,25 @@
             </div>
         </div>
     </section>
+    <section class="info row justify-content-center px-0">
+        <div class="col-md-6 bg-white pt-2 pb-5 px-4 service-contact">
+            <hr>
+            <h3>Kontakta oss</h3>
+            <div class="row">
+                <div class="col-md-6 offset-md-3">
+                    <h4>Ellinor Halldan</h4>
+                    <p>
+                        <span class="red">HR</span>
+                        <br>
+                        <a class="no-colour" href="tel:054220795">054-22 07 95</a>
+                        <br>
+                        <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
 
 @endsection

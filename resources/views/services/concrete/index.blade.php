@@ -12,8 +12,12 @@
 
         <p>
             Vi erbjuder yrkeskunnig hjälp inom byggbranschen med specialisering inom håltagning,
-            asbestsanering och rivningsarbeten i Karlstad och hela Värmland
+            asbestsanering och rivningsarbeten i Karlstad och hela Värmland.
         </p>
+        <div class="text-center">
+            <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+        </div>
+        <br>
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
@@ -38,12 +42,6 @@
                     <a class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
                     role="tab" aria-controls="stor-maskinpark" aria-selected="false">
                         Vår maskinpark
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="bygghjälpen-tab" data-toggle="pill" href="#bygghjälpen"
-                    role="tab" aria-controls="bygghjälpen" aria-selected="false">
-                        Bygghjälpen
                     </a>
                 </li>
             </ul>
@@ -94,28 +92,15 @@
                             <li>Grävmaskin</li>
                         </ul>
                     </p>
-                    <div class="col-10 mx-auto">
-                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
-                        <hr>
-                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare">
-                        <hr>
-                        <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
+                    <div class="row">
+                        <div class="col-md-6 mx-auto">
+                            <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil">
+                            <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare">
+                        </div>
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
+                        </div>
                     </div>
-                </div>
-                <div class="tab-pane fade" id="bygghjälpen" role="tabpanel" aria-labelledby="bygghjälpen-tab">
-                    <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
-                    </p>
-                    <div class="text-center">
-                        <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-                    </div>
-                    <br>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
                 </div>
             </div>
         </div>

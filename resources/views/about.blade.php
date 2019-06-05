@@ -58,6 +58,28 @@
                         </p>
                 </div>
             </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa fa-building"></i>
+                </div>
+                <div class="timeline-content right">
+                    <h4 class="timeline-content-date">2016</h4>
+                        <p>
+                            Caland AB
+                        </p>
+                </div>
+            </div>
+            <div class="timeline-item">
+                <div class="timeline-icon">
+                    <i class="fa fa-copyright"></i>
+                </div>
+                <div class="timeline-content">
+                    <h4 class="timeline-content-date">2019</h4>
+                        <p>
+                            Bytte av koncernchef
+                        </p>
+                </div>
+            </div>
         </div>
     </section>
 

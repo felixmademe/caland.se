@@ -22,7 +22,15 @@ class EmailController extends Controller
             'policy'  => 'accepted'
         ] );
 
-        Mail::to( 'info@caland.se' )
+        Mail::to( 'ellinor@caland.se' )
+            ->send( new Contact(
+                $request->name,
+                $request->email,
+                $request->subject,
+                $request->text,
+            ) );
+
+        Mail::to( 'lotta@caland.se' )
             ->send( new Contact(
                 $request->name,
                 $request->email,
@@ -50,7 +58,7 @@ class EmailController extends Controller
            return redirect()->back()->with( 'error', $error);
         }
 
-        Mail::to( 'info@caland.se' )
+        Mail::to( 'ansokan@caland.se' )
             ->send( new Application(
                 $request->name,
                 $request->email,
@@ -71,7 +79,7 @@ class EmailController extends Controller
             'text'    => 'required|string',
             'policy'  => 'accepted'
         ] );
-        Mail::to( 'info@caland.se' )
+        Mail::to( 'ellinor@caland.se' )
             ->send( new Support(
                 $request->name,
                 $request->email,

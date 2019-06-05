@@ -109,7 +109,7 @@
                     <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 offset-md-3">
                 <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
                 <h4>Charlotta Löfgren</h4>
                 <p>

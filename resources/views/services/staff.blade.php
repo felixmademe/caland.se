@@ -14,23 +14,33 @@
             Behöver du hjälp en dag en vecka eller under en längre period? Då kan vi hjälpa dig!
             <br><br>
             Bredden är vår styrka, därför kan vi hjälpa dig bland annat med:
-            <ul>
-                <li>Lastbilschaufförer</li>
-                <li>Terminalarbetare</li>
-                <li>Truckförare</li>
-                <li>Lagerarbetare</li>
-                <li>Industriarbetare</li>
-                <li>Maskinoperatörer</li>
-                <li>Maskinförare</li>
-                <li>Budbilschaufförer</li>
-                <li>Bärhjälp</li>
-                <li>Möbelmontörer</li>
-                <li>Fastighetskötare</li>
-                <li>Lokalvårdare</li>
-                <li>Sanerare</li>
-                <li>Rivare</li>
-                <li>Byggstädare</li>
-            </ul>
+        </p>
+        <div class="row">
+            <div class="col-md-6">
+                <ul>
+                    <li>Lastbilschaufförer</li>
+                    <li>Terminalarbetare</li>
+                    <li>Truckförare</li>
+                    <li>Lagerarbetare</li>
+                    <li>Industriarbetare</li>
+                    <li>Maskinoperatörer</li>
+                    <li>Maskinförare</li>
+                    <li>Budbilschaufförer</li>
+                </ul>
+            </div>
+            <div class="col-md-6">
+                <ul>
+                    <li>Bärhjälp</li>
+                    <li>Möbelmontörer</li>
+                    <li>Fastighetskötare</li>
+                    <li>Lokalvårdare</li>
+                    <li>Sanerare</li>
+                    <li>Rivare</li>
+                    <li>Byggstädare</li>
+                </ul>
+            </div>
+        </div>
+        <p>
             Vi är heller inte främmande för andra typer av uppdrag, hör av dig till oss så ser vi efter
             hur vi kan hjälpa er.
         </p>
