@@ -39,46 +39,52 @@
                     </a>
                 </li>
                 <li class="nav-item">
+                    <a class="nav-link btn-red-border m-1" id="slipning-tab" data-toggle="pill" href="#slipning"
+                    role="tab" aria-controls="slipning" aria-selected="false">
+                        Slipning av betonggolv
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link btn-red-border m-1" id="transport-tab" data-toggle="pill" href="#transport"
+                    role="tab" aria-controls="transport" aria-selected="false">
+                        Transport/lyfthjälp
+                    </a>
+                </li>
+                <li class="nav-item">
                     <a class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
                     role="tab" aria-controls="stor-maskinpark" aria-selected="false">
                         Vår maskinpark
                     </a>
                 </li>
             </ul>
-            <br>
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade show active" id="håltagning" role="tabpanel" aria-labelledby="håltagning-tab">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
+                        Vi utför håltagning i alla förekommande material.
+                        <br>
+                        Metoder vi använder oss av är:
+                        <ul>
+                            <li>Kärnborrning upp till 1000mm</li>
+                            <li>Sågning med klinga, materialtjocklek upp till 920mm</li>
+                            <li>Sågning med wire, används vid tex större fundament, tjockare konstruktioner</li>
+                        </ul>
                     </p>
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk-arbete.jpg' ) }}" alt="Arbete med Brokk">
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
                 </div>
                 <div class="tab-pane fade" id="rivning" role="tabpanel" aria-labelledby="rivning-tab">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
+                        Vi utför alla typer av rivningar, stora som små.
+                        Med en modern maskinpark arbetar vi både effektivt och säkert.
+                        Arbetsmiljön står alltid som högsta prio.
+
                     </p>
-                    <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Slipning av gold">
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Rivning med Brokk">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                        incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                        exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                        irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                        pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
-                        officia deserunt mollit anim id est laborum.
+                        Alla våra medarbetare är utbildade inom asbestsanering.
+                        Detta för att i ett tidigt skede av rivningsprocessen kunna identifiera eventuella risker
                     </p>
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
                 </div>
@@ -103,6 +109,19 @@
                             <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
                         </div>
                     </div>
+                </div>
+                <div class="tab-pane fade" id="slipning" role="tabpanel" aria-labelledby="slipning-tab">
+                    <p>
+                        Vi slipar allt från limrester till HTC Superfloor.
+                    </p>
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Golvslipning i lägenhet">
+                </div>
+                <div class="tab-pane fade" id="transport" role="tabpanel" aria-labelledby="transport-tab">
+                    <p>
+                        Med vår lastbil tar vi hand om allt från transport av restavfall till kranlyft.
+                        Vid behov av lyfthjälp har vi 2st runtomsvängande teleskoplastare som är fullt utrustade med gafflar, vinsch, material/personkorg. Lyfthöjd 25 meter.
+                    </p>
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" alt="Lyftning av material med kranbil">
                 </div>
             </div>
         </div>
