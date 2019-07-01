@@ -10,18 +10,18 @@
     <hr>
     <div class="row">
         <div class="col-md-6">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning av rör">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" alt="Lyftning av material på bygge">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA lastbil">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/asbestsanering-stada.jpg' ) }}" alt="Städning efter asbestsanering">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning av rör">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" alt="Lyftning av material på bygge">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA lastbil">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/asbestsanering-stada.jpg' ) }}" alt="Städning efter asbestsanering">
         </div>
         <div class="col-md-6">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Brokk rivning">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/lift-hogt.jpg' ) }}" alt="Lyft av material">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Transport med lastbil">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/torn.jpg' ) }}" alt="Arbete uppe på torn">
-            <img class="img-fluid my-1" src="{{ asset( '/img/services/rivning.jpg' ) }}" alt="Rivning av byggnad">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Brokk rivning">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/lift-hogt.jpg' ) }}" alt="Lyft av material">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Transport med lastbil">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/torn.jpg' ) }}" alt="Arbete uppe på torn">
+            <img class="lozad img-fluid my-1" src="{{ asset( '/img/services/rivning.jpg' ) }}" alt="Rivning av byggnad">
         </div>
     </div>
     <hr>
