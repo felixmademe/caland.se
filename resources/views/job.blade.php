@@ -22,14 +22,10 @@
         <div class="col-md-6 bg-white pt-5 pb-2 px-4">
             <h1>Jobba på Caland</h1>
             <p>
-                Gå gärna in på vår Facebook: <a href="https://www.facebook.com/calandkoncernen">Caland AB</a>
+                Vill du jobba hos oss på Caland? Nedan kan du skicka in en intresseanmälan till
+                samtliga av våra tjänster som presenteras här på hemsidan. Håll utkik på
+                <a class="text-underline" href="https://www.facebook.com/calandkoncernen"><u>vår Facebooksida</u></a> där vi publicerar lediga jobb.
                 <br>
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor
-                incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
-                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla
-                pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
-                deserunt mollit anim id est laborum.
             </p>
             <hr>
             <div class="application-form">
