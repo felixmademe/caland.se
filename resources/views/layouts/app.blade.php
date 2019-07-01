@@ -105,7 +105,7 @@
             <main class="content">
                 <div class="bg-gradient pt-5">
                     <div class="container-fluid">
-                            @yield( 'content' )
+                        @yield( 'content' )
                     </div>
                 </div>
             </main>
@@ -113,7 +113,7 @@
             <main class="content">
                 <div class="container-fluid mt-5 py-4 py-md-5">
                     <div class="row justify-content-center">
-                        <div class="col-md-8 col-lg-6">
+                        <div class="col-md-9 col-lg-7">
                             @yield( 'content' )
                             <br>
                         </div>
