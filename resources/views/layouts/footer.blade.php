@@ -26,7 +26,7 @@
             </div>
             <div class="col-12 text-center">
                 <hr class="d-block d-md-none">
-                <small>Copyright © {{ date( 'Y' ) }} Caland | Alla rättigheter reserverade</small>
+                <small>Copyright © {{ date( 'Y' ) }} Caland AB | Alla rättigheter reserverade</small>
             </div>
         </div>
     </div>
