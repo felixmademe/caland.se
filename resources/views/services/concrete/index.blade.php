@@ -56,7 +56,8 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk-arbete.jpg' ) }}" alt="Samling av bilder">
+                    <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk-arbete.jpg' ) }}" alt="Arbete med Brokk">
+                    <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
                 </div>
                 <div class="tab-pane fade" id="rivning" role="tabpanel" aria-labelledby="rivning-tab">
                     <p>
@@ -67,7 +68,8 @@
                         pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui
                         officia deserunt mollit anim id est laborum.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Slipning av gold">
+                    <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/golvslipning.jpg' ) }}" alt="Slipning av gold">
+                    <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Rivning med Brokk">
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
