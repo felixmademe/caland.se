@@ -107,6 +107,7 @@
                         </div>
                         <div class="col-md-6">
                             <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/brokk.jpg' ) }}" alt="Tvätt av Brokk">
+                            <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/lyft-material.jpg' ) }}" alt="Lyftning av material">
                         </div>
                     </div>
                 </div>
@@ -119,9 +120,17 @@
                 <div class="tab-pane fade" id="transport" role="tabpanel" aria-labelledby="transport-tab">
                     <p>
                         Med vår lastbil tar vi hand om allt från transport av restavfall till kranlyft.
-                        Vid behov av lyfthjälp har vi 2st runtomsvängande teleskoplastare som är fullt utrustade med gafflar, vinsch, material/personkorg. Lyfthöjd 25 meter.
+                        Vid behov av lyfthjälp har vi 2st runtomsvängande teleskoplastare som är fullt utrustade med gafflar, vinsch, material/personkorg.
+                        Lyfthöjd 25 meter.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" alt="Lyftning av material med kranbil">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyft-flakbil.jpg' ) }}" alt="Lyft av material från lätt lastbil">
+                        </div>
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" alt="Lyftning av material med kranbil">
+                        </div>                        
+                    </div>
                 </div>
             </div>
         </div>

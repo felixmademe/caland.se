@@ -71,14 +71,28 @@
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
+                        </div>
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="second" role="tabpanel" aria-labelledby="second-tab">
                     <p>
                         Vi har lång erfarenhet av att bedriva bemanningsentreprenad. Då vi tar över ansvaret
                         och bemannar en hel avdelning hos er inklusive arbetsledning så att ni kan fokusera på annat.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/fabrik.jpg' ) }}" alt="Personal i fabrik">
+                        </div>
+                        <div class="col-md-6">
+                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/fabrik-kontroller.jpg' ) }}" alt="Personal vid kontroller i fabrik">
+                        </div>
+                    </div>
                 </div>
                 <div class="tab-pane fade" id="asbestsanering" role="tabpanel" aria-labelledby="asbestsanering-tab">
                     <p>
