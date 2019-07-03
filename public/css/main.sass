@@ -232,13 +232,20 @@ img.img-fluid
 //
 .hero
     overflow: hidden
-    max-height: 55vh
+    max-height: 60vh
+    .hero-img
+        margin-left: calc( 50% - 50vw )
+        min-width: 100vw
+        min-height: 90vh
+        object-position: left
+        object-fit: cover
     .text-box
         position: absolute
-        top: 90px
+        top: 5em
+        bottom: 0
         left: 0
         right: 0
-        margin: 0 auto
+        margin: auto
         text-align: center
         color: $white
         .logo-wrapper
@@ -260,6 +267,7 @@ img.img-fluid
         h1
             font-size: 3em
             color: $white
+            text-shadow: 3px 3px 15px rgba(0,0,0,0.9)
         p
             font-size: 1.5em !important
 
@@ -520,7 +528,7 @@ img.img-fluid
             .nav-link
                 margin-left: 10px !important
 
-@media (max-height: 500px)
+@media (max-height: 600px)
     .text-box
         h1
             display: none
