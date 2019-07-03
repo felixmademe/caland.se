@@ -5,7 +5,7 @@
     <section class="service-header">
         <img src="{{ asset( '/img/caland-betong.jpg' ) }}" alt="Caland Håltagning">
         <br><br>
-        <h1>Referenser</h1>
+        <h1>Referensbilder</h1>
     </section>
     <hr>
     <div class="row">

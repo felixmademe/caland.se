@@ -126,11 +126,11 @@
             </div>
         </div>
     </section>
-    <hr>
+    {{-- <hr>
     <section class="service-reference">
-        <p>Klicka här för se några referensprojekt</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'references' ) }}">Referensprojekt</a>
-    </section>
+        <p>Klicka här för se några referensbilder</p>
+        <a class="btn btn-red btn-expand" href="{{ route( 'references' ) }}">Referensbilder</a>
+    </section> --}}
     <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>

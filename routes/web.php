@@ -59,10 +59,10 @@ Route::get( 'tjänster/håltagning#asbestsanering', function ()
     return view( 'services.concrete.index' );
 } )->name( 'asbest' );
 
-Route::get( 'tjänster/håltagning/referenser', function ()
-{
-    return view( 'services.concrete.references' );
-} )->name( 'references' );
+// Route::get( 'tjänster/håltagning/referensbilder', function ()
+// {
+//     return view( 'services.concrete.references' );
+// } )->name( 'references' );
 
 Route::get( 'tjänster/städ', function ()
 {
