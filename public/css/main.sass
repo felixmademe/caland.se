@@ -51,7 +51,6 @@ hr
     margin: 30px 0
 
 img.img-fluid
-    max-height: 35vh
     display: block
     margin-left: auto
     margin-right: auto
@@ -232,13 +231,11 @@ img.img-fluid
 //
 .hero
     overflow: hidden
-    max-height: 60vh
-    .hero-img
-        margin-left: calc( 50% - 50vw )
-        min-width: 100vw
-        min-height: 90vh
-        object-position: left
-        object-fit: cover
+    height: 70vh
+    background-image: url( "/img/kollektion.jpg" )
+    background-repeat: repeat-x
+    background-position: center
+    background-size: cover
     .text-box
         position: absolute
         top: 5em
@@ -528,7 +525,7 @@ img.img-fluid
             .nav-link
                 margin-left: 10px !important
 
-@media (max-height: 600px)
+@media (max-height: 650px)
     .text-box
         h1
             display: none

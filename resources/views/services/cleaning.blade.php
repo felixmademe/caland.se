@@ -11,9 +11,6 @@
     <section class="service-about">
         <p>
             Vi utför städtjänster hos företag och på byggarbetsplatser. Hör av dig med din förfrågan.
-        </p>
-        <p>
-            Vi utför städtjänster för företag och privatpersoner.
             Vi ombesörjer städ på följande områden:
             <ul>
                 <li>Kontor</li>

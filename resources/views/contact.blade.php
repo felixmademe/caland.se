@@ -22,7 +22,9 @@
         <h1>Personal</h1>
         <div class="row row-eq-height">
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Johan Wallstav">
+                <a href="{{ asset( '/img/staff/johan.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/johan.jpg' ) }}" alt="Caland AB - Johan Wallstav">
+                </a>
                 <h4>Johan Wallstav</h4>
                 <p>
                     <span class="red">Utbildning</span>
@@ -33,7 +35,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Reimond Sundström">
+                <a href="{{ asset( '/img/staff/reimond.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/reimond.jpg' ) }}" alt="Caland AB - Reimond Sundström">
+                </a>
                 <h4>Reimond Sundström</h4>
                 <p>
                     <span class="red">Utbildning</span>
@@ -44,7 +48,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Henrik Pagré">
+                <a href="{{ asset( '/img/staff/henrik.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Caland AB - Henrik Pagré">
+                </a>
                 <h4>Henrik Pagré</h4>
                 <p>
                     <span class="red">Transport/Bemanning</span>
@@ -55,18 +61,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/henrik.jpg' ) }}" alt="Lars Löfgren">
-                <h4>Lars Löfgren</h4>
-                <p>
-                    <span class="red">Arbetsledare Gjuteriet</span>
-                    <br>
-                    <a class="no-colour" href="tel:0703998170">070 399 81 70</a>
-                    <br>
-                    <a class="no-colour" href="mailto:lars@caland.se">lars@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Marcus Andersson">
+                <a href="{{ asset( '/img/staff/marcus.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Caland AB - Marcus Andersson">
+                </a>
                 <h4>Marcus Andersson</h4>
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
@@ -77,7 +74,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Robin Gränsed">
+                <a href="{{ asset( '/img/staff/robin.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/robin.jpg' ) }}" alt="Caland AB - Robin Gränsed">
+                </a>
                 <h4>Robin Gränsed</h4>
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
@@ -88,7 +87,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lena.jpg' ) }}" alt="Lena Andersson">
+                <a href="{{ asset( '/img/staff/lena.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lena.jpg' ) }}" alt="Caland AB - Lena Andersson">
+                </a>
                 <h4>Lena Andersson</h4>
                 <p>
                     <span class="red">Lön/Städ</span>
@@ -99,7 +100,9 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Ellinor Halldan">
+                <a href="{{ asset( '/img/staff/ellinor.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Caland AB - Ellinor Halldan">
+                </a>
                 <h4>Ellinor Halldan</h4>
                 <p>
                     <span class="red">HR</span>
@@ -109,8 +112,10 @@
                     <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
-            <div class="col-md-6 offset-md-3">
-                <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Charlotta Löfgren">
+            <div class="col-md-6">
+                <a href="{{ asset( '/img/staff/charlotta.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Caland AB - Charlotta Löfgren">
+                </a>
                 <h4>Charlotta Löfgren</h4>
                 <p>
                     <span class="red">Koncernchef</span>
@@ -127,7 +132,6 @@
         <div class="text-center">
             <h2>Kontakta oss</h2>
             <p>
-                {{-- Hittar du svar på dina frågor? --}}
                 Du är självklart välkommen att ringa till oss eller så kan du använda dig av
                 formuläret nedan för att komma i kontakt med oss
             </p>

@@ -20,6 +20,24 @@
             </ul>
             Oavsett om ni har behov av handkraft eller maskinell hjälp så tveka inte att höra av er till oss.
         </p>
+        <div class="row justify-content-center">
+            <div class="col-md-4 my-1">
+                <a href="{{ asset( '/img/services/städa-byggen.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/städa-byggen.jpg' ) }}" alt="Städning på byggen">
+                </a>
+            </div>
+            <div class="col-md-4 my-1">
+                <a href="{{ asset( '/img/services/bärhjälp.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp.jpg' ) }}" alt="Bärhjälp av Caland AB">
+                </a>
+            </div>
+            <div class="col-md-4 my-1">
+                <a href="{{ asset( '/img/services/bärhjälp-bemanning.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp-bemanning.jpg' ) }}" alt="Bärhjälp av material med Caland AB">
+                </a>
+            </div>
+        </div>
+
     </section>
     <hr>
     <section class="service-contact">

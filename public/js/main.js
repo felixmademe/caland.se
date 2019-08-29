@@ -8,25 +8,10 @@ $( '#list-tab a' ).on('click', function ( e )
     $( this ).tab( 'show' )
 } );
 
-var items = $( '.jobs .list-group .list-group-item' );
-items.on( 'click', function()
+if( window.location.hash )
 {
-    var item = $( this );
-    var text = item.find( 'h5' ).text();
-    var position = $( 'input[name="position"]' );
-    position.val( text );
-    var form = $( '.job-application' )[0];
-    var name = $( 'input[name="name"]' );
-    form.scrollIntoView( { block: 'end',  behavior: 'smooth' } );
-    setTimeout( function()
-    {
-        name.focus();
-    }, 500);
-} );
-
-if(window.location.hash) {
     var hash = window.location.hash.substring(1);
-    if( hash == "asbest" )
+    if( hash == 'asbest' )
     {
         var container = $( '.underline' )[ 0 ];
         $( '#asbestsanering-tab' ).click();
@@ -36,3 +21,12 @@ if(window.location.hash) {
         } );
     }
 }
+
+$( document ).on('click', '[data-toggle="lightbox"]', function(event)
+{
+    event.preventDefault();
+    $(this).ekkoLightbox(
+    {
+        maxWidth: 9999
+    } );
+} );

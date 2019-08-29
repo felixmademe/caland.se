@@ -15,9 +15,10 @@
             utbildningar inom bl a transport, bygg och industri. Kontakta oss när ni är
             i behov av nedan tjänster. Vi jobbar i hela landet.
             <br>
-            <i>Se längre ner för bokning av kurs.</i>
+
+            <i>Se längre ner för information och bokning av kurs.</i>
         </p>
-        <div class="text-center">
+        {{-- <div class="text-center">
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
                 ADR
             </a>
@@ -25,22 +26,25 @@
                 Arbete på väg
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
-                Bom- och saxliftutbildning
+                Bom- och saxlift
+            </a>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+                Fallskydd
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
                 Första hjälpen
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
-                Hjullastarutbildning
+                Hjullastare
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
-                Fordonsmonterad kranutbildning
+                Fordonsmonterad kran
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'travers' ) }}">
-                Traversutbildning
+                Travers
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'forklift' ) }}">
-                Truckutbildning
+                Truck
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
                 Säkra lyft
@@ -52,9 +56,12 @@
                 Grävmaskin
             </a>
             <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
-                Teleporter
+                Teleskoplastare
             </a>
-        </div>
+            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+                YKB
+            </a>
+        </div> --}}
     </section>
     <hr>
     <section class="service-book">

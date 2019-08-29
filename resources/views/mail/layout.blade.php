@@ -33,16 +33,9 @@
                 margin: 20px auto;
             }
 
-            .wrapper
-            {
-                background-color: #efefef;
-                border-radius: 4px;
-            }
-
             header
             {
-                background-color: #ed2e3b;
-                color: #fff !important;
+                color: #ed2e3b !important;
                 padding: 20px 0;
                 width: 100%;
                 text-align: center;

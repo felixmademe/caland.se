@@ -45,7 +45,7 @@
             hur vi kan hjälpa er.
         </p>
         <div class="row justify-content-center px-3">
-            <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
+            <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item">
                     <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
                         role="tab" aria-controls="first" aria-selected="true">
@@ -71,12 +71,21 @@
                     <p>
                         Vi löser såväl tillfälliga som varaktiga personalbehov.
                     </p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Gaffeltruck">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/slipning.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/slipning.jpg' ) }}" alt="Slipning av metall">
+                            </a>
                         </div>
-                        <div class="col-md-6">
-                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Gaffeltruck">
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bemanning-1.jpg' ) }}" alt="Avlastning av lastbil">
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/staff-truck1.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Personal som kör en gaffeltruck">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -85,12 +94,21 @@
                         Vi har lång erfarenhet av att bedriva bemanningsentreprenad. Då vi tar över ansvaret
                         och bemannar en hel avdelning hos er inklusive arbetsledning så att ni kan fokusera på annat.
                     </p>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/fabrik.jpg' ) }}" alt="Personal i fabrik">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/maskinstyrning.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/maskinstyrning.jpg' ) }}" alt="Gaffeltruck">
+                            </a>
                         </div>
-                        <div class="col-md-6">
-                            <img class="lozad img-fluid" data-src="{{ asset( '/img/services/fabrik-kontroller.jpg' ) }}" alt="Personal vid kontroller i fabrik">
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/lastbil.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lastbil.jpg' ) }}" alt="Styrning av maskin i fabrik">
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/travers.jpg' ) }}" alt="Personal som styr en travers">
+                            </a>
                         </div>
                     </div>
                 </div>
@@ -99,7 +117,23 @@
                         Välj att rekrytera direkt eller hyr först och rekrytera sen som en möjlighet att testa
                         din nästa medarbetare först.
                     </p>
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-welding.jpg' ) }}" alt="Svetsning">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/travers.jpg' ) }}" alt="Personal som styr en travers">
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/staff-truck.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Personal som kör en gaffeltruck">
+                            </a>
+                        </div>
+                        <div class="col-md-4 my-1">
+                            <a href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
+                                <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bemanning-1.jpg' ) }}" alt="Avlastning av lastbil">
+                            </a>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
