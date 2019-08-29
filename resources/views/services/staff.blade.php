@@ -142,7 +142,7 @@
     <section class="service-contact">
         <h3>Kontakta oss</h3>
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 offset-md-3">
                 <h4>Henrik Pagré</h4>
                 <p>
                     <span class="red">Transport/Bemanning</span>
@@ -150,16 +150,6 @@
                     <a class="no-colour" href="tel:054220792">054-22 07 92</a>
                     <br>
                     <a class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <h4>Ellinor Halldan</h4>
-                <p>
-                    <span class="red">HR</span>
-                    <br>
-                    <a class="no-colour" href="tel:054220795">054-22 07 95</a>
-                    <br>
-                    <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
                 </p>
             </div>
         </div>

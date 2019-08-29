@@ -22,14 +22,6 @@ class EmailController extends Controller
             'policy'  => 'accepted'
         ] );
 
-        Mail::to( 'ellinor@caland.se' )
-            ->send( new Contact(
-                $request->name,
-                $request->email,
-                $request->subject,
-                $request->text,
-            ) );
-
         Mail::to( 'lotta@caland.se' )
             ->send( new Contact(
                 $request->name,
@@ -79,7 +71,7 @@ class EmailController extends Controller
             'text'    => 'required|string',
             'policy'  => 'accepted'
         ] );
-        Mail::to( 'ellinor@caland.se' )
+        Mail::to( 'info@caland.se' )
             ->send( new Support(
                 $request->name,
                 $request->email,

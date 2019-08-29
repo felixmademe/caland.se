@@ -65,7 +65,7 @@
         <br>
         65671 Skattkärr
         <br>
-        E-mail: ellinor@caland.se
+        E-mail: info@caland.se
     </address>
 
 

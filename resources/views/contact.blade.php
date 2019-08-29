@@ -100,19 +100,6 @@
                 </p>
             </div>
             <div class="col-md-6">
-                <a href="{{ asset( '/img/staff/ellinor.jpg' ) }}" data-toggle="lightbox">
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/ellinor.jpg' ) }}" alt="Caland AB - Ellinor Halldan">
-                </a>
-                <h4>Ellinor Halldan</h4>
-                <p>
-                    <span class="red">HR</span>
-                    <br>
-                    <a class="no-colour" href="tel:054220795">054-22 07 95</a>
-                    <br>
-                    <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
                 <a href="{{ asset( '/img/staff/charlotta.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/charlotta.jpg' ) }}" alt="Caland AB - Charlotta Löfgren">
                 </a>

@@ -60,7 +60,7 @@
             </div>
         </div>
     </section>
-    <section class="info row justify-content-center px-0">
+    {{-- <section class="info row justify-content-center px-0">
         <div class="col-md-6 bg-white pt-2 pb-5 px-4 service-contact">
             <hr>
             <h3>Kontakta oss</h3>
@@ -77,7 +77,7 @@
                 </div>
             </div>
         </div>
-    </section>
+    </section> --}}
 
 
 
