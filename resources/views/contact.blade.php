@@ -112,6 +112,19 @@
                     <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
                 </p>
             </div>
+            <div class="col-md-6">
+                <a href="{{ asset( '/img/staff/lars.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lars.jpg' ) }}" alt="Caland AB - Lars Löfgren">
+                </a>
+                <h4>Lars Löfgren</h4>
+                <p>
+                    <span class="red">Arbetsledare Gjuteriet</span>
+                    <br>
+                    <a class="no-colour" href="tel:054220794">Nummer?</a>
+                    <br>
+                    <a class="no-colour" href="mailto:lotta@caland.se">lars@caland.se</a>
+                </p>
+            </div>
         </div>
     </section>
     <hr>
