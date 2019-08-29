@@ -71,7 +71,7 @@ class EmailController extends Controller
             'text'    => 'required|string',
             'policy'  => 'accepted'
         ] );
-        Mail::to( 'info@caland.se' )
+        Mail::to( 'johan@caland.se' )
             ->send( new Support(
                 $request->name,
                 $request->email,

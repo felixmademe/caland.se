@@ -65,7 +65,7 @@
         <br>
         65671 Skattkärr
         <br>
-        E-mail: info@caland.se
+        E-mail: johan@caland.se
     </address>
 
 

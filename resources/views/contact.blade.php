@@ -61,6 +61,19 @@
                 </p>
             </div>
             <div class="col-md-6">
+                <a href="{{ asset( '/img/staff/lars.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lars.jpg' ) }}" alt="Caland AB - Lars Löfgren">
+                </a>
+                <h4>Lars Löfgren</h4>
+                <p>
+                    <span class="red">Arbetsledare Gjuteriet</span>
+                    <br>
+                    <a class="no-colour" href="tel:0703998170">070 399 81 70</a>
+                    <br>
+                    <a class="no-colour" href="mailto:lars@caland.se">lars@caland.se</a>
+                </p>
+            </div>
+            <div class="col-md-6">
                 <a href="{{ asset( '/img/staff/marcus.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/marcus.jpg' ) }}" alt="Caland AB - Marcus Andersson">
                 </a>
@@ -105,24 +118,11 @@
                 </a>
                 <h4>Charlotta Löfgren</h4>
                 <p>
-                    <span class="red">Koncernchef</span>
+                    <span class="red">Koncernchef/Personalchef</span>
                     <br>
                     <a class="no-colour" href="tel:054220794">054-22 07 94</a>
                     <br>
                     <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <a href="{{ asset( '/img/staff/lars.jpg' ) }}" data-toggle="lightbox">
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/lars.jpg' ) }}" alt="Caland AB - Lars Löfgren">
-                </a>
-                <h4>Lars Löfgren</h4>
-                <p>
-                    <span class="red">Arbetsledare Gjuteriet</span>
-                    <br>
-                    <a class="no-colour" href="tel:054220794">Nummer?</a>
-                    <br>
-                    <a class="no-colour" href="mailto:lotta@caland.se">lars@caland.se</a>
                 </p>
             </div>
         </div>

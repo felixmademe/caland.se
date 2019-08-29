@@ -60,24 +60,24 @@
             </div>
         </div>
     </section>
-    {{-- <section class="info row justify-content-center px-0">
+    <section class="info row justify-content-center px-0">
         <div class="col-md-6 bg-white pt-2 pb-5 px-4 service-contact">
             <hr>
             <h3>Kontakta oss</h3>
             <div class="row">
                 <div class="col-md-6 offset-md-3">
-                    <h4>Ellinor Halldan</h4>
+                    <h4>Charlotta Löfgren</h4>
                     <p>
-                        <span class="red">HR</span>
+                        <span class="red">Koncernchef/Personalchef</span>
                         <br>
-                        <a class="no-colour" href="tel:054220795">054-22 07 95</a>
+                        <a class="no-colour" href="tel:054220794">054-22 07 94</a>
                         <br>
-                        <a class="no-colour" href="mailto:ellinor@caland.se">ellinor@caland.se</a>
+                        <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
                     </p>
                 </div>
             </div>
         </div>
-    </section> --}}
+    </section>
 
 
 

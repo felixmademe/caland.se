@@ -47,7 +47,7 @@
             <div class="col-md-6 offset-md-3">
                 <h4>Charlotta Löfgren</h4>
                 <p>
-                    <span class="red">Koncernchef</span>
+                    <span class="red">Koncernchef/Personalchef</span>
                     <br>
                     <a class="no-colour" href="tel:054220794">054-22 07 94</a>
                     <br>
