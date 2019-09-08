@@ -27,17 +27,16 @@
                 </a>
             </div>
             <div class="col-md-4 my-1">
+                <a href="{{ asset( '/img/services/hjulastare.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp.jpg' ) }}" alt="Hjulastare från Caland AB">
+                </a>
+            </div>
+            <div class="col-md-4 my-1">
                 <a href="{{ asset( '/img/services/bärhjälp.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp.jpg' ) }}" alt="Bärhjälp av Caland AB">
                 </a>
             </div>
-            <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/bärhjälp-bemanning.jpg' ) }}" data-toggle="lightbox">
-                    <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp-bemanning.jpg' ) }}" alt="Bärhjälp av material med Caland AB">
-                </a>
-            </div>
         </div>
-
     </section>
     <hr>
     <section class="service-contact">

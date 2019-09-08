@@ -11,8 +11,9 @@
     <section class="service-about">
         <p>
             Vår breda flotta av fordon gör att vi kan åta oss många olika typer av uppdrag.
-            Kontakta oss så löser vi dina transportbehov!
             Vi utgår från Karlstad men jobbar i hela Sverige.
+            <br>
+            Kontakta oss så löser vi dina transportbehov!
         </p>
         <div class="row justify-content-center">
             <div class="col-md-4 my-1">

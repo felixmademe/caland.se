@@ -164,9 +164,9 @@
                 </div>
                 <div class="tab-pane fade" id="transport" role="tabpanel" aria-labelledby="transport-tab">
                     <p>
-                        Med vår lastbil tar vi hand om allt från transport av restavfall till kranlyft.
-                        Vid behov av lyfthjälp har vi 2st runtomsvängande teleskoplastare som är fullt utrustade med gafflar, vinsch, material/personkorg.
-                        Lyfthöjd 25 meter.
+                        Med vår lastbil tar vi hand om allt från transport av restavfall till kranlyft. Vid behov
+                        av lyfthjälp har vi flera runtomsvängande teleskoplastare. Dessa är fullt utrustade med gafflar,
+                        vinsch, material/personkorg och har en lyfthöjd upp till 25 meter.
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">

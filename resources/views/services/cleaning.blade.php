@@ -11,6 +11,7 @@
     <section class="service-about">
         <p>
             Vi utför städtjänster hos företag och på byggarbetsplatser. Hör av dig med din förfrågan.
+            <br>
             Vi ombesörjer städ på följande områden:
             <ul>
                 <li>Kontor</li>
