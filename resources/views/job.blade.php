@@ -30,7 +30,7 @@
             <hr>
             <div class="application-form">
                 <h2>Ansök om jobb</h2>
-                <form class="job-application" action="/ansökan-email" method="post" enctype="multipart/form-data" id="jobEmail">
+                <form class="job-application" action="/ansokan-email" method="post" enctype="multipart/form-data" id="jobEmail">
                     @csrf
                     <input type="hidden" id="recaptcha" name="recaptcha" value="{{ config( 'recaptcha.key.site' ) }}">
                     <div class="form-group">
