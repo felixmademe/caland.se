@@ -62,18 +62,43 @@
         <script defer src="https://cdn.jsdelivr.net/npm/lozad/dist/lozad.min.js"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/jquery-scrollintoview/1.8/jquery.scrollintoview.min.js"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>    
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-135643404-1"></script>
-        <script>
+        <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-135643404-1"></script>
+        <script defer src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit"></script>
+        <script defer>
+            grecaptcha.ready(function() {
+                grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'jobEmail' } ).then( function( token )
+                {
+                    if( token && document.getElementById( 'recaptcha' ) )
+                    {
+                        document.getElementById( 'recaptcha' ).value = token;
+                    }
+                });
+
+                grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'supportEmail' } ).then( function( token )
+                {
+                    if( token && document.getElementById( 'recaptcha' ) )
+                    {
+                        document.getElementById( 'recaptcha' ).value = token;
+                    }
+                });
+
+                grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'contactEmail' } ).then( function( token )
+                {
+                    if( token && document.getElementById( 'recaptcha' ) )
+                    {
+                        document.getElementById( 'recaptcha' ).value = token;
+                    }
+                });
+            });
+
           window.dataLayer = window.dataLayer || [];
           function gtag(){dataLayer.push(arguments);}
           gtag('js', new Date());
 
           gtag('config', 'UA-135643404-1');
-        </script>
 
-        <script async src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-        <script async>
-            window.addEventListener("load", function(){
+          window.addEventListener("load", function(){
             window.cookieconsent.initialise({
               "palette": {
                 "popup": {

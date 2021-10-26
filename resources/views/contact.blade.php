@@ -136,8 +136,9 @@
                 formuläret nedan för att komma i kontakt med oss.
             </p>
         </div>
-        <form class="" action="/kontakta-email" method="post">
+        <form class="" action="/kontakta-email" method="post" id="contactEmail">
             @csrf
+            <input type="hidden" id="recaptcha" name="recaptcha" value="{{ config( 'recaptcha.key.site' ) }}">
             <div class="form-group">
                 <label for="name">Namn</label>
                 <input class="form-control" type="text" id="email" name="name" placeholder="Namn">
@@ -160,6 +161,15 @@
                     Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
                     <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>.
                 </label>
+            </div>
+            <div class="form-group">
+                <small>
+                    Denna webbplats är skyddad av reCAPTCHA och Googles
+                    <a class="link" href="https://policies.google.com/privacy"
+                    rel="noreferrer" target="_blank">sekretesspolicy</a> och
+                    <a class="link" href="https://policies.google.com/terms"
+                    rel="noreferrer" target="_blank">användarvillkor</a> gäller.
+                </small>
             </div>
             <button type="submit" class="btn btn-red btn-expand">Skicka</button>
         </form>
