@@ -60,7 +60,7 @@
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/ekko-lightbox/5.3.0/ekko-lightbox.min.js" integrity="sha256-Y1rRlwTzT5K5hhCBfAFWABD4cU13QGuRN6P5apfWzVs=" crossorigin="anonymous"></script>    
         <script defer src="https://www.googletagmanager.com/gtag/js?id=UA-135643404-1"></script>
         <script defer src="https://cdnjs.cloudflare.com/ajax/libs/cookieconsent2/3.1.0/cookieconsent.min.js"></script>
-        <script defer src="https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit"></script>
+        <script src="https://www.google.com/recaptcha/api.js?render={{ config( 'recaptcha.key.site' ) }}&render=explicit"></script>
         <script defer>
             grecaptcha.ready(function() {
                 grecaptcha.execute( '{{ config( 'recaptcha.key.site' ) }}', { action: 'jobEmail' } ).then( function( token )
