@@ -92,7 +92,7 @@
             <div class="col-md-6">
                 <h4>Johan Wallstav</h4>
                 <p>
-                    <span class="red">Utbildning</span>
+                    <span class="red">Utbildning/Ägare</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:054220797">054-22 07 97</a>
                     <br>

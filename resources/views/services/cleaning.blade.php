@@ -30,7 +30,7 @@
             <div class="col-md-6 offset-md-3">
                 <h4>Lena Andersson</h4>
                 <p>
-                    <span class="red">Lön/Städ</span>
+                    <span class="red">Lön/Ägare</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:054220793">054-22 07 93</a>
                     <br>

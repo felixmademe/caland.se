@@ -45,7 +45,7 @@
             <div class="col-md-6">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Håltagning/Byggtjänster</span>
+                    <span class="red">Entreprenad/Ägare</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>
