@@ -27,7 +27,7 @@
     <hr>
     <section class="text-center">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red" href="{{ route( 'concrete' ) }}">Håltagning</a>
+        <a rel="noopener noreferrer" class="btn btn-red" href="{{ route( 'concrete' ) }}">Håltagning</a>
     </section>
 
 @endsection

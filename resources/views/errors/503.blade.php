@@ -8,9 +8,9 @@
             <p>
                 Webbsidan är tillfälligt nere men är uppe så snart som möjligt.
                 Tror du att något är fel, kontakta gärna vår support så löser vi det så snart som möjligt.
-                <a href="{{ url( '/' ) }}">Klicka här för att gå till startsidan</a>
+                <a rel="noopener noreferrer" href="{{ url( '/' ) }}">Klicka här för att gå till startsidan</a>
             </p>
-            <a class="btn btn-red btn-expand" href="{{ route( 'support' ) }}">Support</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'support' ) }}">Support</a>
         </div>
     </section>
 

@@ -14,21 +14,21 @@
     <hr>
     <section class="service-about">
         <div class="text-center">
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Håltagning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Håltagning</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'cleaning' ) }}">Städ</a>
         </div>
     </section>
     <hr>
     <section class="service-contact text-center">
         <h3>Kontakt</h3>
         <p>Är det något du undrar, tveka inte att kontakta oss!</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'contact' ) }}">Kontakta oss</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'contact' ) }}">Kontakta oss</a>
     </section>
 
 @endsection

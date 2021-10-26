@@ -15,16 +15,16 @@
         <div class="col-md-8 offset-md-2">
             <div class="row">
                 <div class="col-sm-6 p-2">
-                    <a class="btn btn-start" href="{{ route( 'services' ) }}">Våra tjänster</a>
+                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'services' ) }}">Våra tjänster</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a class="btn btn-start" href="{{ route( 'course' ) }}">Boka utbildning</a>
+                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'course' ) }}">Boka utbildning</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a class="btn btn-start" href="{{ route( 'contact' ) }}">Kontakta oss</a>
+                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'contact' ) }}">Kontakta oss</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>
+                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>
                 </div>
             </div>
         </div>

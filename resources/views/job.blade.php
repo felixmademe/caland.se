@@ -24,7 +24,7 @@
             <p>
                 Vill du jobba hos oss på Caland? Nedan kan du skicka in en intresseanmälan till
                 samtliga av våra tjänster som presenteras här på hemsidan. Håll utkik på
-                <a class="text-underline" href="https://www.facebook.com/calandkoncernen"><u>vår Facebooksida</u></a> där vi publicerar lediga jobb.
+                <a rel="noopener noreferrer" class="text-underline" href="https://www.facebook.com/calandkoncernen"><u>vår Facebooksida</u></a> där vi publicerar lediga jobb.
                 <br>
             </p>
             <hr>
@@ -53,16 +53,16 @@
                         <input class="form-check-input" type="checkbox" name="policy" required>
                         <label class="form-check-label" for="policy">
                             Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
-                            <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>.
+                            <a rel="noopener noreferrer" href="{{ route( 'policy' ) }}" target="_blank">avtal</a>.
                         </label>
                         <br>
                     </div>
                     <div class="form-group">
                         <small>
                             Denna webbplats är skyddad av reCAPTCHA och Googles
-                            <a class="link" href="https://policies.google.com/privacy"
+                            <a rel="noopener noreferrer" class="link" href="https://policies.google.com/privacy"
                             rel="noreferrer" target="_blank">sekretesspolicy</a> och
-                            <a class="link" href="https://policies.google.com/terms"
+                            <a rel="noopener noreferrer" class="link" href="https://policies.google.com/terms"
                             rel="noreferrer" target="_blank">användarvillkor</a> gäller.
                         </small>
                     </div>
@@ -81,9 +81,9 @@
                     <p>
                         <span class="red">Personalchef</span>
                         <br>
-                        <a class="no-colour" href="tel:054220794">054-22 07 94</a>
+                        <a rel="noopener noreferrer" class="no-colour" href="tel:054220794">054-22 07 94</a>
                         <br>
-                        <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                        <a rel="noopener noreferrer" class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
                     </p>
                 </div>
             </div>

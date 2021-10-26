@@ -17,17 +17,17 @@
         </p>
         <div class="row justify-content-center">
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/trailer.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/trailer.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/trailer.jpg' ) }}" alt="Trailer lastar material">
                 </a>
             </div>
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/transport.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/transport.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/transport.jpg' ) }}" alt="Transport av gods">
                 </a>
             </div>
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid my-2" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil som lastar maskin">
                 </a>
             </div>
@@ -42,9 +42,9 @@
                 <p>
                     <span class="red">Transport/Bemanning</span>
                     <br>
-                    <a class="no-colour" href="tel:054220792">054-22 07 92</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220792">054-22 07 92</a>
                     <br>
-                    <a class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
         </div>
@@ -52,7 +52,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

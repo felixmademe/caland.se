@@ -22,17 +22,17 @@
         </p>
         <div class="row justify-content-center">
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/städa-byggen.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/städa-byggen.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/städa-byggen.jpg' ) }}" alt="Städning på byggen">
                 </a>
             </div>
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjulastare från Caland AB">
                 </a>
             </div>
             <div class="col-md-4 my-1">
-                <a href="{{ asset( '/img/services/bärhjälp.jpg' ) }}" data-toggle="lightbox">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/services/bärhjälp.jpg' ) }}" data-toggle="lightbox">
                     <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bärhjälp.jpg' ) }}" alt="Bärhjälp av Caland AB">
                 </a>
             </div>
@@ -47,9 +47,9 @@
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    <a class="no-colour" href="tel:0705379828">070-537 98 28</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>
-                    <a class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -57,9 +57,9 @@
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
                     <br>
-                    <a class="no-colour" href="tel:0703998123">070-399 81 23</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998123">070-399 81 23</a>
                     <br>
-                    <a class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
         </div>
@@ -67,7 +67,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

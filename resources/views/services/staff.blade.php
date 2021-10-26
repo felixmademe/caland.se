@@ -47,19 +47,19 @@
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
+                    <a rel="noopener noreferrer" class="nav-link active btn-red-border m-1" id="first-tab" data-toggle="pill" href="#first"
                         role="tab" aria-controls="first" aria-selected="true">
                         Personaluthyrning
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
                     role="tab" aria-controls="second" aria-selected="false">
                         Bemanningsentrepenad
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
                     role="tab" aria-controls="third" aria-selected="false">
                         Rekrytering
                     </a>
@@ -73,17 +73,17 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/slipning.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/slipning.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/slipning.jpg' ) }}" alt="Slipning av metall">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bemanning-1.jpg' ) }}" alt="Avlastning av lastbil">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/staff-truck1.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/staff-truck1.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck1.jpg' ) }}" alt="Personal som kör en gaffeltruck">
                             </a>
                         </div>
@@ -96,17 +96,17 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/maskinstyrning.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/maskinstyrning.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/maskinstyrning.jpg' ) }}" alt="Gaffeltruck">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/lastbil.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/lastbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lastbil.jpg' ) }}" alt="Styrning av maskin i fabrik">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/travers.jpg' ) }}" alt="Personal som styr en travers">
                             </a>
                         </div>
@@ -119,17 +119,17 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/travers.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/travers.jpg' ) }}" alt="Personal som styr en travers">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/staff-truck.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/staff-truck.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/staff-truck.jpg' ) }}" alt="Personal som kör en gaffeltruck">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/bemanning-1.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/bemanning-1.jpg' ) }}" alt="Avlastning av lastbil">
                             </a>
                         </div>
@@ -147,9 +147,9 @@
                 <p>
                     <span class="red">Transport/Bemanning</span>
                     <br>
-                    <a class="no-colour" href="tel:054220792">054-22 07 92</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220792">054-22 07 92</a>
                     <br>
-                    <a class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
                 </p>
             </div>
         </div>
@@ -157,7 +157,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

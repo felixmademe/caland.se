@@ -72,14 +72,14 @@
             <footer>
                 <hr>
                 <h3>Caland AB</h3>
-                <a href="https://caland.se">https://caland.se</a>
+                <a rel="noopener noreferrer" href="https://caland.se">https://caland.se</a>
                 <br>
                 Herrövägen 4
                 65671 Skattkärr
                 <br>
                 054-86 06 80
                 <br>
-                <a href="mailto:info@caland.se">info@caland.se</a>
+                <a rel="noopener noreferrer" href="mailto:info@caland.se">info@caland.se</a>
             </footer>
         </div>
     </body>

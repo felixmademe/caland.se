@@ -24,7 +24,7 @@
             <p>
                 Här kan du skicka in ett meddelande om du tycker att något ser konstigt ut eller om
                 något inte fungerar som det ska. Gäller det kontakt med Caland, använd det
-                <a href="{{ route( 'contact' ) }}">här formuläret</a>.
+                <a rel="noopener noreferrer" href="{{ route( 'contact' ) }}">här formuläret</a>.
             </p>
         </div>
         <form class="" action="/support-email" method="post" id="supportEmail">
@@ -50,15 +50,15 @@
                 <input class="form-check-input" type="checkbox" name="policy" required>
                 <label class="form-check-label" for="policy">
                     Jag samtycker till att mina uppgifter lagras och behandlas enligt följande
-                    <a href="{{ route( 'policy' ) }}" target="_blank">avtal</a>
+                    <a rel="noopener noreferrer" href="{{ route( 'policy' ) }}" target="_blank">avtal</a>
                 </label>
             </div>
             <div class="form-group">
                 <small>
                     Denna webbplats är skyddad av reCAPTCHA och Googles
-                    <a class="link" href="https://policies.google.com/privacy"
+                    <a rel="noopener noreferrer" class="link" href="https://policies.google.com/privacy"
                     rel="noreferrer" target="_blank">sekretesspolicy</a> och
-                    <a class="link" href="https://policies.google.com/terms"
+                    <a rel="noopener noreferrer" class="link" href="https://policies.google.com/terms"
                     rel="noreferrer" target="_blank">användarvillkor</a> gäller.
                 </small>
             </div>

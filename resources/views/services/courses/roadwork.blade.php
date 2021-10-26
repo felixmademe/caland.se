@@ -19,13 +19,13 @@
             <br><br>
             Läs mer om utbildningen här:
             <br>
-            <a class="btn btn-red" href="{{ asset( 'storage/apv.pdf' ) }}" target="_blank">APV</a>
+            <a rel="noopener noreferrer" class="btn btn-red" href="{{ asset( 'storage/apv.pdf' ) }}" target="_blank">APV</a>
         </p>
     </section>
     <hr>
     <section class="course-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red" href="{{ route( 'course' ) }}">Utbildning</a>
+        <a rel="noopener noreferrer" class="btn btn-red" href="{{ route( 'course' ) }}">Utbildning</a>
     </section>
 
 @endsection

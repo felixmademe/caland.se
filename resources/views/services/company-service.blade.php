@@ -17,7 +17,7 @@
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
+                    <a rel="noopener noreferrer" class="nav-link active btn-red-border m-1" id="second-tab" data-toggle="pill" href="#second"
                     role="tab" aria-controls="second" aria-selected="false">
                         Bygghjälpen
                     </a>
@@ -32,7 +32,7 @@
                         exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
                     </p>
                     <div class="text-center">
-                        <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
                     </div>
                     <br>
                     <img class="lozad img-fluid" src="{{ asset( 'img/services/stad.jpg' ) }}" alt="Städservice">
@@ -49,9 +49,9 @@
                 <p>
                     <span class="red">Koncernchef/Personalchef</span>
                     <br>
-                    <a class="no-colour" href="tel:054220794">054-22 07 94</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220794">054-22 07 94</a>
                     <br>
-                    <a class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
                 </p>
             </div>
         </div>
@@ -59,7 +59,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

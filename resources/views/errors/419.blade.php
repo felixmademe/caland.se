@@ -8,9 +8,9 @@
             <p>
                 Sessionen har gått ut, vänligen ladda om sidan och försök igen.
                 Tror du att något är fel, kontakta gärna vår support så löser vi det så snart som möjligt.
-                <a href="{{ url( '/' ) }}">Klicka här</a> för att gå till startsidan
+                <a rel="noopener noreferrer" href="{{ url( '/' ) }}">Klicka här</a> för att gå till startsidan
             </p>
-            <a class="btn btn-red btn-expand" href="{{ route( 'support' ) }}">Support</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'support' ) }}">Support</a>
         </div>
     </section>
 

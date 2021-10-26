@@ -4,11 +4,11 @@
             <div class="col-sm-3 offset-sm-4">
                 <h5>Företaget</h5>
                 <p>
-                    <a href="{{ route( 'services' ) }}">Tjänster</a>
+                    <a rel="noopener noreferrer" href="{{ route( 'services' ) }}">Tjänster</a>
                     <br>
-                    <a href="{{ route( 'about' ) }}">Om oss</a>
+                    <a rel="noopener noreferrer" href="{{ route( 'about' ) }}">Om oss</a>
                     <br>
-                    <a href="{{ route( 'contact' ) }}">Kontakt</a>
+                    <a rel="noopener noreferrer" href="{{ route( 'contact' ) }}">Kontakt</a>
                 </p>
             </div>
             <div class="col-sm-3">
@@ -17,9 +17,9 @@
                     Herrövägen 4,
                     65671 Skattkärr
                     <br>
-                    <a class="no-colour" href="tel:054-86 06 80">054-86 06 80</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054-86 06 80">054-86 06 80</a>
                     <br>
-                    <a href="https://www.facebook.com/calandkoncernen" target="_blank">
+                    <a rel="noopener noreferrer" href="https://www.facebook.com/calandkoncernen" target="_blank">
                         <i class="fab fa-facebook-square fa-2x"></i>
                     </a>
                 </p>

@@ -26,14 +26,14 @@
             <br><br>
             Läs mer om utbildningarna här:
             <br>
-            <a class="btn btn-red" href="{{ asset( 'storage/ADR.pdf' ) }}" target="_blank">ADR</a>
-            <a class="btn btn-red" href="{{ asset( 'storage/ADR-1.3.pdf' ) }}" target="_blank">ADR 1.3</a>
+            <a rel="noopener noreferrer" class="btn btn-red" href="{{ asset( 'storage/ADR.pdf' ) }}" target="_blank">ADR</a>
+            <a rel="noopener noreferrer" class="btn btn-red" href="{{ asset( 'storage/ADR-1.3.pdf' ) }}" target="_blank">ADR 1.3</a>
         </p>
     </section>
     <hr>
     <section class="course-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red" href="{{ route( 'course' ) }}">Utbildning</a>
+        <a rel="noopener noreferrer" class="btn btn-red" href="{{ route( 'course' ) }}">Utbildning</a>
     </section>
 
 @endsection

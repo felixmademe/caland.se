@@ -20,7 +20,7 @@
             </ul>
         </p>
         <div class="text-center">
-            <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
         </div>
     </section>
     <hr>
@@ -32,9 +32,9 @@
                 <p>
                     <span class="red">Lön/Städ</span>
                     <br>
-                    <a class="no-colour" href="tel:054220793">054-22 07 93</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220793">054-22 07 93</a>
                     <br>
-                    <a class="no-colour" href="mailto:lena@caland.se">lena@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:lena@caland.se">lena@caland.se</a>
                 </p>
             </div>
         </div>
@@ -42,7 +42,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

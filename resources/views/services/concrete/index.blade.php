@@ -17,44 +17,44 @@
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link active btn-red-border m-1" id="håltagning-tab" data-toggle="pill" href="#håltagning"
+                    <a rel="noopener noreferrer" class="nav-link active btn-red-border m-1" id="håltagning-tab" data-toggle="pill" href="#håltagning"
                         role="tab" aria-controls="håltagning" aria-selected="true">
                         Håltagning
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="rivning-tab" data-toggle="pill" href="#rivning"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="rivning-tab" data-toggle="pill" href="#rivning"
                     role="tab" aria-controls="rivning" aria-selected="false">
                         Rivning
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
                     role="tab" aria-controls="asbestsanering" aria-selected="false">
                         Asbestsanering
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="transport-tab" data-toggle="pill" href="#transport"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="transport-tab" data-toggle="pill" href="#transport"
                     role="tab" aria-controls="transport" aria-selected="false">
                         Transport/lyfthjälp
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="slipning-tab" data-toggle="pill" href="#slipning"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="slipning-tab" data-toggle="pill" href="#slipning"
                     role="tab" aria-controls="slipning" aria-selected="false">
                         Slipning av betonggolv
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
+                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
                     role="tab" aria-controls="stor-maskinpark" aria-selected="false">
                         Vår maskinpark
                     </a>
                 </li>
             </ul>
             <div class="col-12 text-center">
-                <a class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             </div>
             <br>
             <div class="tab-content col-12" id="myTabContent">
@@ -71,7 +71,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a href="{{ asset( '/img/services/betong-borr.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/betong-borr.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
                             </a>
                         </div>
@@ -86,7 +86,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a href="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Rivning med Brokk">
                             </a>
                         </div>
@@ -99,7 +99,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a href="{{ asset( '/img/services/asbestsanering.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/asbestsanering.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
                             </a>
                         </div>
@@ -119,32 +119,32 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/kranbil.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/kranbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" id="reference-size" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil som lyfter material">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare på Caland AB">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil som lastar Brokk">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/teleporter.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/teleporter.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/teleporter.jpg' ) }}" alt="Teleporter som river byggnad">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/tma.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/tma.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA lastbil">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" alt="Lyftning av material i kyrka">
                             </a>
                         </div>
@@ -156,7 +156,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a href="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" id="image" data-src="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" alt="Golvslipning i lägenhet">
                             </a>
                         </div>
@@ -170,12 +170,12 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/lyft-material.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/lyft-material.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyft-material.jpg' ) }}" alt="Lyft av material i kyrka">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a href="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" data-toggle="lightbox">
+                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" alt="Lyftning av material från lastbil">
                             </a>
                         </div>
@@ -193,9 +193,9 @@
                 <p>
                     <span class="red">Platschef/Håltagning</span>
                     <br>
-                    <a class="no-colour" href="tel:0703998123">070-399 81 23</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998123">070-399 81 23</a>
                     <br>
-                    <a class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -203,9 +203,9 @@
                 <p>
                     <span class="red">Projektledare/Håltagning</span>
                     <br>
-                    <a class="no-colour" href="tel:0703998124">070-399 81 24</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998124">070-399 81 24</a>
                     <br>
-                    <a class="no-colour" href="mailto:johan.g@caland.se">johan.g@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:johan.g@caland.se">johan.g@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -213,9 +213,9 @@
                 <p>
                     <span class="red"> Projektledare/Sanering</span>
                     <br>
-                    <a class="no-colour" href="tel:0703998151">070-399 81 51</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998151">070-399 81 51</a>
                     <br>
-                    <a class="no-colour" href="mailto:henrik.v@caland.se">henrik.v@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:henrik.v@caland.se">henrik.v@caland.se</a>
                 </p>
             </div>          
 	   <div class="col-md-6">
@@ -223,9 +223,9 @@
                 <p>
                     <span class="red">Kalkyl/Arbetsmiljö</span>
                     <br>
-                    <a class="no-colour" href="tel:0705379828">070-537 98 28</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>
-                    <a class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
                 </p>
             </div>
         </div>
@@ -233,7 +233,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection

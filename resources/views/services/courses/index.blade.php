@@ -26,46 +26,46 @@
             <i>Se längre ner för information och bokning av kurs.</i>
         </p>
         {{-- <div class="text-center">
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
                 ADR
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'roadwork' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'roadwork' ) }}">
                 Arbete på väg
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
                 Bom- och saxlift
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
                 Fallskydd
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
                 Första hjälpen
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
                 Hjullastare
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
                 Fordonsmonterad kran
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'travers' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'travers' ) }}">
                 Travers
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'forklift' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'forklift' ) }}">
                 Truck
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
                 Säkra lyft
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
                 Heta arbeten
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'digger' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'digger' ) }}">
                 Grävmaskin
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
                 Teleskoplastare
             </a>
-            <a class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
                 YKB
             </a>
         </div> --}}
@@ -94,9 +94,9 @@
                 <p>
                     <span class="red">Utbildning</span>
                     <br>
-                    <a class="no-colour" href="tel:054220797">054-22 07 97</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220797">054-22 07 97</a>
                     <br>
-                    <a class="no-colour" href="mailto:johan@caland.se">johan@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:johan@caland.se">johan@caland.se</a>
                 </p>
             </div>
             <div class="col-md-6">
@@ -104,9 +104,9 @@
                 <p>
                     <span class="red">Utbildning</span>
                     <br>
-                    <a class="no-colour" href="tel:054220798">054-22 07 98</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220798">054-22 07 98</a>
                     <br>
-                    <a class="no-colour" href="mailto:reimond@caland.se">reimond@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:reimond@caland.se">reimond@caland.se</a>
                 </p>
             </div>
         </div>
@@ -114,7 +114,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
     </section>
 
 @endsection
