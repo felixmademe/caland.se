@@ -21,18 +21,27 @@ class EmailController extends Controller
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
             'text'    => 'required|string',
-            'policy'  => 'accepted'
+            'policy'  => 'accepted',
+            'recaptcha' => 'required'
         ] );
 
+        $result = $this->validateRecaptcha( $request );
+
+        if( $result != true )
+        {
+            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+        }
+
         Mail::to( 'lotta@caland.se' )
-            ->send( new Contact(
-                $request->name,
-                $request->email,
-                $request->subject,
-                $request->text
-            ) );
+                ->send( new Contact(
+                    $request->name,
+                    $request->email,
+                    $request->subject,
+                    $request->text
+                ) );
 
         return redirect()->back()->with( 'success', 'Ditt email har skickats!' );
+       
     }
 
     public function applicationEmail( Request $request )
@@ -42,8 +51,16 @@ class EmailController extends Controller
             'email'    => 'required|email',
             'text'     => 'required|string',
             'file'     => 'required',
-            'policy'   => 'accepted'
+            'policy'   => 'accepted',
+            'recaptcha' => 'required'
         ] );
+
+        $result = $this->validateRecaptcha( $request );
+
+        if( $result != true )
+        {
+            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+        }
 
         $file = $request->file('file');
         if( $file->getError() == 1 )
@@ -71,8 +88,17 @@ class EmailController extends Controller
             'email'   => 'required|email',
             'subject' => 'required|string|max:255',
             'text'    => 'required|string',
-            'policy'  => 'accepted'
+            'policy'  => 'accepted',
+            'recaptcha' => 'required'
         ] );
+
+        $result = $this->validateRecaptcha( $request );
+
+        if( $result != true )
+        {
+            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+        }
+
         Mail::to( 'johan@caland.se' )
             ->send( new Support(
                 $request->name,
@@ -82,5 +108,32 @@ class EmailController extends Controller
             ) );
 
         return redirect()->back()->with( 'success', 'Ditt ärende har skickats!' );
+    }
+
+    private function validateRecaptcha( Request $request )
+    {
+        $url = 'https://www.google.com/recaptcha/api/siteverify';
+        $data = [
+            'secret'   => config( 'recaptcha.key.secret' ),
+            'response' => $request->recaptcha
+        ];
+
+        $options = [
+            'http' => [
+                'header'  => 'Content-type: application/x-www-form-urlencoded',
+                'method'  => 'POST',
+                'content' => http_build_query( $data )
+            ]
+        ];
+
+        $context = stream_context_create( $options );
+        $result = file_get_contents( $url, false, $context );
+        $json = json_decode( $result );
+
+        if( config('app.env') != 'production' ) {
+            $json->success = true;
+        }
+
+        return $json->success;
     }
 }
