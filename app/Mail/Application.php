@@ -25,10 +25,10 @@ class Application extends Mailable
      */
     public function __construct( $name, $email, $text, $file )
     {
-        $this->name     = $name;
-        $this->email    = $email;
-        $this->text     = $text;
-        $this->file     = $file;
+        $this->name  = $name;
+        $this->email = $email;
+        $this->text  = $text;
+        $this->file  = $file;
     }
 
     /**
