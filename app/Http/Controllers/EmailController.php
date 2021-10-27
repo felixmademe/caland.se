@@ -29,7 +29,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
         }
 
         Mail::to( 'lotta@caland.se' )
@@ -59,7 +59,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
         }
 
         $file = $request->file('file');
@@ -96,7 +96,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return response()->json( [ 'result' => 'reCAPTCHA, please try again later' ], 200);
+            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
         }
 
         Mail::to( 'johan@caland.se' )
@@ -133,7 +133,7 @@ class EmailController extends Controller
         if( config('app.env') != 'production' ) {
             $json->success = true;
         }
-
+        
         return $json->success;
     }
 }
