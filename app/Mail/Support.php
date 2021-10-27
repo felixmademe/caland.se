@@ -26,7 +26,7 @@ class Support extends Mailable
         $this->name    = $name;
         $this->email   = $email;
         $this->subject = $subject;
-        $this->text = $text;
+        $this->text    = $text;
     }
 
     /**
@@ -37,7 +37,7 @@ class Support extends Mailable
     public function build()
     {
         return $this->view( 'mail.support' )
-                    ->from( $this->email, $this->name )
+                    ->from( 'no-reply@caland.se', 'Caland AB' )
                     ->replyTo( $this->email )
                     ->subject( $this->subject );
     }

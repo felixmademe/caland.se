@@ -37,7 +37,7 @@ class Contact extends Mailable
     public function build()
     {
         return $this->view( 'mail.contact' )
-                    ->from( $this->email, $this->name )
+                    ->from( 'no-reply@caland.se', 'Caland AB' )
                     ->replyTo( $this->email )
                     ->subject( $this->subject );
     }
