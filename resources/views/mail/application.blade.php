@@ -4,6 +4,9 @@
     <h2>
         {{ $name }}
         <br>
+        <a href="mailto:{{ $email }}">{{ $email }}</a>
+
+        <br>
         {{ $position }}
     </h2>
     <p>
