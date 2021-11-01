@@ -31,7 +31,7 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-Edit the `.env` file with your database credidentials. Here is an example:
+Edit the `.env` file with your database credentials. Here is an example:
 
 ```
 DB_PORT=3306
