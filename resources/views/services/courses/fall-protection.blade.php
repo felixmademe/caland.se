@@ -1,9 +1,9 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Brandfarliga arbeten' )
+@section( 'title', 'Fallskydd inkl räddning' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Brandfarliga arbeten</h1>
+        <h1>Fallskydd inkl räddning</h1>
         <p>
             Information kommer snart.
         </p>

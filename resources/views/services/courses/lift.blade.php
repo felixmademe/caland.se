@@ -1,9 +1,9 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Bom- och saxliftutbildning' )
+@section( 'title', 'Mobil arbetsplattform Bom & saxlift' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Bom- och saxliftutbildning</h1>
+        <h1>Mobil arbetsplattform Bom & saxlift</h1>
         <p>
             Utbildning i mobila arbetsplattformar bom-, sax- och skylift i Karlstad & Värmland
             <br><br>

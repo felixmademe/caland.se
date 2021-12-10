@@ -1,11 +1,11 @@
 @extends( 'layouts.app' )
-@section( 'title', 'Traversutbildning' )
+@section( 'title', 'Traverskranutbildning' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>Traversutbildning</h1>
+        <h1>Traverskranutbildning</h1>
         <p>
-            Vi på Caland är certifierade och erbjuder Traversutbildning som följer SS-ISO 9926-1.
+            Vi på Caland är certifierade och erbjuder Traverskranutbildning som följer SS-ISO 9926-1.
             <br><br>
             <b>Kursinnehåll:</b>
             <br>

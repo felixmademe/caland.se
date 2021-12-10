@@ -1,9 +1,9 @@
 @extends( 'layouts.app' )
-@section( 'title', 'ADR' )
+@section( 'title', 'ADR, grund tank explosivt' )
 @section( 'content' )
 
     <section class="course-about">
-        <h1>ADR</h1>
+        <h1>ADR, grund tank explosivt</h1>
         <p>
             <h4>Full ADR behörighet för chaufförer</h4>
             <br>
