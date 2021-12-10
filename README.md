@@ -7,7 +7,7 @@ Website refresh for Caland AB.
 Fetch the project to your machine, either using the GitHub GUI or the command below.
 
 ```
-git clone https://github.com/Linda-Carlstad/lindacarlstad.se.git
+git clone https://github.com/felixmademe/caland.se.git
 ```
 
 Locate the project on your machine via the terminal and follow the steps below.
@@ -31,7 +31,14 @@ cp .env.example .env
 php artisan key:generate
 ```
 
-Edit the `.env` file with your database credidentials. Here is an example:
+If running Windows:
+
+```
+copy .env.example .env
+php artisan key:generate
+```
+
+Edit the `.env` file with your database credentials. Here is an example:
 
 ```
 DB_PORT=3306
@@ -45,6 +52,13 @@ Run this to generate CSS and JS files:
 ```
 npm run dev
 ```
+
+If Laravel Mix is version 6.X, run this: 
+
+```
+npx mix
+```
+
 
 Run the local development server:
 
