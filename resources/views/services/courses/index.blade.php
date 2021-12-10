@@ -22,42 +22,65 @@
         <p>
             Kontakta oss för ett alternativ som passar dig bäst
         </p>
+
         <p>
-            <i>Se längre ner för information och bokning av kurs.</i>
+            <b>
+                Vi erbjuder följande kurser, finner du inte din kurs i kalendern så kan du ringa oss så lägger vi upp kursen åt dig.
+            </b>
         </p>
-        {{-- <div class="text-center">
+        
+        <ul>
+            <li>ADR, grund tank explosivt</li>
+            <li>YKB</li>
+            <li>Truck</li>
+            <li>Arbete på väg</li>
+            <li>Traverskran</li>
+            <li>Fordonsmonterad kran</li>
+            <li>Mobil arbetsplattform Bom & saxlift</li>
+            <li>Fallskydd inkl räddning</li>
+            <li>Första hjälpen L-ABC</li>
+            <li>Brandfarliga arbeten</li>
+            <li>Hjullastare</li>
+            <li>Grävmaskin</li> 
+            <li>Teleskoplastare</li>
+            <li>Säkra lyft lastkopplingsutbildning</li>
+        </ul>
+
+
+        {{--
+        <div class="text-center">
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
-                ADR
+                ADR, grund tank explosivt
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'roadwork' ) }}">
                 Arbete på väg
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
-                Bom- och saxlift
+                Mobil arbetsplattform Bom & saxlift
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
                 Fallskydd
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
-                Första hjälpen
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
-                Hjullastare
+                Första hjälpen L-ABC
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
                 Fordonsmonterad kran
             </a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
+                Hjullastare
+            </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'travers' ) }}">
-                Travers
+                Traverskran
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'forklift' ) }}">
                 Truck
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
-                Säkra lyft
+                Säkra lyft lastkopplingsutbildning
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
-                Heta arbeten
+                Brandfarliga arbeten
             </a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'digger' ) }}">
                 Grävmaskin
@@ -68,7 +91,12 @@
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
                 YKB
             </a>
-        </div> --}}
+        </div>
+        --}}
+        <p>
+            <i>Se längre ner för mer information och bokning av kurs.</i>
+        </p>
+
     </section>
     <hr>
     <section class="service-book">
