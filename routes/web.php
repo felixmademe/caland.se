@@ -51,6 +51,11 @@ Route::get( 'intergitespolicy', function ()
     return view( 'policy' );
 } )->name( 'policy' );
 
+Route::get( 'certifikat', function ()
+{
+    return view( 'certificate' );
+} )->name( 'certificate' );
+
 Route::get( 'tjanster/haltagning', function ()
 {
     return view( 'services.concrete.index' );

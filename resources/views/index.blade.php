@@ -27,6 +27,15 @@
                     <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>
                 </div>
             </div>
+            <hr>
+            <div class="row">
+                <div class="col-md-6 mx-auto">
+                    <h2>Våra certifikat</h2>
+                    <a rel="noopener noreferrer" href="{{ asset( '/img/caland-certificate-2022.jpg' ) }}" data-toggle="lightbox">
+                        <img class="lozad img-fluid" data-src="{{ asset( '/img/caland-certificate-2022.jpg' ) }}" alt="Caland AB - Certifikat 2022">
+                    </a>
+                </div>
+            </div>
         </div>
     </section>
 

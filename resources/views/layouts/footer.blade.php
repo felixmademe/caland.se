@@ -6,6 +6,8 @@
                 <p>
                     <a rel="noopener noreferrer" href="{{ route( 'services' ) }}">Tjänster</a>
                     <br>
+                    <a rel="noopener noreferrer" href="{{ route( 'certificate' ) }}">Certifikat</a>
+                    <br>
                     <a rel="noopener noreferrer" href="{{ route( 'about' ) }}">Om oss</a>
                     <br>
                     <a rel="noopener noreferrer" href="{{ route( 'contact' ) }}">Kontakt</a>

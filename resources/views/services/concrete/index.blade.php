@@ -201,24 +201,14 @@
             <div class="col-md-6">
                 <h4>Johan Gränsed</h4>
                 <p>
-                    <span class="red">Projektledare/Håltagning</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:0703998124">070-399 81 24</a>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="mailto:johan.g@caland.se">johan.g@caland.se</a>
                 </p>
-            </div>
-            <div class="col-md-6">
-                <h4>Henrik Venstedt</h4>
-                <p>
-                    <span class="red"> Projektledare/Sanering</span>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998151">070-399 81 51</a>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="mailto:henrik.v@caland.se">henrik.v@caland.se</a>
-                </p>
-            </div>          
-	   <div class="col-md-6">
+            </div>        
+	        <div class="col-md-6 mx-auto">
                 <h4>Marcus Andersson</h4>
                 <p>
                     <span class="red">Entreprenad/Ägare</span>

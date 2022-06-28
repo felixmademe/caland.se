@@ -118,11 +118,37 @@
                 </a>
                 <h4>Charlotta Löfgren</h4>
                 <p>
-                    <span class="red">Personalchef</span>
+                    <span class="red">Personalchef/Ägare</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:054220794">054-22 07 94</a>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="mailto:lotta@caland.se">lotta@caland.se</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/staff/johan-gransed.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/johan-gransed.jpg' ) }}" alt="Caland AB - Johan Gränsed">
+                </a>
+                <h4>Johan Gränsed</h4>
+                <p>
+                    <span class="red">Håltagning/Byggtjänster</span>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:+46703998124">+46 70 399 81 24</a>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:johan.g@caland.se">johan.g@caland.se</a>
+                </p>
+            </div>
+            <div class="col-md-6">
+                <a rel="noopener noreferrer" href="{{ asset( '/img/staff/louise-rohr.jpg' ) }}" data-toggle="lightbox">
+                    <img class="lozad img-fluid" data-src="{{ asset( '/img/staff/louise-rohr.jpg' ) }}" alt="Caland AB - Louise Röhr">
+                </a>
+                <h4>Louise Röhr</h4>
+                <p>
+                    <span class="red">Kontorskoordinator/Administration</span>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:+46727247716">+46 72 724 77 16</a>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:louise@caland.se">louise@caland.se</a>
                 </p>
             </div>
         </div>
