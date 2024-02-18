@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Mail\Support;
-use App\Mail\Contact;
-use App\Mail\Application;
+use App\Models\Mail\Support;
+use App\Models\Mail\Contact;
+use App\Models\Mail\Application;
 
 use Carbon\Carbon;
 use Illuminate\Http\Request;
@@ -14,6 +14,8 @@ use App\Http\Controllers\Controller;
 
 class EmailController extends Controller
 {
+    const RECAPTCHA_ERROR_TEXT = "reCAPTCHA fel, var god försök igen!";
+
     public function contactEmail( Request $request )
     {
         $request->validate( [
@@ -26,10 +28,10 @@ class EmailController extends Controller
         ] );
 
         $result = $this->validateRecaptcha( $request );
-
+        
         if( $result != true )
         {
-            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
+            return back()->with( 'error', RECAPTCHA_ERROR_TEXT );
         }
 
         Mail::to( 'lotta@caland.se' )
@@ -40,8 +42,7 @@ class EmailController extends Controller
                     $request->text
                 ) );
 
-        return redirect()->back()->with( 'success', 'Ditt email har skickats!' );
-       
+        return back()->with('success', 'Ditt meddelande har skickats!');
     }
 
     public function applicationEmail( Request $request )
@@ -59,7 +60,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
+            return back()->with( 'error', RECAPTCHA_ERROR_TEXT );
         }
 
         $file = $request->file('file');
@@ -67,7 +68,7 @@ class EmailController extends Controller
         {
            $max_size = $file->getMaxFileSize() / 1024 / 1024;
            $error = 'Dokumentet får inte vara större än ' . $max_size . ' mb.';
-           return redirect()->back()->with( 'error', $error);
+           return back()->with( 'error', $error);
         }
 
         Mail::to( 'ansokan@caland.se' )
@@ -78,7 +79,8 @@ class EmailController extends Controller
                 $request->file
             ) );
 
-        return redirect()->back()->with( 'success', 'Din ansökan har skickats!' );
+        
+        return back()->with('success', 'Din ansökan har skickats!');
     }
 
     public function supportEmail( Request $request )
@@ -96,7 +98,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return redirect()->back()->with( 'error', 'reCAPTCHA fel var god försök igen!' );
+            return back()->with( 'error', RECAPTCHA_ERROR_TEXT );
         }
 
         Mail::to( 'johan@caland.se' )
@@ -107,7 +109,7 @@ class EmailController extends Controller
                 $request->text
             ) );
 
-        return redirect()->back()->with( 'success', 'Ditt ärende har skickats!' );
+        return back()->with( 'success', 'Ditt ärende har skickats!' );
     }
 
     private function validateRecaptcha( Request $request )
@@ -130,6 +132,7 @@ class EmailController extends Controller
         $result = file_get_contents( $url, false, $context );
         $json = json_decode( $result );
 
+        // Only returns success if app is not in production. 
         if( config('app.env') != 'production' ) {
             $json->success = true;
         }

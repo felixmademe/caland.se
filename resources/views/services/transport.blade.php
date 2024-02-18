@@ -3,7 +3,7 @@
 @section( 'content' )
 
     <section class="service-header">
-        <img src="{{ asset( '/img/caland-transport.jpg' ) }}" alt="Caland Transport AB">
+        <img src="{{ asset( '/img/caland-foretagsservice.jpg' ) }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Transport</h1>
     </sectiocalan>

@@ -14,8 +14,6 @@ $dark-grey: #282a2b !important
 $light-grey: #363839 !important
 $font: "Open Sans", Arial, Helvetica, sans-serif !important
 
-
-
 //
 // Universal elements
 //
@@ -23,7 +21,6 @@ $font: "Open Sans", Arial, Helvetica, sans-serif !important
     transition-duration: 0.4s
     &:hover
         transition-duration: 0.4s
-
 
 body
     font-family: $font
@@ -57,10 +54,6 @@ img.img-fluid
 //
 // Universal classes
 //
-.grecaptcha-badge { 
-    visibility: hidden;
-}
-
 .link-effect
     color: $primary
     &::after
@@ -146,7 +139,6 @@ img.img-fluid
         border: 1px solid $primary-strong
         box-shadow: 0 7px 20px 0 rgba(0,0,0,.16), 0 7px 20px 0 rgba(0,0,0,.12)
 
-
 .no-colour
     color: inherit !important
     text-decoration: none
@@ -170,6 +162,9 @@ img.img-fluid
 .tab-pane
     padding-top: 10px
 
+.swiper-pagination-bullet-active
+    background: $primary
+
 //
 // Layout
 //
@@ -190,7 +185,6 @@ img.img-fluid
         .nav-link
             color: $white
             font-weight: bolder !important
-
 
 .custom-toggler
     &.navbar-toggler
@@ -273,6 +267,14 @@ img.img-fluid
     height: 100vh
     background-color: #efefef
 
+.client-swiper
+    .swiper-wrapper
+        transition-timing-function: linear !important
+    .swiper-slide
+        margin-bottom: 2em
+        img
+            width: 200px
+
 .contact
     background-color: #efefef
     .contact-form
@@ -309,18 +311,18 @@ img.img-fluid
 
 .company-history
     .timeline
-      .timeline-item
+    .timeline-item
         &::after, &::before
-          clear: both
-          content: ''
-          display: block
-          width: 100%
-      margin: 30px auto
-      padding: 0 10px
-      position: relative
-      transition: all 0.25s ease-in
-      width: 100%
-      &::before
+            clear: both
+            content: ''
+            display: block
+            width: 100%
+            margin: 30px auto
+            padding: 0 10px
+            position: relative
+            transition: all 0.25s ease-in
+            width: 100%
+    &::before
         background: $light-grey
         content: ''
         height: 100%
@@ -328,86 +330,86 @@ img.img-fluid
         position: absolute
         top: 0
         width: 3px
-      &::after
+    &::after
         clear: both
         content: ''
         display: table
         width: 100%
-      a
+    a
         color: $primary
         font-weight: bold
         transition: all 0.25s ease-in
         &:hover
-          box-shadow: 0 1px 0px 0px $primary
-          transition: all 0.25s ease-in
-      .timeline-item
+            box-shadow: 0 1px 0px 0px $primary
+            transition: all 0.25s ease-in
+    .timeline-item
         margin-bottom: 50px
         position: relative
         .timeline-icon
-          background: $primary
-          border-radius: 50%
-          height: 50px
-          left: 50%
-          margin-left: -23px
-          overflow: hidden
-          position: absolute
-          top: 0
-          width: 50px
-          i
+            background: $primary
+            border-radius: 50%
+            height: 50px
+            left: 50%
+            margin-left: -23px
+            overflow: hidden
+            position: absolute
+            top: 0
+            width: 50px
+        i
             left: 17px
             position: relative
             top: 14px
             width: 24px
             height: 24px
             color: #efefef
-          img
+        img
             left: 17px
             position: relative
             top: 14px
-          svg
+        svg
             left: 17px
             position: relative
             top: 14px
         .timeline-content
-          padding: 20px
-          text-align: right
-          transition: all 0.25s ease-in
-          width: 45%
-          background: transparent
-          p
+            padding: 20px
+            text-align: right
+            transition: all 0.25s ease-in
+            width: 45%
+            background: transparent
+        p
             color: $black
             line-height: 1.4
             margin-bottom: 0
-          .timeline-content-date
+        .timeline-content-date
             font-weight: bold
             margin-bottom: 0
             color: $primary
-          .timeline-content-month
+        .timeline-content-month
             font-size: 0.875rem
             text-transform: uppercase
             font-weight: 400
-          &.right
+        &.right
             float: right
             text-align: left
 
     @media screen and (max-width: 39.9375em)
-      .timeline
+    .timeline
         margin: 30px
         padding: 0
         width: 90%
         &::before
-          left: 0
+            left: 0
         .timeline-item
-          .timeline-content
+        .timeline-content
             float: right
             text-align: left
             width: 90%
             &::before, &.right::before
-              border-left: 0
-              border-right: 7px solid #efefef
-              left: 10%
-              margin-left: -6px
-          .timeline-icon
+                border-left: 0
+                border-right: 7px solid #efefef
+                left: 10%
+                margin-left: -6px
+        .timeline-icon
             left: 0
 
 //
@@ -417,6 +419,7 @@ img.img-fluid
     text-align: center
 
 .service-about
+    
 
 .service-reference
     text-align: center
@@ -461,12 +464,12 @@ img.img-fluid
     width: 24.99999%
 
 @media only screen and (max-width: 768px)
-  .responsive
+.responsive
     width: 49.99999%
     margin: 6px 0
 
 @media only screen and (max-width: 576px)
-  .responsive
+.responsive
     width: 100%
 
 .clearfix:after

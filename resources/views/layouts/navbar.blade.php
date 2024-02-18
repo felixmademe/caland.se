@@ -14,27 +14,24 @@
             <li class="nav-item link-effect {{ Request::is( 'tjanster/bemanning' ) ? 'active' : '' }}">
                 <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'staff' ) }}">Bemanning</a>
             </li>
+            <li class="nav-item link-effect {{ Request::is( 'tjanster/transport' ) ? 'active' : '' }}">
+                <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
+            </li>
             <li class="nav-item link-effect {{ Request::is( 'tjanster/bygghjalpen' ) ? 'active' : '' }}">
                 <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
             </li>
             <li class="nav-item link-effect {{ Request::is( 'tjanster/haltagning' ) ? 'active' : '' }}">
                 <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'concrete' ) }}">Håltagning</a>
             </li>
-            <li class="nav-item link-effect {{ Request::is( 'tjanster/stad' ) ? 'active' : '' }}">
-                <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'cleaning' ) }}">Städ</a>
-            </li>
-            <li class="nav-item link-effect {{ Request::is( 'tjanster/transport' ) ? 'active' : '' }}">
-                <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
-            </li>
             <li class="nav-item link-effect {{ Request::is( 'tjanster/utbildning' ) ? 'active' : '' }}">
                 <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'course' ) }}">Utbildning</a>
-            </li>
-            <li class="nav-item link-effect {{ Request::is( 'jobb' ) ? 'active' : '' }}">
-                <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
             </li>
         </ul>
         <div class="dropdown-divider d-block d-lg-none"></div>
         <ul class="navbar-nav ml-auto">
+            <li class="nav-item link-effect {{ Request::is( 'jobb' ) ? 'active' : '' }}">
+                <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'job' ) }}">Jobb</a>
+            </li>
             <li class="nav-item link-effect {{ Request::is( 'kontakt' ) ? 'active' : '' }}">
                 <a rel="noopener noreferrer" class="nav-link" href="{{ route( 'contact' ) }}">Kontakt</a>
             </li>
