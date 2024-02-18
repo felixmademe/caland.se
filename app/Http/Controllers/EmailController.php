@@ -60,7 +60,7 @@ class EmailController extends Controller
 
         if( $result != true )
         {
-            return redirect()->back()->with( 'error', RECAPTCHA_ERROR_TEXT );
+            return back()->with( 'error', RECAPTCHA_ERROR_TEXT );
         }
 
         $file = $request->file('file');
@@ -68,7 +68,7 @@ class EmailController extends Controller
         {
            $max_size = $file->getMaxFileSize() / 1024 / 1024;
            $error = 'Dokumentet får inte vara större än ' . $max_size . ' mb.';
-           return redirect()->back()->with( 'error', $error);
+           return back()->with( 'error', $error);
         }
 
         Mail::to( 'ansokan@caland.se' )
@@ -80,7 +80,7 @@ class EmailController extends Controller
             ) );
 
         
-        return redirect()->back()->with('success', 'Din ansökan har skickats!');
+        return back()->with('success', 'Din ansökan har skickats!');
     }
 
     public function supportEmail( Request $request )
