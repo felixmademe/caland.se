@@ -1,5 +1,7 @@
 <?php
 
+use App\Http\Controllers\EmailController;
+
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -11,15 +13,10 @@
 |
 */
 
-//
-// Views
-//
-
 Route::get( '/', function ()
 {
     return view( 'index' );
 } )->name( 'index' );
-
 
 Route::get( 'tjanster', function ()
 {
@@ -160,3 +157,7 @@ Route::get( 'tjanster/utbildning/teleporter', function ()
 {
     return view( 'services.courses.teleporter' );
 } )->name( 'teleporter' );
+
+Route::post( 'api/kontakta-email', [EmailController::class, 'contactEmail'] );
+Route::post( 'api/ansokan-email', [EmailController::class, 'applicationEmail'] );
+Route::post( 'api/support-email', [EmailController::class, 'supportEmail'] );
