@@ -27,7 +27,7 @@
                 <a rel="noopener noreferrer" href="{{ route( 'contact' ) }}">här formuläret</a>.
             </p>
         </div>
-        <form class="" action="/support-email" method="post" id="supportEmail">
+        <form class="" action="/api/support-email" method="post" id="supportEmail">
             @csrf
             <input type="hidden" id="recaptcha" name="recaptcha" value="{{ config( 'recaptcha.key.site' ) }}">
             <div class="form-group">

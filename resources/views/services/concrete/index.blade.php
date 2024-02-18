@@ -55,8 +55,9 @@
             </ul>
             <div class="col-12 text-center">
                 <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                <a rel="noopener noreferrer" class="btn btn-red btn-expand mt-md-0 mt-2" href="{{ route( 'cleaning' ) }}">Städ</a>
+                <hr>
             </div>
-            <br>
             <div class="tab-content col-12" id="myTabContent">
                 <div class="tab-pane fade show active" id="håltagning" role="tabpanel" aria-labelledby="håltagning-tab">
                     <p>
@@ -189,16 +190,6 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
-                <h4>Robin Gränsed</h4>
-                <p>
-                    <span class="red">Platschef/Håltagning</span>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998123">070-399 81 23</a>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
-                </p>
-            </div>
-            <div class="col-md-6">
                 <h4>Johan Gränsed</h4>
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
@@ -211,7 +202,7 @@
 	        <div class="col-md-6 mx-auto">
                 <h4>Marcus Andersson</h4>
                 <p>
-                    <span class="red">Entreprenad/Ägare</span>
+                    <span class="red">Håltagning/Byggtjänster</span>
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="tel:0705379828">070-537 98 28</a>
                     <br>

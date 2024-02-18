@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Http\Request;
+use App\Http\Controllers\EmailController;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -13,6 +15,9 @@ use Illuminate\Http\Request;
 |
 */
 
-Route::middleware('auth:api')->get('/user', function (Request $request) {
-    return $request->user();
-});
+//
+// Email
+//
+Route::post( '/kontakta-email', [EmailController::class, 'contactEmail'] );
+Route::post( '/ansokan-email', [EmailController::class, 'applicationEmail'] );
+Route::post( '/support-email', [EmailController::class, 'supportEmail'] );

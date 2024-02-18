@@ -43,6 +43,16 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6">
+                <h4>Marcus Andersson</h4>
+                <p>
+                    <span class="red">Håltagning/Byggtjänster</span>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0705379828">070-537 98 28</a>
+                    <br>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:marcus@caland.se">marcus@caland.se</a>
+                </p>
+            </div>
+            <div class="col-md-6">
                 <h4>Johan Gränsed</h4>
                 <p>
                     <span class="red">Håltagning/Byggtjänster</span>
@@ -51,17 +61,7 @@
                     <br>
                     <a rel="noopener noreferrer" class="no-colour" href="mailto:johan.g@caland.se">johan.g@caland.se</a>
                 </p>
-            </div>  
-            <div class="col-md-6">
-                <h4>Robin Gränsed</h4>
-                <p>
-                    <span class="red">Håltagning/Byggtjänster</span>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998123">070-399 81 23</a>
-                    <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="mailto:robin@caland.se">robin@caland.se</a>
-                </p>
-            </div>
+            </div>    
         </div>
     </section>
     <hr>

@@ -30,7 +30,7 @@
             <hr>
             <div class="application-form">
                 <h2>Ansök om jobb</h2>
-                <form class="job-application" action="/ansokan-email" method="post" enctype="multipart/form-data" id="jobEmail">
+                <form class="job-application" action="/api/ansokan-email" method="post" enctype="multipart/form-data" id="jobEmail">
                     @csrf
                     <input type="hidden" id="recaptcha" name="recaptcha" value="{{ config( 'recaptcha.key.site' ) }}">
                     <div class="form-group">
@@ -38,17 +38,20 @@
                         <input class="form-control" type="text" name="name" placeholder="Namn" required>
                     </div>
                     <div class="form-group">
-                        <label for="email">Email</label>
-                        <input class="form-control" type="text" name="email" placeholder="Email" required>
+                        <label for="email">E-postadress</label>
+                        <input class="form-control" type="text" name="email" placeholder="E-postadress" required>
                     </div>
                     <div class="form-group">
                         <label for="text">Beskriv dig själv</label>
                         <textarea class="form-control" type="text" name="text" placeholder="Beskriv dig själv" rows="5" required></textarea>
                     </div>
-                    <label for="file">CV</label>
-                    <input type="file" class="filestyle" name="file" id="fileInput"
-                        accept="application/pdf, application/msword, text/plain" data-text="Välj fil" data-btnClass="btn-red-border" required>
-                    <br>
+                    <div class="form-group">
+                        <label for="file">CV</label>
+                        <small id="fileHelp" class="form-text text-muted">Accepterade filtyper: .pdf, .doc, .docx, .txt</small>
+                        <input type="file" class="filestyle" name="file" id="fileInput"
+                            accept="application/pdf, application/msword, text/plain" data-text="Välj fil" data-btnClass="btn-red-border" required>
+                        <br>
+                    </div>
                     <div class="form-group ml-4">
                         <input class="form-check-input" type="checkbox" name="policy" required>
                         <label class="form-check-label" for="policy">

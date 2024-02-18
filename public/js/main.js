@@ -1,5 +1,8 @@
 'use strict';
 
+console.log("Designed and developed by felix made me.")
+console.log("https://felixmade.me")
+
 const observer = lozad();
 observer.observe();
 

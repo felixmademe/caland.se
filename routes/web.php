@@ -160,10 +160,3 @@ Route::get( 'tjanster/utbildning/teleporter', function ()
 {
     return view( 'services.courses.teleporter' );
 } )->name( 'teleporter' );
-
-//
-// Email
-//
-Route::post( '/kontakta-email', 'EmailController@contactEmail' );
-Route::post( '/ansokan-email', 'EmailController@applicationEmail' );
-Route::post( '/support-email', 'EmailController@supportEmail' );

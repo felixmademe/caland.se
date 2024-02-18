@@ -15,26 +15,41 @@
         <div class="col-md-8 offset-md-2">
             <div class="row">
                 <div class="col-sm-6 p-2">
-                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'services' ) }}">Våra tjänster</a>
+                    <a class="btn btn-start" href="{{ route( 'services' ) }}">Våra tjänster</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'course' ) }}">Boka utbildning</a>
+                    <a class="btn btn-start" href="{{ route( 'course' ) }}">Boka utbildning</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'contact' ) }}">Kontakta oss</a>
+                    <a class="btn btn-start" href="{{ route( 'contact' ) }}">Kontakta oss</a>
                 </div>
                 <div class="col-sm-6 p-2">
-                    <a rel="noopener noreferrer" class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>
+                    <a class="btn btn-start" href="{{ route( 'job' ) }}">Jobba på Caland</a>
                 </div>
             </div>
             <hr>
             <div class="row">
                 <div class="col-md-6 mx-auto">
                     <h2>Våra certifikat</h2>
-                    <a rel="noopener noreferrer" href="{{ asset( '/img/caland-certificate-2022.jpg' ) }}" data-toggle="lightbox">
-                        <img class="lozad img-fluid" data-src="{{ asset( '/img/caland-certificate-2022.jpg' ) }}" alt="Caland AB - Certifikat 2022">
+                    <a href="{{ asset( '/documents/certificates/ISO-Certifikat.pdf' ) }}" target=”_blank”>
+                        <img class="lozad img-fluid" data-src="{{ asset( '/img/iso-certifikat.png' ) }}" alt="Caland AB - Certifikat ISO 9001 och 14001">
                     </a>
                 </div>
+            </div>
+            <hr>
+            <div class="row">
+                <p>
+                    Caland koncernen har i över 10 år varit ISO-certifierade och idag är vi certifierade enligt ISO 9001 för kvalitetsledning och ISO 14001 för miljöledning.
+                </p>
+                <p>
+                    <a href="{{ asset( '/documents/certificates/ISO-Certifikat.pdf' ) }}" target=”_blank”>
+                        <img src="{{ asset( '/img/pdf-logo.png' ) }}" height="40" class="mr-2" class="lozad" />
+                        ISO Certifikat 9001 och 14001
+                    </a>
+                </p>
+                <p>
+                    ISO är ett internationellt standardiseringsorgan som idag använd av företag och organisationer runt om i världen. En ISO-certifiering har som syfte att kontinuerligt utveckla verksamheten till det bättre. För att bli certifierad krävs att verksamheten uppfyller aktuella standarden. Årliga revisioner säkerställer att kraven i standarden upprätthålls.
+                </p>
             </div>
         </div>
     </section>
