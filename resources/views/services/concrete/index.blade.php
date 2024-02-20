@@ -17,38 +17,38 @@
         <div class="row justify-content-center px-3">
             <ul class="nav nav-pills mb-2 justify-content-center" id="pills-tab" role="tablist">
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link active btn-red-border m-1" id="håltagning-tab" data-toggle="pill" href="#håltagning"
+                    <a class="nav-link active btn-red-border m-1" id="håltagning-tab" data-toggle="pill" href="#håltagning"
                         role="tab" aria-controls="håltagning" aria-selected="true">
                         Håltagning
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="rivning-tab" data-toggle="pill" href="#rivning"
+                    <a class="nav-link btn-red-border m-1" id="rivning-tab" data-toggle="pill" href="#rivning"
                     role="tab" aria-controls="rivning" aria-selected="false">
                         Rivning
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
+                    <a class="nav-link btn-red-border m-1" id="asbestsanering-tab" data-toggle="pill" href="#asbestsanering"
                     role="tab" aria-controls="asbestsanering" aria-selected="false">
                         Asbestsanering
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="transport-tab" data-toggle="pill" href="#transport"
+                    <a class="nav-link btn-red-border m-1" id="transport-tab" data-toggle="pill" href="#transport"
                     role="tab" aria-controls="transport" aria-selected="false">
                         Transport/lyfthjälp
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="slipning-tab" data-toggle="pill" href="#slipning"
+                    <a class="nav-link btn-red-border m-1" id="slipning-tab" data-toggle="pill" href="#slipning"
                     role="tab" aria-controls="slipning" aria-selected="false">
                         Slipning av betonggolv
                     </a>
                 </li>
                 <li class="nav-item">
-                    <a rel="noopener noreferrer" class="nav-link btn-red-border m-1" id="stor-maskinpark-tab" data-toggle="pill" href="#stor-maskinpark"
-                    role="tab" aria-controls="stor-maskinpark" aria-selected="false">
+                    <a class="nav-link btn-red-border m-1" id="maskinpark-tab" data-toggle="pill" href="#maskinpark"
+                    role="tab" aria-controls="maskinpark" aria-selected="false">
                         Vår maskinpark
                     </a>
                 </li>
@@ -72,7 +72,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/betong-borr.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/betong-borr.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/betong-borr.jpg' ) }}" alt="Borrning i betong">
                             </a>
                         </div>
@@ -87,7 +87,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/brokk-rivning.jpg' ) }}" alt="Rivning med Brokk">
                             </a>
                         </div>
@@ -100,13 +100,13 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/asbestsanering.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/asbestsanering.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/asbestsanering.jpg' ) }}" alt="Asbestsanering i kök">
                             </a>
                         </div>
                     </div>
                 </div>
-                <div class="tab-pane fade" id="stor-maskinpark" role="tabpanel" aria-labelledby="stor-maskinpark-tab">
+                <div class="tab-pane fade" id="maskinpark" role="tabpanel" aria-labelledby="maskinpark-tab">
                     <p>
                         Vi har ett stort antal maskiner:
                         <ul>
@@ -120,32 +120,32 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/kranbil.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/kranbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" id="reference-size" data-src="{{ asset( '/img/services/kranbil.jpg' ) }}" alt="Kranbil som lyfter material">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/hjullastare.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/hjullastare.jpg' ) }}" alt="Hjullastare på Caland AB">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/krokbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/krokbil.jpg' ) }}" alt="Krokbil som lastar Brokk">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/teleporter.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/teleporter.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/teleporter.jpg' ) }}" alt="Teleporter som river byggnad">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/tma.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/tma.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/tma.jpg' ) }}" alt="TMA lastbil">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/betong-lyfta.jpg' ) }}" alt="Lyftning av material i kyrka">
                             </a>
                         </div>
@@ -157,7 +157,7 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" id="image" data-src="{{ asset( '/img/services/slipning-av-betonggolv.jpg' ) }}" alt="Golvslipning i lägenhet">
                             </a>
                         </div>
@@ -171,12 +171,12 @@
                     </p>
                     <div class="row justify-content-center">
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/lyft-material.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/lyft-material.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyft-material.jpg' ) }}" alt="Lyft av material i kyrka">
                             </a>
                         </div>
                         <div class="col-md-4 my-1">
-                            <a rel="noopener noreferrer" href="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" data-toggle="lightbox">
+                            <a href="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" data-toggle="lightbox">
                                 <img class="lozad img-fluid" data-src="{{ asset( '/img/services/lyftning-lastbil.jpg' ) }}" alt="Lyftning av material från lastbil">
                             </a>
                         </div>
