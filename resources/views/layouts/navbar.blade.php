@@ -31,7 +31,7 @@
                     <a class="dropdown-item link-effect" href="{{ route( 'concrete-asbest' ) }}">Asbetsanering</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'concrete-transport' ) }}">Transport/lyfthjälp</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'concrete-grinding' ) }}">Slipning av betonggolv</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'concrete-machines' ) }}">Vår maskin park</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'concrete-machines' ) }}">Vår maskinpark</a>
                 </div>
             </li>
             <li class="nav-item link-effect {{ Request::is( 'tjanster/utbildning' ) ? 'active' : '' }}">
