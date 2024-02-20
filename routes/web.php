@@ -33,6 +33,26 @@ Route::get( 'om-oss', function ()
     return view( 'about' );
 } )->name( 'about' );
 
+Route::get( 'om-oss#affarside', function ()
+{
+    return view( 'about' );
+} )->name( 'business-idea' );
+
+Route::get( 'om-oss#historia', function ()
+{
+    return view( 'about' );
+} )->name( 'history' );
+
+Route::get( 'om-oss#var-vardegrund', function ()
+{
+    return view( 'about' );
+} )->name( 'values' );
+
+Route::get( 'om-oss#policy', function ()
+{
+    return view( 'about' );
+} )->name( 'about-policy' );
+
 Route::get( 'jobb', function ()
 {
     return view( 'job' );
@@ -61,12 +81,27 @@ Route::get( 'tjanster/haltagning', function ()
 Route::get( 'tjanster/haltagning#asbestsanering', function ()
 {
     return view( 'services.concrete.index' );
-} )->name( 'asbest' );
+} )->name( 'concrete-asbest' );
 
-// Route::get( 'tjanster/haltagning/referensbilder', function ()
-// {
-//     return view( 'services.concrete.references' );
-// } )->name( 'references' );
+Route::get( 'tjanster/haltagning#rivning', function ()
+{
+    return view( 'services.concrete.index' );
+} )->name( 'concrete-demolition' );
+
+Route::get( 'tjanster/haltagning#transport', function ()
+{
+    return view( 'services.concrete.index' );
+} )->name( 'concrete-transport' );
+
+Route::get( 'tjanster/haltagning#slipning', function ()
+{
+    return view( 'services.concrete.index' );
+} )->name( 'concrete-grinding' );
+
+Route::get( 'tjanster/haltagning#maskinpark', function ()
+{
+    return view( 'services.concrete.index' );
+} )->name( 'concrete-machines' );
 
 Route::get( 'tjanster/stad', function ()
 {
