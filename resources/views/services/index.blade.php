@@ -16,8 +16,8 @@
         <div class="text-center">
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'staff' ) }}">Bemanning</a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Håltagning</a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete' ) }}">Rivning</a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'asbest' ) }}">Asbestsanering</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete-demolition' ) }}">Rivning</a>
+            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'concrete-asbest' ) }}">Asbestsanering</a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'transport' ) }}">Transport</a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'course' ) }}">Utbildning</a>
             <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'help' ) }}">Bygghjälpen</a>
