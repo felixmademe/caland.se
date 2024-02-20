@@ -6,7 +6,7 @@
         <div class="text-center">
             <h1>Om oss</h1>
         </div>
-        <div class="mt-5">
+        <div class="mt-5" id="affarside">
             <h2 class="font-weight-normal mb-3">Affärsidé</h2>
             <p>
                 Calands affärsidé är att vara en pålitlig partner och helhetslösning för våra kunder. Detta gör vi genom att erbjuda ett brett utbud av tjänster inom håltagning-, rivning- och saneringsarbete, transport och industrientreprenad, samt genom att vi inom dessa områden även tillhandahåller utbildningar och personalbemanning. 
@@ -14,7 +14,7 @@
                 Bredden är vår styrka!
             </p>
         </div>
-        <div class="mt-5">
+        <div class="mt-5" id="historia">
             <h2 class="font-weight-normal mb-3">Historia</h2>
             <p>
                 Caland är ett familjeägt företag som startades år 1994 genom det första bolaget Caland AB. Företagsnamnet är de tre första bokstäverna från familjenamnen Calais och Andersson, <span class="red">CAL</span> och <span class="red">AND</span> blev företagsnamnet <span class="red">CALAND</span>. Vid starten sysselsatte företaget två personer som servade företag inom åkeri- och betonghåltagningsbranschen genom personaluthyrning.
@@ -38,8 +38,8 @@
                 Företagen drivs och ägs idag av grundarfamiljen Andersson, fast nu i generation två.
             </p>
         </div>
-        <div class="mt-5">
-            <h2 class="font-weight-normal mb-3">Vår värdegrund & policys</h2>
+        <div class="mt-5" id="var-vardegrund">
+            <h2 class="font-weight-normal mb-3">Vår värdegrund</h2>
             <p>
                 Caland koncernen är en familjär partner att lita på som alltid gör sitt yttersta för kunden och den anställdes bästa. Detta ska genomsyra hela vår verksamhet och beskrivs närmare med dessa kärnvärden:
             </p>
@@ -73,7 +73,7 @@
             </p>
         </div>
     </section>
-    <section id="certificates" class="mt-5">
+    <section id="certificates" class="mt-5" id="policy">
         <h2 class="font-weight-normal mb-4">Policy</h2>
         <p>        
             <a href="{{ asset( '/documents/certificates/Kvalitetspolicy.pdf' ) }}" target=”_blank”>            
@@ -94,69 +94,5 @@
             </a>
         </p>
     </section>
-
     
-    {{-- Old timeline
-    <section class="company-history">
-        <h1>Vår historia</h1>
-        <div class="timeline">
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fa fa-building"></i>
-                </div>
-                <div class="timeline-content">
-                    <h4 class="timeline-content-date">1994</h4>
-                        <p>
-                            Caland startas.
-                        </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fa fa-copyright"></i>
-                </div>
-                <div class="timeline-content right">
-                    <h4 class="timeline-content-date">2002</h4>
-                        <p>
-                            Caland blev en koncern genom att Caland Betonghåltagning AB startas.
-                        </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fa fa-truck"></i>
-                </div>
-                <div class="timeline-content">
-                    <h4 class="timeline-content-date">2007</h4>
-                        <p>
-                            Koncernen utökas med bolaget Caland Transport AB.
-                        </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-warehouse"></i>
-                </div>
-                <div class="timeline-content right">
-                    <h4 class="timeline-content-date">2014</h4>
-                        <p>
-                            Koncernen flyttar in i nybyggd fastighet på Herrövägen 4 i Skattkärr.
-                        </p>
-                </div>
-            </div>
-            <div class="timeline-item">
-                <div class="timeline-icon">
-                    <i class="fas fa-plus"></i>
-                </div>
-                <div class="timeline-content">
-                    <h4 class="timeline-content-date">2016</h4>
-                        <p>
-                            Koncernen utökas med bolagen Caland Entreprenad AB och Caland Företagsservice AB.
-                        </p>
-                </div>
-            </div>
-        </div>
-    </section> 
-    --}}
-
 @endsection
