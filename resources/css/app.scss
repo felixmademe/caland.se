@@ -70,6 +70,9 @@ img.img-fluid {
 	margin-left: auto;
 	margin-right: auto;
 }
+.grecaptcha-badge {
+    display: none !important;
+}
 .link-effect {
 	color: $color_2 !important;
 	&::after {
