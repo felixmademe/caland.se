@@ -16,10 +16,9 @@ $border-color_1: #ed2e3b;
 @import "https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap";
 * {
 	transition-duration: .4s;
-	box-sizing: border-box;
     &:hover {
     	transition-duration: .4s;
-}
+	}
 }
 body {
 	font-family: $font-family_1 !important;
@@ -59,6 +58,13 @@ hr {
 	height: 1px;
 	margin: 30px 0;
 }
+a.anchor {
+    display: block;
+    position: relative;
+    top: -100px;
+    visibility: hidden;
+}
+
 img.img-fluid {
 	display: block;
 	margin-left: auto;

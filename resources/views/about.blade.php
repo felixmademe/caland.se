@@ -6,7 +6,8 @@
         <div class="text-center">
             <h1>Om oss</h1>
         </div>
-        <div class="mt-5" id="affarside">
+        <div class="mt-5">
+            <a class="anchor" id="affarside"></a>
             <h2 class="font-weight-normal mb-3">Affärsidé</h2>
             <p>
                 Calands affärsidé är att vara en pålitlig partner och helhetslösning för våra kunder. Detta gör vi genom att erbjuda ett brett utbud av tjänster inom håltagning-, rivning- och saneringsarbete, transport och industrientreprenad, samt genom att vi inom dessa områden även tillhandahåller utbildningar och personalbemanning. 
@@ -14,7 +15,8 @@
                 Bredden är vår styrka!
             </p>
         </div>
-        <div class="mt-5" id="historia">
+        <div class="mt-5">
+            <a class="anchor" id="historia"></a>
             <h2 class="font-weight-normal mb-3">Historia</h2>
             <p>
                 Caland är ett familjeägt företag som startades år 1994 genom det första bolaget Caland AB. Företagsnamnet är de tre första bokstäverna från familjenamnen Calais och Andersson, <span class="red">CAL</span> och <span class="red">AND</span> blev företagsnamnet <span class="red">CALAND</span>. Vid starten sysselsatte företaget två personer som servade företag inom åkeri- och betonghåltagningsbranschen genom personaluthyrning.
@@ -38,7 +40,8 @@
                 Företagen drivs och ägs idag av grundarfamiljen Andersson, fast nu i generation två.
             </p>
         </div>
-        <div class="mt-5" id="var-vardegrund">
+        <div class="mt-5">
+            <a class="anchor" id="var-vardegrund"></a>
             <h2 class="font-weight-normal mb-3">Vår värdegrund</h2>
             <p>
                 Caland koncernen är en familjär partner att lita på som alltid gör sitt yttersta för kunden och den anställdes bästa. Detta ska genomsyra hela vår verksamhet och beskrivs närmare med dessa kärnvärden:
@@ -73,7 +76,8 @@
             </p>
         </div>
     </section>
-    <section id="certificates" class="mt-5" id="policy">
+    <section id="certificates" class="mt-5">
+        <a class="anchor" id="policy"></a>
         <h2 class="font-weight-normal mb-4">Policy</h2>
         <p>        
             <a href="{{ asset( '/documents/certificates/Kvalitetspolicy.pdf' ) }}" target=”_blank”>            
