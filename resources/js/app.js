@@ -22,7 +22,7 @@ $( document ).on('click', '[data-toggle="lightbox"]', function(event)
 } );
 
 $(document).ready(function(e)
-{        
+{
     if (window.location.toString().includes('#'))
     {
         var windowTab = GetTabFromWindow()
