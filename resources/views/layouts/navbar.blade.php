@@ -17,8 +17,15 @@
             <li class="nav-item link-effect {{ Request::is( 'tjanster/transport' ) ? 'active' : '' }}">
                 <a class="nav-link" href="{{ route( 'transport' ) }}">Transport</a>
             </li>
-            <li class="nav-item link-effect {{ Request::is( 'tjanster/bygghjalpen' ) ? 'active' : '' }}">
-                <a class="nav-link" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+            <li class="nav-item link-effect dropdown {{ Request::is( 'tjanster/bygghjalpen' ) ? 'active' : '' }}">
+                <a class="nav-link dropdown-toggle" id="concrete-dropdown" href="#" role="button" 
+                   data-toggle="dropdown" aria-expanded="false">
+                    Bygghjälpen
+                </a>
+                <div class="dropdown-menu" id="concrete-dropdown-menu">
+                    <a class="dropdown-item link-effect" href="{{ route( 'help' ) }}">Bygghjälpen</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'cleaning' ) }}">Städ</a>
+                </div>
             </li>
             <li class="nav-item link-effect dropdown {{ Request::is( 'tjanster/haltagning' ) ? 'active' : '' }}">
                 <a class="nav-link dropdown-toggle" id="concrete-dropdown" href="#" role="button" 
@@ -52,11 +59,10 @@
                     Om oss
                 </a>
                 <div class="dropdown-menu" id="about-dropdown-menu">
-                    <a class="dropdown-item link-effect" href="{{ route( 'about' ) }}">Om oss</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'business-idea' ) }}">Affärsidé</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'history' ) }}">Historia</a>
                     <a class="dropdown-item link-effect" href="{{ route( 'values' ) }}">Vår värdegrund</a>
-                    <a class="dropdown-item link-effect" href="{{ route( 'about-policy' ) }}">Policy</a>
+                    <a class="dropdown-item link-effect" href="{{ route( 'about-policy' ) }}">Vår policy</a>
                 </div>
             </li>
         </ul>
