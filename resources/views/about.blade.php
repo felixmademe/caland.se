@@ -2,7 +2,7 @@
 @section( 'title', 'Om oss' )
 @section( 'content' )
 
-    <section class="company">
+    <section class="about">
         <div class="text-center">
             <h1>Om oss</h1>
         </div>
@@ -39,6 +39,7 @@
             <p>
                 Företagen drivs och ägs idag av grundarfamiljen Andersson, fast nu i generation två.
             </p>
+            <br>
         </div>
         <div class="mt-5">
             <a class="anchor" id="var-vardegrund"></a>
@@ -46,7 +47,7 @@
             <p>
                 Caland koncernen är en familjär partner att lita på som alltid gör sitt yttersta för kunden och den anställdes bästa. Detta ska genomsyra hela vår verksamhet och beskrivs närmare med dessa kärnvärden:
             </p>
-            <h3 class="text-left font-weight-normal mt-5 mb-3">Genuina</h3>
+            <h4 class="text-left font-weight-normal my-4">Genuina</h4>
             <p>
                 Vi är ärliga och pålitliga - vi håller det vi lovar.
             </p>
@@ -56,7 +57,7 @@
             <p>
                 Vi lyssnar på varandra och delar med oss av kompetens och lärdomar.
             </p>
-            <h3 class="text-left font-weight-normal mt-5 mb-3">Lösningsorienterade</h3>
+            <h4 class="text-left font-weight-normal my-4">Lösningsorienterade</h4>
             <p>
                 Vi är handlingskraftiga och agerar snabbt när utmaningar uppstår.
             </p>
@@ -67,7 +68,7 @@
                 Vi strävar ständigt efter förbättringar, som leder till hållbara lösningar i alla led.
             </p>
 
-            <h3 class="text-left font-weight-normal mt-5 mb-3">Tillgängliga</h3>
+            <h4 class="text-left font-weight-normal my-4">Tillgängliga</h4>
             <p>
                 Vi är lätta att nå för våra kunder och återkopplar då det krävs.
             </p>
@@ -75,10 +76,11 @@
                 Vi finns till hands för våra medarbetare - alla ska känna sig sedda, hörda och trygga.
             </p>
         </div>
+        <br>
     </section>
-    <section id="certificates" class="mt-5">
+    <section id="policies" class="mt-5">
         <a class="anchor" id="policy"></a>
-        <h2 class="font-weight-normal mb-4">Policy</h2>
+        <h2 class="font-weight-normal mb-4">Vår policy</h2>
         <p>        
             <a href="{{ asset( '/documents/certificates/Kvalitetspolicy.pdf' ) }}" target=”_blank”>            
                 <img src="{{ asset( '/img/pdf-logo.png' ) }}" height="40" class="mr-2" class="lozad" />
