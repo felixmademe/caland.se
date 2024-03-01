@@ -1,8 +1,9 @@
-on:
-  push:
-    branches:
-      - stage
 name: 🚀 Deploy website on push (Stage)
+
+on:
+  pull_request:
+    branches: [ "stage" ]
+    
 jobs:
   web-deploy:
     name: 🎉 Deploy
