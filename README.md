@@ -2,6 +2,10 @@
 
 Website refresh for Caland AB. 
 
+[![🚀 Deploy website on push (Master)](https://github.com/felixmademe/caland.se/actions/workflows/master.yml/badge.svg)](https://github.com/felixmademe/caland.se/actions/workflows/master.yml)
+
+[![🚀 Deploy website on push (Stage)](https://github.com/felixmademe/caland.se/actions/workflows/stage.yml/badge.svg)](https://github.com/felixmademe/caland.se/actions/workflows/stage.yml)
+
 ## Installation 
 
 Fetch the project to your machine, either using the GitHub GUI or the command below.
