@@ -3,6 +3,8 @@ name: 🚀 Deploy website on push (Stage)
 on:
   pull_request:
     branches: [ "stage" ]
+  push:
+    branches: [ "stage" ]
     
 jobs:
   web-deploy:
