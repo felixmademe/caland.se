@@ -1,8 +1,11 @@
-on:
-  push:
-    branches:
-      - stage
 name: 🚀 Deploy website on push (Stage)
+
+on:
+  pull_request:
+    branches: [ "stage" ]
+  push:
+    branches: [ "stage" ]
+    
 jobs:
   web-deploy:
     name: 🎉 Deploy
@@ -28,8 +31,20 @@ jobs:
       - name: Install dependencies
         run: composer install --prefer-dist --no-progress
 
-      - name: npm install
-        run: npm install
+      - name: Setup Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: '14'
+
+      - name: Cache dependencies
+        uses: actions/cache@v2
+        with:
+          path: ~/.npm
+          key: npm-${{ hashFiles('package-lock.json') }}
+          restore-keys: npm-
+
+      - name: Install dependencies
+        run: npm ci --ignore-scripts
 
       - name: npx mix
         run: npx mix
