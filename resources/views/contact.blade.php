@@ -118,7 +118,9 @@
                 </a>
                 <h4>Louise Röhr</h4>
                 <p>
-                    <span class="red">Kontorskoordinator/Administration</span>
+                    <span class="red">Kontorskoordinator/
+                        <br class="d-block d-md-none">
+                        Administration</span>
                     <br>
                     <a class="no-colour" href="tel:0727247716">072-724 77 16</a>
                     <br>
