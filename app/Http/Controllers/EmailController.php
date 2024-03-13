@@ -12,10 +12,10 @@ use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
 
+define('RECAPTCHA_ERROR_TEXT', 'reCAPTCHA fel, var god försök igen!');
+
 class EmailController extends Controller
 {
-    const RECAPTCHA_ERROR_TEXT = "reCAPTCHA fel, var god försök igen!";
-
     public function contactEmail( Request $request )
     {
         $request->validate( [
