@@ -143,13 +143,13 @@
         <h3>Kontakta oss</h3>
         <div class="row">
             <div class="col-md-6 offset-md-3">
-                <h4>Henrik Pagré</h4>
+                <h4>Lars Löfgren</h4>
                 <p>
                     <span class="red">Transport/Bemanning</span>
                     <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="tel:054220792">054-22 07 92</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="tel:0703998170">070-399 81 70</a>
                     <br>
-                    <a rel="noopener noreferrer" class="no-colour" href="mailto:henrik@caland.se">henrik@caland.se</a>
+                    <a rel="noopener noreferrer" class="no-colour" href="mailto:lars@caland.se">lars@caland.se</a>
                 </p>
             </div>
         </div>
