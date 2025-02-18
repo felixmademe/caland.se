@@ -1,9 +1,9 @@
-@extends( 'layouts.app' )
-@section( 'title', 'Utbildning' )
-@section( 'content' )
+@extends('layouts.app')
+@section('title', 'Utbildning')
+@section('content')
 
     <section class="service-header">
-        <img src="{{ asset( '/img/caland-koncernen.jpg' ) }}" alt="Caland Företagsservice">
+        <img src="{{ asset('/img/caland-koncernen.jpg') }}" alt="Caland Företagsservice">
         <br><br>
         <h1>Utbildning</h1>
     </section>
@@ -28,7 +28,7 @@
                 Vi erbjuder följande kurser, finner du inte din kurs i kalendern så kan du ringa oss så lägger vi upp kursen åt dig.
             </b>
         </p>
-        
+
         <ul>
             <li>ADR, grund tank explosivt</li>
             <li>YKB</li>
@@ -101,18 +101,10 @@
     <hr>
     <section class="service-book">
         <h2>Boka utbildning</h2>
-        <iframe id="kursguiden-course-module" src="https://kursbokning.eport.se/?iframeKey=B012ED4B82A0723ED13F6C33E798CAB7AA5945C3AFEDBE434629B427AC9176C118DF63D7639EC37939B98367477B7923022EF0F3F050E6D87CF3B8005836BA73"
-                frameborder="0" style="width:100%;min-height:110vh"></iframe>
+        <iframe id="kursguiden-course-module"
+            src="https://coursebookingform.azurewebsites.net/?iframeKey=B012ED4B82A0723ED13F6C33E798CAB7AA5945C3AFEDBE434629B427AC9176C118DF63D7639EC37939B98367477B7923022EF0F3F050E6D87CF3B8005836BA73"
+            frameborder="0" style="width:100%;min-height:90vh"></iframe>
     </section>
-    {{--
-    <section class="service-book">
-        <h2>Boka utbildning</h2>
-
-        <script src="https://www.kursguiden.no/js/autoresize.js" charset="utf-8"></script>
-        <iframe id="kursguiden-course-module" src="https://www.kursguiden.no/coursemodule/?id=358"
-            frameborder="0" style="width:100%;height:100vh;"></iframe>
-    </section>
-    --}}
     <hr>
     <section class="service-contact">
         <h3>Kontakta oss</h3>
@@ -142,7 +134,7 @@
     <hr>
     <section class="service-return">
         <p>Klicka här för att gå tillbaka</p>
-        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route( 'services' ) }}">Tjänster</a>
+        <a rel="noopener noreferrer" class="btn btn-red btn-expand" href="{{ route('services') }}">Tjänster</a>
     </section>
 
 @endsection
