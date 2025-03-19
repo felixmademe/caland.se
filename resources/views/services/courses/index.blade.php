@@ -45,54 +45,6 @@
             <li>Teleskoplastare</li>
             <li>Säkra lyft lastkopplingsutbildning</li>
         </ul>
-
-
-        {{--
-        <div class="text-center">
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'adr' ) }}">
-                ADR, grund tank explosivt
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'roadwork' ) }}">
-                Arbete på väg
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'lift' ) }}">
-                Mobil arbetsplattform Bom & saxlift
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
-                Fallskydd
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'first-help' ) }}">
-                Första hjälpen L-ABC
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'vehicle-crane' ) }}">
-                Fordonsmonterad kran
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'wheel-loader' ) }}">
-                Hjullastare
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'travers' ) }}">
-                Traverskran
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'forklift' ) }}">
-                Truck
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'secure-lift' ) }}">
-                Säkra lyft lastkopplingsutbildning
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'warm-work' ) }}">
-                Brandfarliga arbeten
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'digger' ) }}">
-                Grävmaskin
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
-                Teleskoplastare
-            </a>
-            <a rel="noopener noreferrer" class="btn btn-red btn-expand m-1" href="{{ route( 'teleporter' ) }}">
-                YKB
-            </a>
-        </div>
-        --}}
         <p>
             <i>Se längre ner för mer information och bokning av kurs.</i>
         </p>
