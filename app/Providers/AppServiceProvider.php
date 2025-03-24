@@ -8,25 +8,25 @@ use Illuminate\Support\ServiceProvider;
 class AppServiceProvider extends ServiceProvider
 {
     /**
-     * Bootstrap any application services.
-     *
-     * @return void
+     * Register any application services.
      */
-    public function boot()
+    public function register(): void
     {
-        if( env( 'APP_ENV' ) == 'production' )
-        {
-            URL::forceScheme( 'https' );
-            $this->app[ 'request' ]->server->set( 'HTTPS', true );
-        }
+        //
     }
 
     /**
-     * Register any application services.
-     *
-     * @return void
+     * Bootstrap any application services.
      */
-    public function register()
+    public function boot(): void
     {
+        if (env('APP_ENV') == 'production') {
+            URL::forceScheme('https');
+            $this->app['request']->server->set('HTTPS', true);
+        }
+
+        // $this->app->bind('path.public', function () {
+        //     return base_path() . '/../public_html';
+        // });
     }
 }

@@ -6,9 +6,7 @@ use App\Models\Mail\Support;
 use App\Models\Mail\Contact;
 use App\Models\Mail\Application;
 
-use Carbon\Carbon;
 use Illuminate\Http\Request;
-use Illuminate\Support\Facades\App;
 use Illuminate\Support\Facades\Mail;
 use App\Http\Controllers\Controller;
 
